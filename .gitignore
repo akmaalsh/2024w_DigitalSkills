@@ -1,0 +1,9 @@
+# Ignore data directory
+02 Data/
+
+# Common files to ignore
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/ 
