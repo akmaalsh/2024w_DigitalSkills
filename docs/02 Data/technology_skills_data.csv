@@ -1,0 +1,1673 @@
+﻿SKKNI Code;SKKNI Name;Technology_Skills;count_occupatoins;count_skills;UMAP_1;UMAP_2
+TIK.SEC0613;Information Security Analyst;Access software;21;60;6.948070526;6.09119606
+TIK.SEC0613;Information Security Analyst;Administration software;12;60;6.063924789;6.369921207
+TIK.SEC0613;Information Security Analyst;Analytical or scientific software;66;60;4.622932911;4.967670441
+TIK.SEC0613;Information Security Analyst;Application server software;33;60;6.376904488;8.339910507
+TIK.SEC0613;Information Security Analyst;Authentication server software;7;60;6.667496681;8.612740517
+TIK.SEC0613;Information Security Analyst;Backup or archival software;20;60;7.674407959;5.566030979
+TIK.SEC0613;Information Security Analyst;Business intelligence and data analysis software;39;60;4.622941017;4.611457825
+TIK.SEC0613;Information Security Analyst;Cloud-based data access and sharing software;42;60;6.335213661;6.877230167
+TIK.SEC0613;Information Security Analyst;Cloud-based management software;34;60;6.07843256;6.652602673
+TIK.SEC0613;Information Security Analyst;Cloud-based protection or security software;8;60;6.458732128;7.263839245
+TIK.SEC0613;Information Security Analyst;Clustering software;18;60;5.108061314;5.028034687
+TIK.SEC0613;Information Security Analyst;Communications server software;25;60;7.002101421;8.25972271
+TIK.SEC0613;Information Security Analyst;Configuration management software;29;60;5.518614769;5.996460438
+TIK.SEC0613;Information Security Analyst;Content workflow software;27;60;5.687861443;5.835129738
+TIK.SEC0613;Information Security Analyst;Customer relationship management CRM software;31;60;4.981754303;6.639668941
+TIK.SEC0613;Information Security Analyst;Data base management system software;51;60;4.927266598;4.326683521
+TIK.SEC0613;Information Security Analyst;Data base reporting software;32;60;5.069587231;4.159716129
+TIK.SEC0613;Information Security Analyst;Data base user interface and query software;81;60;4.999883652;4.212739944
+TIK.SEC0613;Information Security Analyst;Desktop communications software;22;60;7.280066013;7.986187935
+TIK.SEC0613;Information Security Analyst;Development environment software;74;60;6.370265007;5.016391277
+TIK.SEC0613;Information Security Analyst;Electronic mail software;71;60;6.941764832;7.528995037
+TIK.SEC0613;Information Security Analyst;Enterprise application integration software;53;60;5.780583382;7.53935194
+TIK.SEC0613;Information Security Analyst;Enterprise resource planning ERP software;64;60;5.250026226;7.075669765
+TIK.SEC0613;Information Security Analyst;Enterprise system management software;23;60;5.703138351;6.966460705
+TIK.SEC0613;Information Security Analyst;Expert system software;25;60;6.210202694;5.637793064
+TIK.SEC0613;Information Security Analyst;File versioning software;35;60;7.453895569;5.735971451
+TIK.SEC0613;Information Security Analyst;Filesystem software;11;60;7.806435585;6.136655807
+TIK.SEC0613;Information Security Analyst;Financial analysis software;23;60;4.352446556;4.83182478
+TIK.SEC0613;Information Security Analyst;Geographic information system;36;60;6.176881313;3.971498966
+TIK.SEC0613;Information Security Analyst;Human resources software;16;60;5.231661797;6.623996735
+TIK.SEC0613;Information Security Analyst;Industrial control software;29;60;6.421105862;6.191452503
+TIK.SEC0613;Information Security Analyst;Information retrieval or search software;24;60;5.720858097;5.241194248
+TIK.SEC0613;Information Security Analyst;Instant messaging software;16;60;7.250390053;7.665102005
+TIK.SEC0613;Information Security Analyst;Internet directory services software;13;60;6.580571175;8.504705429
+TIK.SEC0613;Information Security Analyst;Internet protocol IP multimedia subsystem software;17;60;7.213408947;8.112949371
+TIK.SEC0613;Information Security Analyst;License management software;2;60;5.634813786;6.453565121
+TIK.SEC0613;Information Security Analyst;Medical software;22;60;6.435572624;5.696507931
+TIK.SEC0613;Information Security Analyst;Network monitoring software;26;60;8.611577988;7.965328693
+TIK.SEC0613;Information Security Analyst;Network security and virtual private network VPN equipment software;24;60;8.606728554;7.737531662
+TIK.SEC0613;Information Security Analyst;Network security or virtual private network VPN management software;17;60;8.534561157;7.851856709
+TIK.SEC0613;Information Security Analyst;Object or component oriented development software;75;60;6.178874016;4.70263195
+TIK.SEC0613;Information Security Analyst;Object oriented data base management software;28;60;5.273641109;4.260804176
+TIK.SEC0613;Information Security Analyst;Office suite software;90;60;7.181672096;3.326147556
+TIK.SEC0613;Information Security Analyst;Operating system software;75;60;7.542918205;6.186805248
+TIK.SEC0613;Information Security Analyst;Point of sale POS software;3;60;4.705628395;6.731733799
+TIK.SEC0613;Information Security Analyst;Portal server software;22;60;6.773877621;8.501649857
+TIK.SEC0613;Information Security Analyst;Presentation software;88;60;7.164112568;3.636401892
+TIK.SEC0613;Information Security Analyst;Process mapping and design software;56;60;6.220437527;3.830189705
+TIK.SEC0613;Information Security Analyst;Program testing software;31;60;6.351449013;5.267430782
+TIK.SEC0613;Information Security Analyst;Project management software;65;60;5.289157391;5.879869938
+TIK.SEC0613;Information Security Analyst;Requirements analysis and system architecture software;25;60;4.783376217;5.434447765
+TIK.SEC0613;Information Security Analyst;Risk management data and analysis software;3;60;4.379782677;4.845313072
+TIK.SEC0613;Information Security Analyst;Spreadsheet software;90;60;6.952990532;3.496418953
+TIK.SEC0613;Information Security Analyst;Storage networking software;21;60;8.600845337;7.2789011
+TIK.SEC0613;Information Security Analyst;Switch or router software;8;60;8.425765038;7.943946362
+TIK.SEC0613;Information Security Analyst;Transaction security and virus protection software;29;60;6.563827991;7.584819317
+TIK.SEC0613;Information Security Analyst;Transaction server software;23;60;6.661155224;8.231013298
+TIK.SEC0613;Information Security Analyst;Web page creation and editing software;40;60;7.055449486;4.377140999
+TIK.SEC0613;Information Security Analyst;Web platform development software;58;60;6.668569088;5.207745552
+TIK.SEC0613;Information Security Analyst;Word processing software;83;60;7.277560711;3.990605593
+TIK.DEV0708;Software Engineer;Access software;21;66;6.948070526;6.09119606
+TIK.DEV0708;Software Engineer;Administration software;12;66;6.063924789;6.369921207
+TIK.DEV0708;Software Engineer;Analytical or scientific software;66;66;4.622932911;4.967670441
+TIK.DEV0708;Software Engineer;Application server software;33;66;6.376904488;8.339910507
+TIK.DEV0708;Software Engineer;Authentication server software;7;66;6.667496681;8.612740517
+TIK.DEV0708;Software Engineer;Backup or archival software;20;66;7.674407959;5.566030979
+TIK.DEV0708;Software Engineer;Business intelligence and data analysis software;39;66;4.622941017;4.611457825
+TIK.DEV0708;Software Engineer;Cloud-based data access and sharing software;42;66;6.335213661;6.877230167
+TIK.DEV0708;Software Engineer;Cloud-based management software;34;66;6.07843256;6.652602673
+TIK.DEV0708;Software Engineer;Clustering software;18;66;5.108061314;5.028034687
+TIK.DEV0708;Software Engineer;Communications server software;25;66;7.002101421;8.25972271
+TIK.DEV0708;Software Engineer;Computer based training software;15;66;6.991323948;4.820628643
+TIK.DEV0708;Software Engineer;Configuration management software;29;66;5.518614769;5.996460438
+TIK.DEV0708;Software Engineer;Content workflow software;27;66;5.687861443;5.835129738
+TIK.DEV0708;Software Engineer;Customer relationship management CRM software;31;66;4.981754303;6.639668941
+TIK.DEV0708;Software Engineer;Data base management system software;51;66;4.927266598;4.326683521
+TIK.DEV0708;Software Engineer;Data base reporting software;32;66;5.069587231;4.159716129
+TIK.DEV0708;Software Engineer;Data base user interface and query software;81;66;4.999883652;4.212739944
+TIK.DEV0708;Software Engineer;Data mining software;25;66;4.901015759;4.634778023
+TIK.DEV0708;Software Engineer;Desktop communications software;22;66;7.280066013;7.986187935
+TIK.DEV0708;Software Engineer;Desktop publishing software;31;66;7.245614529;3.924886227
+TIK.DEV0708;Software Engineer;Development environment software;74;66;6.370265007;5.016391277
+TIK.DEV0708;Software Engineer;Device drivers or system software;4;66;8.115627289;6.289714813
+TIK.DEV0708;Software Engineer;Document management software;42;66;5.8654356;5.6441679
+TIK.DEV0708;Software Engineer;Electronic mail software;71;66;6.941764832;7.528995037
+TIK.DEV0708;Software Engineer;Enterprise application integration software;53;66;5.780583382;7.53935194
+TIK.DEV0708;Software Engineer;Enterprise resource planning ERP software;64;66;5.250026226;7.075669765
+TIK.DEV0708;Software Engineer;Enterprise system management software;23;66;5.703138351;6.966460705
+TIK.DEV0708;Software Engineer;Expert system software;25;66;6.210202694;5.637793064
+TIK.DEV0708;Software Engineer;File versioning software;35;66;7.453895569;5.735971451
+TIK.DEV0708;Software Engineer;Filesystem software;11;66;7.806435585;6.136655807
+TIK.DEV0708;Software Engineer;Financial analysis software;23;66;4.352446556;4.83182478
+TIK.DEV0708;Software Engineer;Graphical user interface development software;23;66;6.298155308;4.312372684
+TIK.DEV0708;Software Engineer;Graphics or photo imaging software;54;66;7.293769836;4.137690544
+TIK.DEV0708;Software Engineer;Information retrieval or search software;24;66;5.720858097;5.241194248
+TIK.DEV0708;Software Engineer;Instant messaging software;16;66;7.250390053;7.665102005
+TIK.DEV0708;Software Engineer;Internet directory services software;13;66;6.580571175;8.504705429
+TIK.DEV0708;Software Engineer;Internet protocol IP multimedia subsystem software;17;66;7.213408947;8.112949371
+TIK.DEV0708;Software Engineer;Map creation software;11;66;6.436167717;3.695862055
+TIK.DEV0708;Software Engineer;Metadata management software;21;66;5.462931633;5.624073505
+TIK.DEV0708;Software Engineer;Network conferencing software;10;66;7.800973415;7.817759514
+TIK.DEV0708;Software Engineer;Network monitoring software;26;66;8.611577988;7.965328693
+TIK.DEV0708;Software Engineer;Network operation system software;4;66;8.538809776;7.454305172
+TIK.DEV0708;Software Engineer;Network security and virtual private network VPN equipment software;24;66;8.606728554;7.737531662
+TIK.DEV0708;Software Engineer;Object or component oriented development software;75;66;6.178874016;4.70263195
+TIK.DEV0708;Software Engineer;Object oriented data base management software;28;66;5.273641109;4.260804176
+TIK.DEV0708;Software Engineer;Office suite software;90;66;7.181672096;3.326147556
+TIK.DEV0708;Software Engineer;Operating system software;75;66;7.542918205;6.186805248
+TIK.DEV0708;Software Engineer;Platform interconnectivity software;9;66;7.877929211;8.098153114
+TIK.DEV0708;Software Engineer;Portal server software;22;66;6.773877621;8.501649857
+TIK.DEV0708;Software Engineer;Presentation software;88;66;7.164112568;3.636401892
+TIK.DEV0708;Software Engineer;Process mapping and design software;56;66;6.220437527;3.830189705
+TIK.DEV0708;Software Engineer;Program testing software;31;66;6.351449013;5.267430782
+TIK.DEV0708;Software Engineer;Project management software;65;66;5.289157391;5.879869938
+TIK.DEV0708;Software Engineer;Requirements analysis and system architecture software;25;66;4.783376217;5.434447765
+TIK.DEV0708;Software Engineer;Sales and marketing software;18;66;4.755867958;6.813591957
+TIK.DEV0708;Software Engineer;Spreadsheet software;90;66;6.952990532;3.496418953
+TIK.DEV0708;Software Engineer;Storage networking software;21;66;8.600845337;7.2789011
+TIK.DEV0708;Software Engineer;Switch or router software;8;66;8.425765038;7.943946362
+TIK.DEV0708;Software Engineer;Transaction security and virus protection software;29;66;6.563827991;7.584819317
+TIK.DEV0708;Software Engineer;Transaction server software;23;66;6.661155224;8.231013298
+TIK.DEV0708;Software Engineer;Video conferencing software;20;66;7.348774433;7.428820133
+TIK.DEV0708;Software Engineer;Video creation and editing software;36;66;7.724330902;4.266777039
+TIK.DEV0708;Software Engineer;Web page creation and editing software;40;66;7.055449486;4.377140999
+TIK.DEV0708;Software Engineer;Web platform development software;58;66;6.668569088;5.207745552
+TIK.DEV0708;Software Engineer;Word processing software;83;66;7.277560711;3.990605593
+TIK.DEV0404;Information Management Assistant;Analytical or scientific software;66;36;4.622932911;4.967670441
+TIK.DEV0404;Information Management Assistant;Application server software;33;36;6.376904488;8.339910507
+TIK.DEV0404;Information Management Assistant;Cloud-based data access and sharing software;42;36;6.335213661;6.877230167
+TIK.DEV0404;Information Management Assistant;Cloud-based management software;34;36;6.07843256;6.652602673
+TIK.DEV0404;Information Management Assistant;Computer aided design CAD software;50;36;6.640730381;4.039618015
+TIK.DEV0404;Information Management Assistant;Content workflow software;27;36;5.687861443;5.835129738
+TIK.DEV0404;Information Management Assistant;Data base management system software;51;36;4.927266598;4.326683521
+TIK.DEV0404;Information Management Assistant;Data base reporting software;32;36;5.069587231;4.159716129
+TIK.DEV0404;Information Management Assistant;Data base user interface and query software;81;36;4.999883652;4.212739944
+TIK.DEV0404;Information Management Assistant;Data compression software;2;36;7.34368372;5.417812347
+TIK.DEV0404;Information Management Assistant;Data mining software;25;36;4.901015759;4.634778023
+TIK.DEV0404;Information Management Assistant;Desktop communications software;22;36;7.280066013;7.986187935
+TIK.DEV0404;Information Management Assistant;Desktop publishing software;31;36;7.245614529;3.924886227
+TIK.DEV0404;Information Management Assistant;Development environment software;74;36;6.370265007;5.016391277
+TIK.DEV0404;Information Management Assistant;Document management software;42;36;5.8654356;5.6441679
+TIK.DEV0404;Information Management Assistant;Electronic mail software;71;36;6.941764832;7.528995037
+TIK.DEV0404;Information Management Assistant;Enterprise application integration software;53;36;5.780583382;7.53935194
+TIK.DEV0404;Information Management Assistant;Enterprise resource planning ERP software;64;36;5.250026226;7.075669765
+TIK.DEV0404;Information Management Assistant;File versioning software;35;36;7.453895569;5.735971451
+TIK.DEV0404;Information Management Assistant;Filesystem software;11;36;7.806435585;6.136655807
+TIK.DEV0404;Information Management Assistant;Graphics or photo imaging software;54;36;7.293769836;4.137690544
+TIK.DEV0404;Information Management Assistant;Object or component oriented development software;75;36;6.178874016;4.70263195
+TIK.DEV0404;Information Management Assistant;Office suite software;90;36;7.181672096;3.326147556
+TIK.DEV0404;Information Management Assistant;Operating system software;75;36;7.542918205;6.186805248
+TIK.DEV0404;Information Management Assistant;Optical character reader OCR or scanning software;8;36;7.850557327;4.887176037
+TIK.DEV0404;Information Management Assistant;Presentation software;88;36;7.164112568;3.636401892
+TIK.DEV0404;Information Management Assistant;Process mapping and design software;56;36;6.220437527;3.830189705
+TIK.DEV0404;Information Management Assistant;Project management software;65;36;5.289157391;5.879869938
+TIK.DEV0404;Information Management Assistant;Requirements analysis and system architecture software;25;36;4.783376217;5.434447765
+TIK.DEV0404;Information Management Assistant;Sales and marketing software;18;36;4.755867958;6.813591957
+TIK.DEV0404;Information Management Assistant;Spreadsheet software;90;36;6.952990532;3.496418953
+TIK.DEV0404;Information Management Assistant;Video conferencing software;20;36;7.348774433;7.428820133
+TIK.DEV0404;Information Management Assistant;Video creation and editing software;36;36;7.724330902;4.266777039
+TIK.DEV0404;Information Management Assistant;Web page creation and editing software;40;36;7.055449486;4.377140999
+TIK.DEV0404;Information Management Assistant;Web platform development software;58;36;6.668569088;5.207745552
+TIK.DEV0404;Information Management Assistant;Word processing software;83;36;7.277560711;3.990605593
+TIK.SRV0504;Associate IT Service Support Specialist;Access software;21;74;6.948070526;6.09119606
+TIK.SRV0504;Associate IT Service Support Specialist;Accounting software;14;74;4.530653477;6.405688286
+TIK.SRV0504;Associate IT Service Support Specialist;Administration software;12;74;6.063924789;6.369921207
+TIK.SRV0504;Associate IT Service Support Specialist;Analytical or scientific software;66;74;4.622932911;4.967670441
+TIK.SRV0504;Associate IT Service Support Specialist;Application server software;33;74;6.376904488;8.339910507
+TIK.SRV0504;Associate IT Service Support Specialist;Authentication server software;7;74;6.667496681;8.612740517
+TIK.SRV0504;Associate IT Service Support Specialist;Backup or archival software;20;74;7.674407959;5.566030979
+TIK.SRV0504;Associate IT Service Support Specialist;Business intelligence and data analysis software;39;74;4.622941017;4.611457825
+TIK.SRV0504;Associate IT Service Support Specialist;Calendar and scheduling software;10;74;4.983122826;6.280745506
+TIK.SRV0504;Associate IT Service Support Specialist;Cloud-based data access and sharing software;42;74;6.335213661;6.877230167
+TIK.SRV0504;Associate IT Service Support Specialist;Cloud-based management software;34;74;6.07843256;6.652602673
+TIK.SRV0504;Associate IT Service Support Specialist;Cloud-based protection or security software;8;74;6.458732128;7.263839245
+TIK.SRV0504;Associate IT Service Support Specialist;Clustering software;18;74;5.108061314;5.028034687
+TIK.SRV0504;Associate IT Service Support Specialist;Communications server software;25;74;7.002101421;8.25972271
+TIK.SRV0504;Associate IT Service Support Specialist;Computer aided design CAD software;50;74;6.640730381;4.039618015
+TIK.SRV0504;Associate IT Service Support Specialist;Computer based training software;15;74;6.991323948;4.820628643
+TIK.SRV0504;Associate IT Service Support Specialist;Configuration management software;29;74;5.518614769;5.996460438
+TIK.SRV0504;Associate IT Service Support Specialist;Content workflow software;27;74;5.687861443;5.835129738
+TIK.SRV0504;Associate IT Service Support Specialist;Customer relationship management CRM software;31;74;4.981754303;6.639668941
+TIK.SRV0504;Associate IT Service Support Specialist;Data base management system software;51;74;4.927266598;4.326683521
+TIK.SRV0504;Associate IT Service Support Specialist;Data base reporting software;32;74;5.069587231;4.159716129
+TIK.SRV0504;Associate IT Service Support Specialist;Data base user interface and query software;81;74;4.999883652;4.212739944
+TIK.SRV0504;Associate IT Service Support Specialist;Desktop communications software;22;74;7.280066013;7.986187935
+TIK.SRV0504;Associate IT Service Support Specialist;Desktop publishing software;31;74;7.245614529;3.924886227
+TIK.SRV0504;Associate IT Service Support Specialist;Development environment software;74;74;6.370265007;5.016391277
+TIK.SRV0504;Associate IT Service Support Specialist;Document management software;42;74;5.8654356;5.6441679
+TIK.SRV0504;Associate IT Service Support Specialist;Electronic mail software;71;74;6.941764832;7.528995037
+TIK.SRV0504;Associate IT Service Support Specialist;Enterprise application integration software;53;74;5.780583382;7.53935194
+TIK.SRV0504;Associate IT Service Support Specialist;Enterprise resource planning ERP software;64;74;5.250026226;7.075669765
+TIK.SRV0504;Associate IT Service Support Specialist;Enterprise system management software;23;74;5.703138351;6.966460705
+TIK.SRV0504;Associate IT Service Support Specialist;Expert system software;25;74;6.210202694;5.637793064
+TIK.SRV0504;Associate IT Service Support Specialist;File versioning software;35;74;7.453895569;5.735971451
+TIK.SRV0504;Associate IT Service Support Specialist;Filesystem software;11;74;7.806435585;6.136655807
+TIK.SRV0504;Associate IT Service Support Specialist;Financial analysis software;23;74;4.352446556;4.83182478
+TIK.SRV0504;Associate IT Service Support Specialist;Geographic information system;36;74;6.176881313;3.971498966
+TIK.SRV0504;Associate IT Service Support Specialist;Graphical user interface development software;23;74;6.298155308;4.312372684
+TIK.SRV0504;Associate IT Service Support Specialist;Graphics or photo imaging software;54;74;7.293769836;4.137690544
+TIK.SRV0504;Associate IT Service Support Specialist;Helpdesk or call center software;8;74;5.496074677;6.625240326
+TIK.SRV0504;Associate IT Service Support Specialist;Human resources software;16;74;5.231661797;6.623996735
+TIK.SRV0504;Associate IT Service Support Specialist;Industrial control software;29;74;6.421105862;6.191452503
+TIK.SRV0504;Associate IT Service Support Specialist;Information retrieval or search software;24;74;5.720858097;5.241194248
+TIK.SRV0504;Associate IT Service Support Specialist;Instant messaging software;16;74;7.250390053;7.665102005
+TIK.SRV0504;Associate IT Service Support Specialist;Internet browser software;42;74;6.984652042;5.438159466
+TIK.SRV0504;Associate IT Service Support Specialist;Internet directory services software;13;74;6.580571175;8.504705429
+TIK.SRV0504;Associate IT Service Support Specialist;Internet protocol IP multimedia subsystem software;17;74;7.213408947;8.112949371
+TIK.SRV0504;Associate IT Service Support Specialist;License management software;2;74;5.634813786;6.453565121
+TIK.SRV0504;Associate IT Service Support Specialist;Medical software;22;74;6.435572624;5.696507931
+TIK.SRV0504;Associate IT Service Support Specialist;Metadata management software;21;74;5.462931633;5.624073505
+TIK.SRV0504;Associate IT Service Support Specialist;Multi-media educational software;4;74;7.318140984;4.799425602
+TIK.SRV0504;Associate IT Service Support Specialist;Network conferencing software;10;74;7.800973415;7.817759514
+TIK.SRV0504;Associate IT Service Support Specialist;Network monitoring software;26;74;8.611577988;7.965328693
+TIK.SRV0504;Associate IT Service Support Specialist;Network operation system software;4;74;8.538809776;7.454305172
+TIK.SRV0504;Associate IT Service Support Specialist;Network security or virtual private network VPN management software;17;74;8.534561157;7.851856709
+TIK.SRV0504;Associate IT Service Support Specialist;Object or component oriented development software;75;74;6.178874016;4.70263195
+TIK.SRV0504;Associate IT Service Support Specialist;Object oriented data base management software;28;74;5.273641109;4.260804176
+TIK.SRV0504;Associate IT Service Support Specialist;Office suite software;90;74;7.181672096;3.326147556
+TIK.SRV0504;Associate IT Service Support Specialist;Operating system software;75;74;7.542918205;6.186805248
+TIK.SRV0504;Associate IT Service Support Specialist;Platform interconnectivity software;9;74;7.877929211;8.098153114
+TIK.SRV0504;Associate IT Service Support Specialist;Portal server software;22;74;6.773877621;8.501649857
+TIK.SRV0504;Associate IT Service Support Specialist;Presentation software;88;74;7.164112568;3.636401892
+TIK.SRV0504;Associate IT Service Support Specialist;Process mapping and design software;56;74;6.220437527;3.830189705
+TIK.SRV0504;Associate IT Service Support Specialist;Program testing software;31;74;6.351449013;5.267430782
+TIK.SRV0504;Associate IT Service Support Specialist;Project management software;65;74;5.289157391;5.879869938
+TIK.SRV0504;Associate IT Service Support Specialist;Requirements analysis and system architecture software;25;74;4.783376217;5.434447765
+TIK.SRV0504;Associate IT Service Support Specialist;Sales and marketing software;18;74;4.755867958;6.813591957
+TIK.SRV0504;Associate IT Service Support Specialist;Spreadsheet software;90;74;6.952990532;3.496418953
+TIK.SRV0504;Associate IT Service Support Specialist;Storage networking software;21;74;8.600845337;7.2789011
+TIK.SRV0504;Associate IT Service Support Specialist;Transaction security and virus protection software;29;74;6.563827991;7.584819317
+TIK.SRV0504;Associate IT Service Support Specialist;Transaction server software;23;74;6.661155224;8.231013298
+TIK.SRV0504;Associate IT Service Support Specialist;Video conferencing software;20;74;7.348774433;7.428820133
+TIK.SRV0504;Associate IT Service Support Specialist;Video creation and editing software;36;74;7.724330902;4.266777039
+TIK.SRV0504;Associate IT Service Support Specialist;Web page creation and editing software;40;74;7.055449486;4.377140999
+TIK.SRV0504;Associate IT Service Support Specialist;Web platform development software;58;74;6.668569088;5.207745552
+TIK.SRV0504;Associate IT Service Support Specialist;Word processing software;83;74;7.277560711;3.990605593
+TIK.SRV0606;Web Administrator;Access software;21;37;6.948070526;6.09119606
+TIK.SRV0606;Web Administrator;Analytical or scientific software;66;37;4.622932911;4.967670441
+TIK.SRV0606;Web Administrator;Application server software;33;37;6.376904488;8.339910507
+TIK.SRV0606;Web Administrator;Business intelligence and data analysis software;39;37;4.622941017;4.611457825
+TIK.SRV0606;Web Administrator;Cloud-based management software;34;37;6.07843256;6.652602673
+TIK.SRV0606;Web Administrator;Content workflow software;27;37;5.687861443;5.835129738
+TIK.SRV0606;Web Administrator;Data base user interface and query software;81;37;4.999883652;4.212739944
+TIK.SRV0606;Web Administrator;Desktop publishing software;31;37;7.245614529;3.924886227
+TIK.SRV0606;Web Administrator;Development environment software;74;37;6.370265007;5.016391277
+TIK.SRV0606;Web Administrator;Document management software;42;37;5.8654356;5.6441679
+TIK.SRV0606;Web Administrator;Electronic mail software;71;37;6.941764832;7.528995037
+TIK.SRV0606;Web Administrator;Enterprise application integration software;53;37;5.780583382;7.53935194
+TIK.SRV0606;Web Administrator;Enterprise resource planning ERP software;64;37;5.250026226;7.075669765
+TIK.SRV0606;Web Administrator;Graphics or photo imaging software;54;37;7.293769836;4.137690544
+TIK.SRV0606;Web Administrator;Internet browser software;42;37;6.984652042;5.438159466
+TIK.SRV0606;Web Administrator;Internet directory services software;13;37;6.580571175;8.504705429
+TIK.SRV0606;Web Administrator;Music or sound editing software;7;37;7.612557888;4.225774288
+TIK.SRV0606;Web Administrator;Network conferencing software;10;37;7.800973415;7.817759514
+TIK.SRV0606;Web Administrator;Network security and virtual private network VPN equipment software;24;37;8.606728554;7.737531662
+TIK.SRV0606;Web Administrator;Network security or virtual private network VPN management software;17;37;8.534561157;7.851856709
+TIK.SRV0606;Web Administrator;Object or component oriented development software;75;37;6.178874016;4.70263195
+TIK.SRV0606;Web Administrator;Object oriented data base management software;28;37;5.273641109;4.260804176
+TIK.SRV0606;Web Administrator;Office suite software;90;37;7.181672096;3.326147556
+TIK.SRV0606;Web Administrator;Operating system software;75;37;7.542918205;6.186805248
+TIK.SRV0606;Web Administrator;Portal server software;22;37;6.773877621;8.501649857
+TIK.SRV0606;Web Administrator;Presentation software;88;37;7.164112568;3.636401892
+TIK.SRV0606;Web Administrator;Process mapping and design software;56;37;6.220437527;3.830189705
+TIK.SRV0606;Web Administrator;Project management software;65;37;5.289157391;5.879869938
+TIK.SRV0606;Web Administrator;Sales and marketing software;18;37;4.755867958;6.813591957
+TIK.SRV0606;Web Administrator;Spreadsheet software;90;37;6.952990532;3.496418953
+TIK.SRV0606;Web Administrator;Storage networking software;21;37;8.600845337;7.2789011
+TIK.SRV0606;Web Administrator;Switch or router software;8;37;8.425765038;7.943946362
+TIK.SRV0606;Web Administrator;Transaction server software;23;37;6.661155224;8.231013298
+TIK.SRV0606;Web Administrator;Video creation and editing software;36;37;7.724330902;4.266777039
+TIK.SRV0606;Web Administrator;Web page creation and editing software;40;37;7.055449486;4.377140999
+TIK.SRV0606;Web Administrator;Web platform development software;58;37;6.668569088;5.207745552
+TIK.SRV0606;Web Administrator;Word processing software;83;37;7.277560711;3.990605593
+TIK.DEV0613;System Analyst;Access software;21;68;6.948070526;6.09119606
+TIK.DEV0613;System Analyst;Accounting software;14;68;4.530653477;6.405688286
+TIK.DEV0613;System Analyst;Administration software;12;68;6.063924789;6.369921207
+TIK.DEV0613;System Analyst;Analytical or scientific software;66;68;4.622932911;4.967670441
+TIK.DEV0613;System Analyst;Application server software;33;68;6.376904488;8.339910507
+TIK.DEV0613;System Analyst;Backup or archival software;20;68;7.674407959;5.566030979
+TIK.DEV0613;System Analyst;Business intelligence and data analysis software;39;68;4.622941017;4.611457825
+TIK.DEV0613;System Analyst;Cloud-based data access and sharing software;42;68;6.335213661;6.877230167
+TIK.DEV0613;System Analyst;Cloud-based management software;34;68;6.07843256;6.652602673
+TIK.DEV0613;System Analyst;Clustering software;18;68;5.108061314;5.028034687
+TIK.DEV0613;System Analyst;Communications server software;25;68;7.002101421;8.25972271
+TIK.DEV0613;System Analyst;Compiler and decompiler software;7;68;6.239408493;4.765593052
+TIK.DEV0613;System Analyst;Computer aided design CAD software;50;68;6.640730381;4.039618015
+TIK.DEV0613;System Analyst;Configuration management software;29;68;5.518614769;5.996460438
+TIK.DEV0613;System Analyst;Content workflow software;27;68;5.687861443;5.835129738
+TIK.DEV0613;System Analyst;Customer relationship management CRM software;31;68;4.981754303;6.639668941
+TIK.DEV0613;System Analyst;Data base management system software;51;68;4.927266598;4.326683521
+TIK.DEV0613;System Analyst;Data base reporting software;32;68;5.069587231;4.159716129
+TIK.DEV0613;System Analyst;Data base user interface and query software;81;68;4.999883652;4.212739944
+TIK.DEV0613;System Analyst;Data conversion software;2;68;5.464191914;4.518065453
+TIK.DEV0613;System Analyst;Data mining software;25;68;4.901015759;4.634778023
+TIK.DEV0613;System Analyst;Desktop communications software;22;68;7.280066013;7.986187935
+TIK.DEV0613;System Analyst;Desktop publishing software;31;68;7.245614529;3.924886227
+TIK.DEV0613;System Analyst;Development environment software;74;68;6.370265007;5.016391277
+TIK.DEV0613;System Analyst;Document management software;42;68;5.8654356;5.6441679
+TIK.DEV0613;System Analyst;Electronic mail software;71;68;6.941764832;7.528995037
+TIK.DEV0613;System Analyst;Enterprise application integration software;53;68;5.780583382;7.53935194
+TIK.DEV0613;System Analyst;Enterprise resource planning ERP software;64;68;5.250026226;7.075669765
+TIK.DEV0613;System Analyst;Enterprise system management software;23;68;5.703138351;6.966460705
+TIK.DEV0613;System Analyst;Expert system software;25;68;6.210202694;5.637793064
+TIK.DEV0613;System Analyst;File versioning software;35;68;7.453895569;5.735971451
+TIK.DEV0613;System Analyst;Financial analysis software;23;68;4.352446556;4.83182478
+TIK.DEV0613;System Analyst;Geographic information system;36;68;6.176881313;3.971498966
+TIK.DEV0613;System Analyst;Graphical user interface development software;23;68;6.298155308;4.312372684
+TIK.DEV0613;System Analyst;Graphics or photo imaging software;54;68;7.293769836;4.137690544
+TIK.DEV0613;System Analyst;Helpdesk or call center software;8;68;5.496074677;6.625240326
+TIK.DEV0613;System Analyst;Human resources software;16;68;5.231661797;6.623996735
+TIK.DEV0613;System Analyst;Industrial control software;29;68;6.421105862;6.191452503
+TIK.DEV0613;System Analyst;Information retrieval or search software;24;68;5.720858097;5.241194248
+TIK.DEV0613;System Analyst;Instant messaging software;16;68;7.250390053;7.665102005
+TIK.DEV0613;System Analyst;Internet directory services software;13;68;6.580571175;8.504705429
+TIK.DEV0613;System Analyst;Internet protocol IP multimedia subsystem software;17;68;7.213408947;8.112949371
+TIK.DEV0613;System Analyst;Medical software;22;68;6.435572624;5.696507931
+TIK.DEV0613;System Analyst;Metadata management software;21;68;5.462931633;5.624073505
+TIK.DEV0613;System Analyst;Network conferencing software;10;68;7.800973415;7.817759514
+TIK.DEV0613;System Analyst;Network monitoring software;26;68;8.611577988;7.965328693
+TIK.DEV0613;System Analyst;Network security or virtual private network VPN management software;17;68;8.534561157;7.851856709
+TIK.DEV0613;System Analyst;Object or component oriented development software;75;68;6.178874016;4.70263195
+TIK.DEV0613;System Analyst;Object oriented data base management software;28;68;5.273641109;4.260804176
+TIK.DEV0613;System Analyst;Office suite software;90;68;7.181672096;3.326147556
+TIK.DEV0613;System Analyst;Operating system software;75;68;7.542918205;6.186805248
+TIK.DEV0613;System Analyst;Pattern design software;6;68;6.706031799;3.890466928
+TIK.DEV0613;System Analyst;Portal server software;22;68;6.773877621;8.501649857
+TIK.DEV0613;System Analyst;Presentation software;88;68;7.164112568;3.636401892
+TIK.DEV0613;System Analyst;Process mapping and design software;56;68;6.220437527;3.830189705
+TIK.DEV0613;System Analyst;Program testing software;31;68;6.351449013;5.267430782
+TIK.DEV0613;System Analyst;Project management software;65;68;5.289157391;5.879869938
+TIK.DEV0613;System Analyst;Requirements analysis and system architecture software;25;68;4.783376217;5.434447765
+TIK.DEV0613;System Analyst;Sales and marketing software;18;68;4.755867958;6.813591957
+TIK.DEV0613;System Analyst;Spreadsheet software;90;68;6.952990532;3.496418953
+TIK.DEV0613;System Analyst;Storage networking software;21;68;8.600845337;7.2789011
+TIK.DEV0613;System Analyst;Transaction security and virus protection software;29;68;6.563827991;7.584819317
+TIK.DEV0613;System Analyst;Transaction server software;23;68;6.661155224;8.231013298
+TIK.DEV0613;System Analyst;Video conferencing software;20;68;7.348774433;7.428820133
+TIK.DEV0613;System Analyst;Video creation and editing software;36;68;7.724330902;4.266777039
+TIK.DEV0613;System Analyst;Web page creation and editing software;40;68;7.055449486;4.377140999
+TIK.DEV0613;System Analyst;Web platform development software;58;68;6.668569088;5.207745552
+TIK.DEV0613;System Analyst;Word processing software;83;68;7.277560711;3.990605593
+TIK.DEV0604;Web Developer;Analytical or scientific software;66;52;4.622932911;4.967670441
+TIK.DEV0604;Web Developer;Application server software;33;52;6.376904488;8.339910507
+TIK.DEV0604;Web Developer;Business intelligence and data analysis software;39;52;4.622941017;4.611457825
+TIK.DEV0604;Web Developer;Cloud-based data access and sharing software;42;52;6.335213661;6.877230167
+TIK.DEV0604;Web Developer;Cloud-based management software;34;52;6.07843256;6.652602673
+TIK.DEV0604;Web Developer;Communications server software;25;52;7.002101421;8.25972271
+TIK.DEV0604;Web Developer;Computer based training software;15;52;6.991323948;4.820628643
+TIK.DEV0604;Web Developer;Configuration management software;29;52;5.518614769;5.996460438
+TIK.DEV0604;Web Developer;Content workflow software;27;52;5.687861443;5.835129738
+TIK.DEV0604;Web Developer;Customer relationship management CRM software;31;52;4.981754303;6.639668941
+TIK.DEV0604;Web Developer;Data base management system software;51;52;4.927266598;4.326683521
+TIK.DEV0604;Web Developer;Data base reporting software;32;52;5.069587231;4.159716129
+TIK.DEV0604;Web Developer;Data base user interface and query software;81;52;4.999883652;4.212739944
+TIK.DEV0604;Web Developer;Data mining software;25;52;4.901015759;4.634778023
+TIK.DEV0604;Web Developer;Desktop communications software;22;52;7.280066013;7.986187935
+TIK.DEV0604;Web Developer;Desktop publishing software;31;52;7.245614529;3.924886227
+TIK.DEV0604;Web Developer;Development environment software;74;52;6.370265007;5.016391277
+TIK.DEV0604;Web Developer;Document management software;42;52;5.8654356;5.6441679
+TIK.DEV0604;Web Developer;Electronic mail software;71;52;6.941764832;7.528995037
+TIK.DEV0604;Web Developer;Enterprise application integration software;53;52;5.780583382;7.53935194
+TIK.DEV0604;Web Developer;Enterprise resource planning ERP software;64;52;5.250026226;7.075669765
+TIK.DEV0604;Web Developer;Enterprise system management software;23;52;5.703138351;6.966460705
+TIK.DEV0604;Web Developer;Expert system software;25;52;6.210202694;5.637793064
+TIK.DEV0604;Web Developer;File versioning software;35;52;7.453895569;5.735971451
+TIK.DEV0604;Web Developer;Financial analysis software;23;52;4.352446556;4.83182478
+TIK.DEV0604;Web Developer;Geographic information system;36;52;6.176881313;3.971498966
+TIK.DEV0604;Web Developer;Graphical user interface development software;23;52;6.298155308;4.312372684
+TIK.DEV0604;Web Developer;Graphics or photo imaging software;54;52;7.293769836;4.137690544
+TIK.DEV0604;Web Developer;Instant messaging software;16;52;7.250390053;7.665102005
+TIK.DEV0604;Web Developer;Medical software;22;52;6.435572624;5.696507931
+TIK.DEV0604;Web Developer;Metadata management software;21;52;5.462931633;5.624073505
+TIK.DEV0604;Web Developer;Network monitoring software;26;52;8.611577988;7.965328693
+TIK.DEV0604;Web Developer;Object or component oriented development software;75;52;6.178874016;4.70263195
+TIK.DEV0604;Web Developer;Object oriented data base management software;28;52;5.273641109;4.260804176
+TIK.DEV0604;Web Developer;Office suite software;90;52;7.181672096;3.326147556
+TIK.DEV0604;Web Developer;Operating system software;75;52;7.542918205;6.186805248
+TIK.DEV0604;Web Developer;Portal server software;22;52;6.773877621;8.501649857
+TIK.DEV0604;Web Developer;Presentation software;88;52;7.164112568;3.636401892
+TIK.DEV0604;Web Developer;Process mapping and design software;56;52;6.220437527;3.830189705
+TIK.DEV0604;Web Developer;Program testing software;31;52;6.351449013;5.267430782
+TIK.DEV0604;Web Developer;Project management software;65;52;5.289157391;5.879869938
+TIK.DEV0604;Web Developer;Requirements analysis and system architecture software;25;52;4.783376217;5.434447765
+TIK.DEV0604;Web Developer;Sales and marketing software;18;52;4.755867958;6.813591957
+TIK.DEV0604;Web Developer;Spreadsheet software;90;52;6.952990532;3.496418953
+TIK.DEV0604;Web Developer;Storage networking software;21;52;8.600845337;7.2789011
+TIK.DEV0604;Web Developer;Transaction security and virus protection software;29;52;6.563827991;7.584819317
+TIK.DEV0604;Web Developer;Transaction server software;23;52;6.661155224;8.231013298
+TIK.DEV0604;Web Developer;Video conferencing software;20;52;7.348774433;7.428820133
+TIK.DEV0604;Web Developer;Video creation and editing software;36;52;7.724330902;4.266777039
+TIK.DEV0604;Web Developer;Web page creation and editing software;40;52;7.055449486;4.377140999
+TIK.DEV0604;Web Developer;Web platform development software;58;52;6.668569088;5.207745552
+TIK.DEV0604;Web Developer;Word processing software;83;52;7.277560711;3.990605593
+TIK.INF0602;Network Administrator;Access software;21;69;6.948070526;6.09119606
+TIK.INF0602;Network Administrator;Administration software;12;69;6.063924789;6.369921207
+TIK.INF0602;Network Administrator;Analytical or scientific software;66;69;4.622932911;4.967670441
+TIK.INF0602;Network Administrator;Application server software;33;69;6.376904488;8.339910507
+TIK.INF0602;Network Administrator;Authentication server software;7;69;6.667496681;8.612740517
+TIK.INF0602;Network Administrator;Backup or archival software;20;69;7.674407959;5.566030979
+TIK.INF0602;Network Administrator;Business intelligence and data analysis software;39;69;4.622941017;4.611457825
+TIK.INF0602;Network Administrator;Cloud-based data access and sharing software;42;69;6.335213661;6.877230167
+TIK.INF0602;Network Administrator;Cloud-based management software;34;69;6.07843256;6.652602673
+TIK.INF0602;Network Administrator;Cloud-based protection or security software;8;69;6.458732128;7.263839245
+TIK.INF0602;Network Administrator;Clustering software;18;69;5.108061314;5.028034687
+TIK.INF0602;Network Administrator;Communications server software;25;69;7.002101421;8.25972271
+TIK.INF0602;Network Administrator;Compiler and decompiler software;7;69;6.239408493;4.765593052
+TIK.INF0602;Network Administrator;Computer aided design CAD software;50;69;6.640730381;4.039618015
+TIK.INF0602;Network Administrator;Computer based training software;15;69;6.991323948;4.820628643
+TIK.INF0602;Network Administrator;Computer imaging software;1;69;7.638255596;4.759817123
+TIK.INF0602;Network Administrator;Configuration management software;29;69;5.518614769;5.996460438
+TIK.INF0602;Network Administrator;Content workflow software;27;69;5.687861443;5.835129738
+TIK.INF0602;Network Administrator;Customer relationship management CRM software;31;69;4.981754303;6.639668941
+TIK.INF0602;Network Administrator;Data base management system software;51;69;4.927266598;4.326683521
+TIK.INF0602;Network Administrator;Data base reporting software;32;69;5.069587231;4.159716129
+TIK.INF0602;Network Administrator;Data base user interface and query software;81;69;4.999883652;4.212739944
+TIK.INF0602;Network Administrator;Desktop communications software;22;69;7.280066013;7.986187935
+TIK.INF0602;Network Administrator;Desktop publishing software;31;69;7.245614529;3.924886227
+TIK.INF0602;Network Administrator;Development environment software;74;69;6.370265007;5.016391277
+TIK.INF0602;Network Administrator;Document management software;42;69;5.8654356;5.6441679
+TIK.INF0602;Network Administrator;Electronic mail software;71;69;6.941764832;7.528995037
+TIK.INF0602;Network Administrator;Enterprise application integration software;53;69;5.780583382;7.53935194
+TIK.INF0602;Network Administrator;Enterprise resource planning ERP software;64;69;5.250026226;7.075669765
+TIK.INF0602;Network Administrator;Enterprise system management software;23;69;5.703138351;6.966460705
+TIK.INF0602;Network Administrator;Expert system software;25;69;6.210202694;5.637793064
+TIK.INF0602;Network Administrator;File versioning software;35;69;7.453895569;5.735971451
+TIK.INF0602;Network Administrator;Financial analysis software;23;69;4.352446556;4.83182478
+TIK.INF0602;Network Administrator;Gateway software;1;69;7.626044273;8.404482841
+TIK.INF0602;Network Administrator;Geographic information system;36;69;6.176881313;3.971498966
+TIK.INF0602;Network Administrator;Graphical user interface development software;23;69;6.298155308;4.312372684
+TIK.INF0602;Network Administrator;Helpdesk or call center software;8;69;5.496074677;6.625240326
+TIK.INF0602;Network Administrator;Human resources software;16;69;5.231661797;6.623996735
+TIK.INF0602;Network Administrator;Industrial control software;29;69;6.421105862;6.191452503
+TIK.INF0602;Network Administrator;Internet directory services software;13;69;6.580571175;8.504705429
+TIK.INF0602;Network Administrator;Internet protocol IP multimedia subsystem software;17;69;7.213408947;8.112949371
+TIK.INF0602;Network Administrator;Medical software;22;69;6.435572624;5.696507931
+TIK.INF0602;Network Administrator;Metadata management software;21;69;5.462931633;5.624073505
+TIK.INF0602;Network Administrator;Network monitoring software;26;69;8.611577988;7.965328693
+TIK.INF0602;Network Administrator;Network operating system enhancement software;3;69;8.934868813;7.553832531
+TIK.INF0602;Network Administrator;Network security and virtual private network VPN equipment software;24;69;8.606728554;7.737531662
+TIK.INF0602;Network Administrator;Network security or virtual private network VPN management software;17;69;8.534561157;7.851856709
+TIK.INF0602;Network Administrator;Object or component oriented development software;75;69;6.178874016;4.70263195
+TIK.INF0602;Network Administrator;Object oriented data base management software;28;69;5.273641109;4.260804176
+TIK.INF0602;Network Administrator;Office suite software;90;69;7.181672096;3.326147556
+TIK.INF0602;Network Administrator;Operating system software;75;69;7.542918205;6.186805248
+TIK.INF0602;Network Administrator;Optical network management software;2;69;8.833954811;7.78860569
+TIK.INF0602;Network Administrator;Pattern design software;6;69;6.706031799;3.890466928
+TIK.INF0602;Network Administrator;Platform interconnectivity software;9;69;7.877929211;8.098153114
+TIK.INF0602;Network Administrator;Portal server software;22;69;6.773877621;8.501649857
+TIK.INF0602;Network Administrator;Presentation software;88;69;7.164112568;3.636401892
+TIK.INF0602;Network Administrator;Process mapping and design software;56;69;6.220437527;3.830189705
+TIK.INF0602;Network Administrator;Program testing software;31;69;6.351449013;5.267430782
+TIK.INF0602;Network Administrator;Project management software;65;69;5.289157391;5.879869938
+TIK.INF0602;Network Administrator;Requirements analysis and system architecture software;25;69;4.783376217;5.434447765
+TIK.INF0602;Network Administrator;Sales and marketing software;18;69;4.755867958;6.813591957
+TIK.INF0602;Network Administrator;Spreadsheet software;90;69;6.952990532;3.496418953
+TIK.INF0602;Network Administrator;Storage networking software;21;69;8.600845337;7.2789011
+TIK.INF0602;Network Administrator;Switch or router software;8;69;8.425765038;7.943946362
+TIK.INF0602;Network Administrator;Transaction security and virus protection software;29;69;6.563827991;7.584819317
+TIK.INF0602;Network Administrator;Transaction server software;23;69;6.661155224;8.231013298
+TIK.INF0602;Network Administrator;Video conferencing software;20;69;7.348774433;7.428820133
+TIK.INF0602;Network Administrator;Web page creation and editing software;40;69;7.055449486;4.377140999
+TIK.INF0602;Network Administrator;Web platform development software;58;69;6.668569088;5.207745552
+TIK.ITG0703;ICT Project Manager;Access software;21;62;6.948070526;6.09119606
+TIK.ITG0703;ICT Project Manager;Accounting software;14;62;4.530653477;6.405688286
+TIK.ITG0703;ICT Project Manager;Analytical or scientific software;66;62;4.622932911;4.967670441
+TIK.ITG0703;ICT Project Manager;Application server software;33;62;6.376904488;8.339910507
+TIK.ITG0703;ICT Project Manager;Backup or archival software;20;62;7.674407959;5.566030979
+TIK.ITG0703;ICT Project Manager;Business intelligence and data analysis software;39;62;4.622941017;4.611457825
+TIK.ITG0703;ICT Project Manager;Calendar and scheduling software;10;62;4.983122826;6.280745506
+TIK.ITG0703;ICT Project Manager;Cloud-based data access and sharing software;42;62;6.335213661;6.877230167
+TIK.ITG0703;ICT Project Manager;Cloud-based management software;34;62;6.07843256;6.652602673
+TIK.ITG0703;ICT Project Manager;Clustering software;18;62;5.108061314;5.028034687
+TIK.ITG0703;ICT Project Manager;Communications server software;25;62;7.002101421;8.25972271
+TIK.ITG0703;ICT Project Manager;Computer aided design CAD software;50;62;6.640730381;4.039618015
+TIK.ITG0703;ICT Project Manager;Computer based training software;15;62;6.991323948;4.820628643
+TIK.ITG0703;ICT Project Manager;Configuration management software;29;62;5.518614769;5.996460438
+TIK.ITG0703;ICT Project Manager;Customer relationship management CRM software;31;62;4.981754303;6.639668941
+TIK.ITG0703;ICT Project Manager;Data base management system software;51;62;4.927266598;4.326683521
+TIK.ITG0703;ICT Project Manager;Data base reporting software;32;62;5.069587231;4.159716129
+TIK.ITG0703;ICT Project Manager;Data base user interface and query software;81;62;4.999883652;4.212739944
+TIK.ITG0703;ICT Project Manager;Data mining software;25;62;4.901015759;4.634778023
+TIK.ITG0703;ICT Project Manager;Desktop communications software;22;62;7.280066013;7.986187935
+TIK.ITG0703;ICT Project Manager;Desktop publishing software;31;62;7.245614529;3.924886227
+TIK.ITG0703;ICT Project Manager;Development environment software;74;62;6.370265007;5.016391277
+TIK.ITG0703;ICT Project Manager;Document management software;42;62;5.8654356;5.6441679
+TIK.ITG0703;ICT Project Manager;Electronic mail software;71;62;6.941764832;7.528995037
+TIK.ITG0703;ICT Project Manager;Enterprise application integration software;53;62;5.780583382;7.53935194
+TIK.ITG0703;ICT Project Manager;Enterprise resource planning ERP software;64;62;5.250026226;7.075669765
+TIK.ITG0703;ICT Project Manager;Enterprise system management software;23;62;5.703138351;6.966460705
+TIK.ITG0703;ICT Project Manager;Expert system software;25;62;6.210202694;5.637793064
+TIK.ITG0703;ICT Project Manager;File versioning software;35;62;7.453895569;5.735971451
+TIK.ITG0703;ICT Project Manager;Financial analysis software;23;62;4.352446556;4.83182478
+TIK.ITG0703;ICT Project Manager;Geographic information system;36;62;6.176881313;3.971498966
+TIK.ITG0703;ICT Project Manager;Graphical user interface development software;23;62;6.298155308;4.312372684
+TIK.ITG0703;ICT Project Manager;Graphics or photo imaging software;54;62;7.293769836;4.137690544
+TIK.ITG0703;ICT Project Manager;Human resources software;16;62;5.231661797;6.623996735
+TIK.ITG0703;ICT Project Manager;Industrial control software;29;62;6.421105862;6.191452503
+TIK.ITG0703;ICT Project Manager;Information retrieval or search software;24;62;5.720858097;5.241194248
+TIK.ITG0703;ICT Project Manager;Internet protocol IP multimedia subsystem software;17;62;7.213408947;8.112949371
+TIK.ITG0703;ICT Project Manager;Medical software;22;62;6.435572624;5.696507931
+TIK.ITG0703;ICT Project Manager;Metadata management software;21;62;5.462931633;5.624073505
+TIK.ITG0703;ICT Project Manager;Mobile location based services software;6;62;7.368852139;6.83541584
+TIK.ITG0703;ICT Project Manager;Network monitoring software;26;62;8.611577988;7.965328693
+TIK.ITG0703;ICT Project Manager;Network security or virtual private network VPN management software;17;62;8.534561157;7.851856709
+TIK.ITG0703;ICT Project Manager;Object or component oriented development software;75;62;6.178874016;4.70263195
+TIK.ITG0703;ICT Project Manager;Object oriented data base management software;28;62;5.273641109;4.260804176
+TIK.ITG0703;ICT Project Manager;Office suite software;90;62;7.181672096;3.326147556
+TIK.ITG0703;ICT Project Manager;Operating system software;75;62;7.542918205;6.186805248
+TIK.ITG0703;ICT Project Manager;Pattern design software;6;62;6.706031799;3.890466928
+TIK.ITG0703;ICT Project Manager;Portal server software;22;62;6.773877621;8.501649857
+TIK.ITG0703;ICT Project Manager;Presentation software;88;62;7.164112568;3.636401892
+TIK.ITG0703;ICT Project Manager;Process mapping and design software;56;62;6.220437527;3.830189705
+TIK.ITG0703;ICT Project Manager;Program testing software;31;62;6.351449013;5.267430782
+TIK.ITG0703;ICT Project Manager;Project management software;65;62;5.289157391;5.879869938
+TIK.ITG0703;ICT Project Manager;Requirements analysis and system architecture software;25;62;4.783376217;5.434447765
+TIK.ITG0703;ICT Project Manager;Sales and marketing software;18;62;4.755867958;6.813591957
+TIK.ITG0703;ICT Project Manager;Spreadsheet software;90;62;6.952990532;3.496418953
+TIK.ITG0703;ICT Project Manager;Transaction security and virus protection software;29;62;6.563827991;7.584819317
+TIK.ITG0703;ICT Project Manager;Transaction server software;23;62;6.661155224;8.231013298
+TIK.ITG0703;ICT Project Manager;Video conferencing software;20;62;7.348774433;7.428820133
+TIK.ITG0703;ICT Project Manager;Video creation and editing software;36;62;7.724330902;4.266777039
+TIK.ITG0703;ICT Project Manager;Web page creation and editing software;40;62;7.055449486;4.377140999
+TIK.ITG0703;ICT Project Manager;Web platform development software;58;62;6.668569088;5.207745552
+TIK.ITG0703;ICT Project Manager;Word processing software;83;62;7.277560711;3.990605593
+TIK.INF0605;Computer Network Technician;Access software;21;41;6.948070526;6.09119606
+TIK.INF0605;Computer Network Technician;Administration software;12;41;6.063924789;6.369921207
+TIK.INF0605;Computer Network Technician;Backup or archival software;20;41;7.674407959;5.566030979
+TIK.INF0605;Computer Network Technician;Cloud-based data access and sharing software;42;41;6.335213661;6.877230167
+TIK.INF0605;Computer Network Technician;Cloud-based management software;34;41;6.07843256;6.652602673
+TIK.INF0605;Computer Network Technician;Cloud-based protection or security software;8;41;6.458732128;7.263839245
+TIK.INF0605;Computer Network Technician;Clustering software;18;41;5.108061314;5.028034687
+TIK.INF0605;Computer Network Technician;Communications server software;25;41;7.002101421;8.25972271
+TIK.INF0605;Computer Network Technician;Computer aided design CAD software;50;41;6.640730381;4.039618015
+TIK.INF0605;Computer Network Technician;Configuration management software;29;41;5.518614769;5.996460438
+TIK.INF0605;Computer Network Technician;Customer relationship management CRM software;31;41;4.981754303;6.639668941
+TIK.INF0605;Computer Network Technician;Data base management system software;51;41;4.927266598;4.326683521
+TIK.INF0605;Computer Network Technician;Data base user interface and query software;81;41;4.999883652;4.212739944
+TIK.INF0605;Computer Network Technician;Desktop communications software;22;41;7.280066013;7.986187935
+TIK.INF0605;Computer Network Technician;Development environment software;74;41;6.370265007;5.016391277
+TIK.INF0605;Computer Network Technician;Document management software;42;41;5.8654356;5.6441679
+TIK.INF0605;Computer Network Technician;Electronic mail software;71;41;6.941764832;7.528995037
+TIK.INF0605;Computer Network Technician;Enterprise application integration software;53;41;5.780583382;7.53935194
+TIK.INF0605;Computer Network Technician;Enterprise resource planning ERP software;64;41;5.250026226;7.075669765
+TIK.INF0605;Computer Network Technician;Enterprise system management software;23;41;5.703138351;6.966460705
+TIK.INF0605;Computer Network Technician;Filesystem software;11;41;7.806435585;6.136655807
+TIK.INF0605;Computer Network Technician;Helpdesk or call center software;8;41;5.496074677;6.625240326
+TIK.INF0605;Computer Network Technician;Internet directory services software;13;41;6.580571175;8.504705429
+TIK.INF0605;Computer Network Technician;Internet protocol IP multimedia subsystem software;17;41;7.213408947;8.112949371
+TIK.INF0605;Computer Network Technician;Network monitoring software;26;41;8.611577988;7.965328693
+TIK.INF0605;Computer Network Technician;Network operating system enhancement software;3;41;8.934868813;7.553832531
+TIK.INF0605;Computer Network Technician;Network security and virtual private network VPN equipment software;24;41;8.606728554;7.737531662
+TIK.INF0605;Computer Network Technician;Network security or virtual private network VPN management software;17;41;8.534561157;7.851856709
+TIK.INF0605;Computer Network Technician;Object or component oriented development software;75;41;6.178874016;4.70263195
+TIK.INF0605;Computer Network Technician;Office suite software;90;41;7.181672096;3.326147556
+TIK.INF0605;Computer Network Technician;Operating system software;75;41;7.542918205;6.186805248
+TIK.INF0605;Computer Network Technician;Platform interconnectivity software;9;41;7.877929211;8.098153114
+TIK.INF0605;Computer Network Technician;Presentation software;88;41;7.164112568;3.636401892
+TIK.INF0605;Computer Network Technician;Program testing software;31;41;6.351449013;5.267430782
+TIK.INF0605;Computer Network Technician;Project management software;65;41;5.289157391;5.879869938
+TIK.INF0605;Computer Network Technician;Spreadsheet software;90;41;6.952990532;3.496418953
+TIK.INF0605;Computer Network Technician;Storage networking software;21;41;8.600845337;7.2789011
+TIK.INF0605;Computer Network Technician;Transaction security and virus protection software;29;41;6.563827991;7.584819317
+TIK.INF0605;Computer Network Technician;Transaction server software;23;41;6.661155224;8.231013298
+TIK.INF0605;Computer Network Technician;Web platform development software;58;41;6.668569088;5.207745552
+TIK.INF0605;Computer Network Technician;Word processing software;83;41;7.277560711;3.990605593
+TIK.DSC0605;Business Intelligence Analyst;Access software;21;52;6.948070526;6.09119606
+TIK.DSC0605;Business Intelligence Analyst;Accounting software;14;52;4.530653477;6.405688286
+TIK.DSC0605;Business Intelligence Analyst;Analytical or scientific software;66;52;4.622932911;4.967670441
+TIK.DSC0605;Business Intelligence Analyst;Application server software;33;52;6.376904488;8.339910507
+TIK.DSC0605;Business Intelligence Analyst;Backup or archival software;20;52;7.674407959;5.566030979
+TIK.DSC0605;Business Intelligence Analyst;Business intelligence and data analysis software;39;52;4.622941017;4.611457825
+TIK.DSC0605;Business Intelligence Analyst;Cloud-based data access and sharing software;42;52;6.335213661;6.877230167
+TIK.DSC0605;Business Intelligence Analyst;Cloud-based management software;34;52;6.07843256;6.652602673
+TIK.DSC0605;Business Intelligence Analyst;Communications server software;25;52;7.002101421;8.25972271
+TIK.DSC0605;Business Intelligence Analyst;Computer aided design CAD software;50;52;6.640730381;4.039618015
+TIK.DSC0605;Business Intelligence Analyst;Content workflow software;27;52;5.687861443;5.835129738
+TIK.DSC0605;Business Intelligence Analyst;Customer relationship management CRM software;31;52;4.981754303;6.639668941
+TIK.DSC0605;Business Intelligence Analyst;Data base management system software;51;52;4.927266598;4.326683521
+TIK.DSC0605;Business Intelligence Analyst;Data base reporting software;32;52;5.069587231;4.159716129
+TIK.DSC0605;Business Intelligence Analyst;Data base user interface and query software;81;52;4.999883652;4.212739944
+TIK.DSC0605;Business Intelligence Analyst;Data mining software;25;52;4.901015759;4.634778023
+TIK.DSC0605;Business Intelligence Analyst;Desktop communications software;22;52;7.280066013;7.986187935
+TIK.DSC0605;Business Intelligence Analyst;Desktop publishing software;31;52;7.245614529;3.924886227
+TIK.DSC0605;Business Intelligence Analyst;Development environment software;74;52;6.370265007;5.016391277
+TIK.DSC0605;Business Intelligence Analyst;Document management software;42;52;5.8654356;5.6441679
+TIK.DSC0605;Business Intelligence Analyst;Electronic mail software;71;52;6.941764832;7.528995037
+TIK.DSC0605;Business Intelligence Analyst;Enterprise application integration software;53;52;5.780583382;7.53935194
+TIK.DSC0605;Business Intelligence Analyst;Enterprise resource planning ERP software;64;52;5.250026226;7.075669765
+TIK.DSC0605;Business Intelligence Analyst;Enterprise system management software;23;52;5.703138351;6.966460705
+TIK.DSC0605;Business Intelligence Analyst;File versioning software;35;52;7.453895569;5.735971451
+TIK.DSC0605;Business Intelligence Analyst;Financial analysis software;23;52;4.352446556;4.83182478
+TIK.DSC0605;Business Intelligence Analyst;Geographic information system;36;52;6.176881313;3.971498966
+TIK.DSC0605;Business Intelligence Analyst;Graphical user interface development software;23;52;6.298155308;4.312372684
+TIK.DSC0605;Business Intelligence Analyst;Human resources software;16;52;5.231661797;6.623996735
+TIK.DSC0605;Business Intelligence Analyst;Information retrieval or search software;24;52;5.720858097;5.241194248
+TIK.DSC0605;Business Intelligence Analyst;Medical software;22;52;6.435572624;5.696507931
+TIK.DSC0605;Business Intelligence Analyst;Metadata management software;21;52;5.462931633;5.624073505
+TIK.DSC0605;Business Intelligence Analyst;Network monitoring software;26;52;8.611577988;7.965328693
+TIK.DSC0605;Business Intelligence Analyst;Network security and virtual private network VPN equipment software;24;52;8.606728554;7.737531662
+TIK.DSC0605;Business Intelligence Analyst;Object or component oriented development software;75;52;6.178874016;4.70263195
+TIK.DSC0605;Business Intelligence Analyst;Object oriented data base management software;28;52;5.273641109;4.260804176
+TIK.DSC0605;Business Intelligence Analyst;Office suite software;90;52;7.181672096;3.326147556
+TIK.DSC0605;Business Intelligence Analyst;Operating system software;75;52;7.542918205;6.186805248
+TIK.DSC0605;Business Intelligence Analyst;Portal server software;22;52;6.773877621;8.501649857
+TIK.DSC0605;Business Intelligence Analyst;Presentation software;88;52;7.164112568;3.636401892
+TIK.DSC0605;Business Intelligence Analyst;Process mapping and design software;56;52;6.220437527;3.830189705
+TIK.DSC0605;Business Intelligence Analyst;Program testing software;31;52;6.351449013;5.267430782
+TIK.DSC0605;Business Intelligence Analyst;Project management software;65;52;5.289157391;5.879869938
+TIK.DSC0605;Business Intelligence Analyst;Requirements analysis and system architecture software;25;52;4.783376217;5.434447765
+TIK.DSC0605;Business Intelligence Analyst;Sales and marketing software;18;52;4.755867958;6.813591957
+TIK.DSC0605;Business Intelligence Analyst;Spreadsheet software;90;52;6.952990532;3.496418953
+TIK.DSC0605;Business Intelligence Analyst;Transaction security and virus protection software;29;52;6.563827991;7.584819317
+TIK.DSC0605;Business Intelligence Analyst;Transaction server software;23;52;6.661155224;8.231013298
+TIK.DSC0605;Business Intelligence Analyst;Video creation and editing software;36;52;7.724330902;4.266777039
+TIK.DSC0605;Business Intelligence Analyst;Web page creation and editing software;40;52;7.055449486;4.377140999
+TIK.DSC0605;Business Intelligence Analyst;Web platform development software;58;52;6.668569088;5.207745552
+TIK.DSC0605;Business Intelligence Analyst;Word processing software;83;52;7.277560711;3.990605593
+TIK.DSC0502;Associate Data Analyst;Analytical or scientific software;66;19;4.622932911;4.967670441
+TIK.DSC0502;Associate Data Analyst;Business intelligence and data analysis software;39;19;4.622941017;4.611457825
+TIK.DSC0502;Associate Data Analyst;Computer aided design CAD software;50;19;6.640730381;4.039618015
+TIK.DSC0502;Associate Data Analyst;Customer relationship management CRM software;31;19;4.981754303;6.639668941
+TIK.DSC0502;Associate Data Analyst;Data base management system software;51;19;4.927266598;4.326683521
+TIK.DSC0502;Associate Data Analyst;Data base reporting software;32;19;5.069587231;4.159716129
+TIK.DSC0502;Associate Data Analyst;Data base user interface and query software;81;19;4.999883652;4.212739944
+TIK.DSC0502;Associate Data Analyst;Development environment software;74;19;6.370265007;5.016391277
+TIK.DSC0502;Associate Data Analyst;Document management software;42;19;5.8654356;5.6441679
+TIK.DSC0502;Associate Data Analyst;Electronic mail software;71;19;6.941764832;7.528995037
+TIK.DSC0502;Associate Data Analyst;Financial analysis software;23;19;4.352446556;4.83182478
+TIK.DSC0502;Associate Data Analyst;Graphics or photo imaging software;54;19;7.293769836;4.137690544
+TIK.DSC0502;Associate Data Analyst;Internet browser software;42;19;6.984652042;5.438159466
+TIK.DSC0502;Associate Data Analyst;Object or component oriented development software;75;19;6.178874016;4.70263195
+TIK.DSC0502;Associate Data Analyst;Office suite software;90;19;7.181672096;3.326147556
+TIK.DSC0502;Associate Data Analyst;Presentation software;88;19;7.164112568;3.636401892
+TIK.DSC0502;Associate Data Analyst;Spreadsheet software;90;19;6.952990532;3.496418953
+TIK.DSC0502;Associate Data Analyst;Web platform development software;58;19;6.668569088;5.207745552
+TIK.DSC0502;Associate Data Analyst;Word processing software;83;19;7.277560711;3.990605593
+TIK.INF0609;Network Architect;Access software;21;67;6.948070526;6.09119606
+TIK.INF0609;Network Architect;Administration software;12;67;6.063924789;6.369921207
+TIK.INF0609;Network Architect;Analytical or scientific software;66;67;4.622932911;4.967670441
+TIK.INF0609;Network Architect;Application server software;33;67;6.376904488;8.339910507
+TIK.INF0609;Network Architect;Authentication server software;7;67;6.667496681;8.612740517
+TIK.INF0609;Network Architect;Backup or archival software;20;67;7.674407959;5.566030979
+TIK.INF0609;Network Architect;Bridge software;1;67;7.700929642;8.277729988
+TIK.INF0609;Network Architect;Business intelligence and data analysis software;39;67;4.622941017;4.611457825
+TIK.INF0609;Network Architect;Cloud-based data access and sharing software;42;67;6.335213661;6.877230167
+TIK.INF0609;Network Architect;Cloud-based management software;34;67;6.07843256;6.652602673
+TIK.INF0609;Network Architect;Cloud-based protection or security software;8;67;6.458732128;7.263839245
+TIK.INF0609;Network Architect;Clustering software;18;67;5.108061314;5.028034687
+TIK.INF0609;Network Architect;Communications server software;25;67;7.002101421;8.25972271
+TIK.INF0609;Network Architect;Computer aided design CAD software;50;67;6.640730381;4.039618015
+TIK.INF0609;Network Architect;Computer based training software;15;67;6.991323948;4.820628643
+TIK.INF0609;Network Architect;Configuration management software;29;67;5.518614769;5.996460438
+TIK.INF0609;Network Architect;Content workflow software;27;67;5.687861443;5.835129738
+TIK.INF0609;Network Architect;Data base management system software;51;67;4.927266598;4.326683521
+TIK.INF0609;Network Architect;Data base reporting software;32;67;5.069587231;4.159716129
+TIK.INF0609;Network Architect;Data base user interface and query software;81;67;4.999883652;4.212739944
+TIK.INF0609;Network Architect;Desktop communications software;22;67;7.280066013;7.986187935
+TIK.INF0609;Network Architect;Development environment software;74;67;6.370265007;5.016391277
+TIK.INF0609;Network Architect;Electronic mail software;71;67;6.941764832;7.528995037
+TIK.INF0609;Network Architect;Enterprise application integration software;53;67;5.780583382;7.53935194
+TIK.INF0609;Network Architect;Enterprise resource planning ERP software;64;67;5.250026226;7.075669765
+TIK.INF0609;Network Architect;Enterprise system management software;23;67;5.703138351;6.966460705
+TIK.INF0609;Network Architect;Expert system software;25;67;6.210202694;5.637793064
+TIK.INF0609;Network Architect;File versioning software;35;67;7.453895569;5.735971451
+TIK.INF0609;Network Architect;Financial analysis software;23;67;4.352446556;4.83182478
+TIK.INF0609;Network Architect;Geographic information system;36;67;6.176881313;3.971498966
+TIK.INF0609;Network Architect;Graphics or photo imaging software;54;67;7.293769836;4.137690544
+TIK.INF0609;Network Architect;Helpdesk or call center software;8;67;5.496074677;6.625240326
+TIK.INF0609;Network Architect;Human resources software;16;67;5.231661797;6.623996735
+TIK.INF0609;Network Architect;Industrial control software;29;67;6.421105862;6.191452503
+TIK.INF0609;Network Architect;Instant messaging software;16;67;7.250390053;7.665102005
+TIK.INF0609;Network Architect;Internet browser software;42;67;6.984652042;5.438159466
+TIK.INF0609;Network Architect;Internet directory services software;13;67;6.580571175;8.504705429
+TIK.INF0609;Network Architect;Internet protocol IP multimedia subsystem software;17;67;7.213408947;8.112949371
+TIK.INF0609;Network Architect;LAN software;4;67;8.051750183;7.658417225
+TIK.INF0609;Network Architect;Metadata management software;21;67;5.462931633;5.624073505
+TIK.INF0609;Network Architect;Network monitoring software;26;67;8.611577988;7.965328693
+TIK.INF0609;Network Architect;Network operating system enhancement software;3;67;8.934868813;7.553832531
+TIK.INF0609;Network Architect;Network security and virtual private network VPN equipment software;24;67;8.606728554;7.737531662
+TIK.INF0609;Network Architect;Network security or virtual private network VPN management software;17;67;8.534561157;7.851856709
+TIK.INF0609;Network Architect;Object or component oriented development software;75;67;6.178874016;4.70263195
+TIK.INF0609;Network Architect;Object oriented data base management software;28;67;5.273641109;4.260804176
+TIK.INF0609;Network Architect;Office suite software;90;67;7.181672096;3.326147556
+TIK.INF0609;Network Architect;Operating system software;75;67;7.542918205;6.186805248
+TIK.INF0609;Network Architect;Optical network management software;2;67;8.833954811;7.78860569
+TIK.INF0609;Network Architect;Pattern design software;6;67;6.706031799;3.890466928
+TIK.INF0609;Network Architect;Portal server software;22;67;6.773877621;8.501649857
+TIK.INF0609;Network Architect;Presentation software;88;67;7.164112568;3.636401892
+TIK.INF0609;Network Architect;Process mapping and design software;56;67;6.220437527;3.830189705
+TIK.INF0609;Network Architect;Program testing software;31;67;6.351449013;5.267430782
+TIK.INF0609;Network Architect;Project management software;65;67;5.289157391;5.879869938
+TIK.INF0609;Network Architect;Requirements analysis and system architecture software;25;67;4.783376217;5.434447765
+TIK.INF0609;Network Architect;Spreadsheet software;90;67;6.952990532;3.496418953
+TIK.INF0609;Network Architect;Storage networking software;21;67;8.600845337;7.2789011
+TIK.INF0609;Network Architect;Switch or router software;8;67;8.425765038;7.943946362
+TIK.INF0609;Network Architect;Time accounting software;3;67;4.603624821;6.238343716
+TIK.INF0609;Network Architect;Transaction security and virus protection software;29;67;6.563827991;7.584819317
+TIK.INF0609;Network Architect;Transaction server software;23;67;6.661155224;8.231013298
+TIK.INF0609;Network Architect;Video conferencing software;20;67;7.348774433;7.428820133
+TIK.INF0609;Network Architect;Video creation and editing software;36;67;7.724330902;4.266777039
+TIK.INF0609;Network Architect;WAN switching software and firmware;3;67;8.412872314;7.453131199
+TIK.INF0609;Network Architect;Web platform development software;58;67;6.668569088;5.207745552
+TIK.INF0609;Network Architect;Word processing software;83;67;7.277560711;3.990605593
+TIK.SEC0601;Cybersecurity Analyst;Analytical or scientific software;66;30;4.622932911;4.967670441
+TIK.SEC0601;Cybersecurity Analyst;Backup or archival software;20;30;7.674407959;5.566030979
+TIK.SEC0601;Cybersecurity Analyst;Business intelligence and data analysis software;39;30;4.622941017;4.611457825
+TIK.SEC0601;Cybersecurity Analyst;Charting software;3;30;5.687259197;3.891363859
+TIK.SEC0601;Cybersecurity Analyst;Cloud-based data access and sharing software;42;30;6.335213661;6.877230167
+TIK.SEC0601;Cybersecurity Analyst;Cloud-based management software;34;30;6.07843256;6.652602673
+TIK.SEC0601;Cybersecurity Analyst;Data base management system software;51;30;4.927266598;4.326683521
+TIK.SEC0601;Cybersecurity Analyst;Data base user interface and query software;81;30;4.999883652;4.212739944
+TIK.SEC0601;Cybersecurity Analyst;Data mining software;25;30;4.901015759;4.634778023
+TIK.SEC0601;Cybersecurity Analyst;Development environment software;74;30;6.370265007;5.016391277
+TIK.SEC0601;Cybersecurity Analyst;Electronic mail software;71;30;6.941764832;7.528995037
+TIK.SEC0601;Cybersecurity Analyst;Enterprise resource planning ERP software;64;30;5.250026226;7.075669765
+TIK.SEC0601;Cybersecurity Analyst;Geographic information system;36;30;6.176881313;3.971498966
+TIK.SEC0601;Cybersecurity Analyst;Graphics or photo imaging software;54;30;7.293769836;4.137690544
+TIK.SEC0601;Cybersecurity Analyst;Industrial control software;29;30;6.421105862;6.191452503
+TIK.SEC0601;Cybersecurity Analyst;Information retrieval or search software;24;30;5.720858097;5.241194248
+TIK.SEC0601;Cybersecurity Analyst;Internet browser software;42;30;6.984652042;5.438159466
+TIK.SEC0601;Cybersecurity Analyst;Network monitoring software;26;30;8.611577988;7.965328693
+TIK.SEC0601;Cybersecurity Analyst;Network security and virtual private network VPN equipment software;24;30;8.606728554;7.737531662
+TIK.SEC0601;Cybersecurity Analyst;Object or component oriented development software;75;30;6.178874016;4.70263195
+TIK.SEC0601;Cybersecurity Analyst;Office suite software;90;30;7.181672096;3.326147556
+TIK.SEC0601;Cybersecurity Analyst;Operating system software;75;30;7.542918205;6.186805248
+TIK.SEC0601;Cybersecurity Analyst;Presentation software;88;30;7.164112568;3.636401892
+TIK.SEC0601;Cybersecurity Analyst;Process mapping and design software;56;30;6.220437527;3.830189705
+TIK.SEC0601;Cybersecurity Analyst;Spreadsheet software;90;30;6.952990532;3.496418953
+TIK.SEC0601;Cybersecurity Analyst;Storage networking software;21;30;8.600845337;7.2789011
+TIK.SEC0601;Cybersecurity Analyst;Transaction security and virus protection software;29;30;6.563827991;7.584819317
+TIK.SEC0601;Cybersecurity Analyst;Web page creation and editing software;40;30;7.055449486;4.377140999
+TIK.SEC0601;Cybersecurity Analyst;Web platform development software;58;30;6.668569088;5.207745552
+TIK.SEC0601;Cybersecurity Analyst;Word processing software;83;30;7.277560711;3.990605593
+TIK.DEV0608;Software Quality Assurance Analyst;Access software;21;68;6.948070526;6.09119606
+TIK.DEV0608;Software Quality Assurance Analyst;Accounting software;14;68;4.530653477;6.405688286
+TIK.DEV0608;Software Quality Assurance Analyst;Administration software;12;68;6.063924789;6.369921207
+TIK.DEV0608;Software Quality Assurance Analyst;Analytical or scientific software;66;68;4.622932911;4.967670441
+TIK.DEV0608;Software Quality Assurance Analyst;Application server software;33;68;6.376904488;8.339910507
+TIK.DEV0608;Software Quality Assurance Analyst;Backup or archival software;20;68;7.674407959;5.566030979
+TIK.DEV0608;Software Quality Assurance Analyst;Business intelligence and data analysis software;39;68;4.622941017;4.611457825
+TIK.DEV0608;Software Quality Assurance Analyst;Cloud-based data access and sharing software;42;68;6.335213661;6.877230167
+TIK.DEV0608;Software Quality Assurance Analyst;Cloud-based management software;34;68;6.07843256;6.652602673
+TIK.DEV0608;Software Quality Assurance Analyst;Clustering software;18;68;5.108061314;5.028034687
+TIK.DEV0608;Software Quality Assurance Analyst;Communications server software;25;68;7.002101421;8.25972271
+TIK.DEV0608;Software Quality Assurance Analyst;Computer aided design CAD software;50;68;6.640730381;4.039618015
+TIK.DEV0608;Software Quality Assurance Analyst;Computer based training software;15;68;6.991323948;4.820628643
+TIK.DEV0608;Software Quality Assurance Analyst;Configuration management software;29;68;5.518614769;5.996460438
+TIK.DEV0608;Software Quality Assurance Analyst;Content workflow software;27;68;5.687861443;5.835129738
+TIK.DEV0608;Software Quality Assurance Analyst;Customer relationship management CRM software;31;68;4.981754303;6.639668941
+TIK.DEV0608;Software Quality Assurance Analyst;Data base management system software;51;68;4.927266598;4.326683521
+TIK.DEV0608;Software Quality Assurance Analyst;Data base reporting software;32;68;5.069587231;4.159716129
+TIK.DEV0608;Software Quality Assurance Analyst;Data base user interface and query software;81;68;4.999883652;4.212739944
+TIK.DEV0608;Software Quality Assurance Analyst;Data mining software;25;68;4.901015759;4.634778023
+TIK.DEV0608;Software Quality Assurance Analyst;Desktop communications software;22;68;7.280066013;7.986187935
+TIK.DEV0608;Software Quality Assurance Analyst;Desktop publishing software;31;68;7.245614529;3.924886227
+TIK.DEV0608;Software Quality Assurance Analyst;Development environment software;74;68;6.370265007;5.016391277
+TIK.DEV0608;Software Quality Assurance Analyst;Device drivers or system software;4;68;8.115627289;6.289714813
+TIK.DEV0608;Software Quality Assurance Analyst;Document management software;42;68;5.8654356;5.6441679
+TIK.DEV0608;Software Quality Assurance Analyst;Electronic mail software;71;68;6.941764832;7.528995037
+TIK.DEV0608;Software Quality Assurance Analyst;Enterprise application integration software;53;68;5.780583382;7.53935194
+TIK.DEV0608;Software Quality Assurance Analyst;Enterprise resource planning ERP software;64;68;5.250026226;7.075669765
+TIK.DEV0608;Software Quality Assurance Analyst;Enterprise system management software;23;68;5.703138351;6.966460705
+TIK.DEV0608;Software Quality Assurance Analyst;Expert system software;25;68;6.210202694;5.637793064
+TIK.DEV0608;Software Quality Assurance Analyst;File versioning software;35;68;7.453895569;5.735971451
+TIK.DEV0608;Software Quality Assurance Analyst;Filesystem software;11;68;7.806435585;6.136655807
+TIK.DEV0608;Software Quality Assurance Analyst;Financial analysis software;23;68;4.352446556;4.83182478
+TIK.DEV0608;Software Quality Assurance Analyst;Geographic information system;36;68;6.176881313;3.971498966
+TIK.DEV0608;Software Quality Assurance Analyst;Graphical user interface development software;23;68;6.298155308;4.312372684
+TIK.DEV0608;Software Quality Assurance Analyst;Graphics or photo imaging software;54;68;7.293769836;4.137690544
+TIK.DEV0608;Software Quality Assurance Analyst;Human resources software;16;68;5.231661797;6.623996735
+TIK.DEV0608;Software Quality Assurance Analyst;Industrial control software;29;68;6.421105862;6.191452503
+TIK.DEV0608;Software Quality Assurance Analyst;Information retrieval or search software;24;68;5.720858097;5.241194248
+TIK.DEV0608;Software Quality Assurance Analyst;Instant messaging software;16;68;7.250390053;7.665102005
+TIK.DEV0608;Software Quality Assurance Analyst;Internet browser software;42;68;6.984652042;5.438159466
+TIK.DEV0608;Software Quality Assurance Analyst;Internet protocol IP multimedia subsystem software;17;68;7.213408947;8.112949371
+TIK.DEV0608;Software Quality Assurance Analyst;Medical software;22;68;6.435572624;5.696507931
+TIK.DEV0608;Software Quality Assurance Analyst;Metadata management software;21;68;5.462931633;5.624073505
+TIK.DEV0608;Software Quality Assurance Analyst;Network conferencing software;10;68;7.800973415;7.817759514
+TIK.DEV0608;Software Quality Assurance Analyst;Network monitoring software;26;68;8.611577988;7.965328693
+TIK.DEV0608;Software Quality Assurance Analyst;Network operation system software;4;68;8.538809776;7.454305172
+TIK.DEV0608;Software Quality Assurance Analyst;Network security and virtual private network VPN equipment software;24;68;8.606728554;7.737531662
+TIK.DEV0608;Software Quality Assurance Analyst;Object or component oriented development software;75;68;6.178874016;4.70263195
+TIK.DEV0608;Software Quality Assurance Analyst;Object oriented data base management software;28;68;5.273641109;4.260804176
+TIK.DEV0608;Software Quality Assurance Analyst;Office suite software;90;68;7.181672096;3.326147556
+TIK.DEV0608;Software Quality Assurance Analyst;Operating system software;75;68;7.542918205;6.186805248
+TIK.DEV0608;Software Quality Assurance Analyst;Platform interconnectivity software;9;68;7.877929211;8.098153114
+TIK.DEV0608;Software Quality Assurance Analyst;Portal server software;22;68;6.773877621;8.501649857
+TIK.DEV0608;Software Quality Assurance Analyst;Presentation software;88;68;7.164112568;3.636401892
+TIK.DEV0608;Software Quality Assurance Analyst;Process mapping and design software;56;68;6.220437527;3.830189705
+TIK.DEV0608;Software Quality Assurance Analyst;Program testing software;31;68;6.351449013;5.267430782
+TIK.DEV0608;Software Quality Assurance Analyst;Project management software;65;68;5.289157391;5.879869938
+TIK.DEV0608;Software Quality Assurance Analyst;Requirements analysis and system architecture software;25;68;4.783376217;5.434447765
+TIK.DEV0608;Software Quality Assurance Analyst;Spreadsheet software;90;68;6.952990532;3.496418953
+TIK.DEV0608;Software Quality Assurance Analyst;Storage networking software;21;68;8.600845337;7.2789011
+TIK.DEV0608;Software Quality Assurance Analyst;Transaction security and virus protection software;29;68;6.563827991;7.584819317
+TIK.DEV0608;Software Quality Assurance Analyst;Transaction server software;23;68;6.661155224;8.231013298
+TIK.DEV0608;Software Quality Assurance Analyst;Video conferencing software;20;68;7.348774433;7.428820133
+TIK.DEV0608;Software Quality Assurance Analyst;Video creation and editing software;36;68;7.724330902;4.266777039
+TIK.DEV0608;Software Quality Assurance Analyst;Web page creation and editing software;40;68;7.055449486;4.377140999
+TIK.DEV0608;Software Quality Assurance Analyst;Web platform development software;58;68;6.668569088;5.207745552
+TIK.DEV0608;Software Quality Assurance Analyst;Word processing software;83;68;7.277560711;3.990605593
+TIK.ITG0803;Head Of Program Management;Calendar and scheduling software;10;17;4.983122826;6.280745506
+TIK.ITG0803;Head Of Program Management;Cloud-based data access and sharing software;42;17;6.335213661;6.877230167
+TIK.ITG0803;Head Of Program Management;Data base user interface and query software;81;17;4.999883652;4.212739944
+TIK.ITG0803;Head Of Program Management;Document management software;42;17;5.8654356;5.6441679
+TIK.ITG0803;Head Of Program Management;Electronic mail software;71;17;6.941764832;7.528995037
+TIK.ITG0803;Head Of Program Management;Graphics or photo imaging software;54;17;7.293769836;4.137690544
+TIK.ITG0803;Head Of Program Management;Human resources software;16;17;5.231661797;6.623996735
+TIK.ITG0803;Head Of Program Management;Instant messaging software;16;17;7.250390053;7.665102005
+TIK.ITG0803;Head Of Program Management;Internet browser software;42;17;6.984652042;5.438159466
+TIK.ITG0803;Head Of Program Management;Music or sound editing software;7;17;7.612557888;4.225774288
+TIK.ITG0803;Head Of Program Management;Office suite software;90;17;7.181672096;3.326147556
+TIK.ITG0803;Head Of Program Management;Presentation software;88;17;7.164112568;3.636401892
+TIK.ITG0803;Head Of Program Management;Spreadsheet software;90;17;6.952990532;3.496418953
+TIK.ITG0803;Head Of Program Management;Video creation and editing software;36;17;7.724330902;4.266777039
+TIK.ITG0803;Head Of Program Management;Web page creation and editing software;40;17;7.055449486;4.377140999
+TIK.ITG0803;Head Of Program Management;Web platform development software;58;17;6.668569088;5.207745552
+TIK.ITG0803;Head Of Program Management;Word processing software;83;17;7.277560711;3.990605593
+TIK.INF0704;System Engineer;Access software;21;68;6.948070526;6.09119606
+TIK.INF0704;System Engineer;Analytical or scientific software;66;68;4.622932911;4.967670441
+TIK.INF0704;System Engineer;Application server software;33;68;6.376904488;8.339910507
+TIK.INF0704;System Engineer;Backup or archival software;20;68;7.674407959;5.566030979
+TIK.INF0704;System Engineer;Business intelligence and data analysis software;39;68;4.622941017;4.611457825
+TIK.INF0704;System Engineer;Cloud-based data access and sharing software;42;68;6.335213661;6.877230167
+TIK.INF0704;System Engineer;Cloud-based management software;34;68;6.07843256;6.652602673
+TIK.INF0704;System Engineer;Clustering software;18;68;5.108061314;5.028034687
+TIK.INF0704;System Engineer;Communications server software;25;68;7.002101421;8.25972271
+TIK.INF0704;System Engineer;Computer aided design CAD software;50;68;6.640730381;4.039618015
+TIK.INF0704;System Engineer;Computer based training software;15;68;6.991323948;4.820628643
+TIK.INF0704;System Engineer;Configuration management software;29;68;5.518614769;5.996460438
+TIK.INF0704;System Engineer;Content workflow software;27;68;5.687861443;5.835129738
+TIK.INF0704;System Engineer;Customer relationship management CRM software;31;68;4.981754303;6.639668941
+TIK.INF0704;System Engineer;Data base management system software;51;68;4.927266598;4.326683521
+TIK.INF0704;System Engineer;Data base reporting software;32;68;5.069587231;4.159716129
+TIK.INF0704;System Engineer;Data base user interface and query software;81;68;4.999883652;4.212739944
+TIK.INF0704;System Engineer;Data mining software;25;68;4.901015759;4.634778023
+TIK.INF0704;System Engineer;Desktop communications software;22;68;7.280066013;7.986187935
+TIK.INF0704;System Engineer;Desktop publishing software;31;68;7.245614529;3.924886227
+TIK.INF0704;System Engineer;Development environment software;74;68;6.370265007;5.016391277
+TIK.INF0704;System Engineer;Document management software;42;68;5.8654356;5.6441679
+TIK.INF0704;System Engineer;Electronic mail software;71;68;6.941764832;7.528995037
+TIK.INF0704;System Engineer;Enterprise application integration software;53;68;5.780583382;7.53935194
+TIK.INF0704;System Engineer;Enterprise resource planning ERP software;64;68;5.250026226;7.075669765
+TIK.INF0704;System Engineer;Enterprise system management software;23;68;5.703138351;6.966460705
+TIK.INF0704;System Engineer;Expert system software;25;68;6.210202694;5.637793064
+TIK.INF0704;System Engineer;File versioning software;35;68;7.453895569;5.735971451
+TIK.INF0704;System Engineer;Financial analysis software;23;68;4.352446556;4.83182478
+TIK.INF0704;System Engineer;Geographic information system;36;68;6.176881313;3.971498966
+TIK.INF0704;System Engineer;Graphical user interface development software;23;68;6.298155308;4.312372684
+TIK.INF0704;System Engineer;Graphics or photo imaging software;54;68;7.293769836;4.137690544
+TIK.INF0704;System Engineer;Human resources software;16;68;5.231661797;6.623996735
+TIK.INF0704;System Engineer;Industrial control software;29;68;6.421105862;6.191452503
+TIK.INF0704;System Engineer;Information retrieval or search software;24;68;5.720858097;5.241194248
+TIK.INF0704;System Engineer;Instant messaging software;16;68;7.250390053;7.665102005
+TIK.INF0704;System Engineer;Internet browser software;42;68;6.984652042;5.438159466
+TIK.INF0704;System Engineer;Internet directory services software;13;68;6.580571175;8.504705429
+TIK.INF0704;System Engineer;Internet protocol IP multimedia subsystem software;17;68;7.213408947;8.112949371
+TIK.INF0704;System Engineer;LAN software;4;68;8.051750183;7.658417225
+TIK.INF0704;System Engineer;Medical software;22;68;6.435572624;5.696507931
+TIK.INF0704;System Engineer;Metadata management software;21;68;5.462931633;5.624073505
+TIK.INF0704;System Engineer;Network conferencing software;10;68;7.800973415;7.817759514
+TIK.INF0704;System Engineer;Network monitoring software;26;68;8.611577988;7.965328693
+TIK.INF0704;System Engineer;Network security and virtual private network VPN equipment software;24;68;8.606728554;7.737531662
+TIK.INF0704;System Engineer;Network security or virtual private network VPN management software;17;68;8.534561157;7.851856709
+TIK.INF0704;System Engineer;Object or component oriented development software;75;68;6.178874016;4.70263195
+TIK.INF0704;System Engineer;Object oriented data base management software;28;68;5.273641109;4.260804176
+TIK.INF0704;System Engineer;Office suite software;90;68;7.181672096;3.326147556
+TIK.INF0704;System Engineer;Operating system software;75;68;7.542918205;6.186805248
+TIK.INF0704;System Engineer;Portal server software;22;68;6.773877621;8.501649857
+TIK.INF0704;System Engineer;Presentation software;88;68;7.164112568;3.636401892
+TIK.INF0704;System Engineer;Process mapping and design software;56;68;6.220437527;3.830189705
+TIK.INF0704;System Engineer;Program testing software;31;68;6.351449013;5.267430782
+TIK.INF0704;System Engineer;Project management software;65;68;5.289157391;5.879869938
+TIK.INF0704;System Engineer;Requirements analysis and system architecture software;25;68;4.783376217;5.434447765
+TIK.INF0704;System Engineer;Sales and marketing software;18;68;4.755867958;6.813591957
+TIK.INF0704;System Engineer;Spreadsheet software;90;68;6.952990532;3.496418953
+TIK.INF0704;System Engineer;Storage networking software;21;68;8.600845337;7.2789011
+TIK.INF0704;System Engineer;Switch or router software;8;68;8.425765038;7.943946362
+TIK.INF0704;System Engineer;Transaction security and virus protection software;29;68;6.563827991;7.584819317
+TIK.INF0704;System Engineer;Transaction server software;23;68;6.661155224;8.231013298
+TIK.INF0704;System Engineer;Video conferencing software;20;68;7.348774433;7.428820133
+TIK.INF0704;System Engineer;Video creation and editing software;36;68;7.724330902;4.266777039
+TIK.INF0704;System Engineer;WAN switching software and firmware;3;68;8.412872314;7.453131199
+TIK.INF0704;System Engineer;Web page creation and editing software;40;68;7.055449486;4.377140999
+TIK.INF0704;System Engineer;Web platform development software;58;68;6.668569088;5.207745552
+TIK.INF0704;System Engineer;Word processing software;83;68;7.277560711;3.990605593
+TIK.SEC0503;Penetration Tester;Application server software;33;21;6.376904488;8.339910507
+TIK.SEC0503;Penetration Tester;Cloud-based management software;34;21;6.07843256;6.652602673
+TIK.SEC0503;Penetration Tester;Computer aided design CAD software;50;21;6.640730381;4.039618015
+TIK.SEC0503;Penetration Tester;Configuration management software;29;21;5.518614769;5.996460438
+TIK.SEC0503;Penetration Tester;Data base management system software;51;21;4.927266598;4.326683521
+TIK.SEC0503;Penetration Tester;Data base user interface and query software;81;21;4.999883652;4.212739944
+TIK.SEC0503;Penetration Tester;Development environment software;74;21;6.370265007;5.016391277
+TIK.SEC0503;Penetration Tester;Enterprise resource planning ERP software;64;21;5.250026226;7.075669765
+TIK.SEC0503;Penetration Tester;Enterprise system management software;23;21;5.703138351;6.966460705
+TIK.SEC0503;Penetration Tester;Expert system software;25;21;6.210202694;5.637793064
+TIK.SEC0503;Penetration Tester;Internet directory services software;13;21;6.580571175;8.504705429
+TIK.SEC0503;Penetration Tester;Network monitoring software;26;21;8.611577988;7.965328693
+TIK.SEC0503;Penetration Tester;Network security and virtual private network VPN equipment software;24;21;8.606728554;7.737531662
+TIK.SEC0503;Penetration Tester;Object or component oriented development software;75;21;6.178874016;4.70263195
+TIK.SEC0503;Penetration Tester;Office suite software;90;21;7.181672096;3.326147556
+TIK.SEC0503;Penetration Tester;Operating system software;75;21;7.542918205;6.186805248
+TIK.SEC0503;Penetration Tester;Program testing software;31;21;6.351449013;5.267430782
+TIK.SEC0503;Penetration Tester;Spreadsheet software;90;21;6.952990532;3.496418953
+TIK.SEC0503;Penetration Tester;Transaction security and virus protection software;29;21;6.563827991;7.584819317
+TIK.SEC0503;Penetration Tester;Transaction server software;23;21;6.661155224;8.231013298
+TIK.SEC0503;Penetration Tester;Web platform development software;58;21;6.668569088;5.207745552
+TIK.DSC0201;Data Entry Operator;Accounting software;14;13;4.530653477;6.405688286
+TIK.DSC0201;Data Entry Operator;Cloud-based data access and sharing software;42;13;6.335213661;6.877230167
+TIK.DSC0201;Data Entry Operator;Customer relationship management CRM software;31;13;4.981754303;6.639668941
+TIK.DSC0201;Data Entry Operator;Data base user interface and query software;81;13;4.999883652;4.212739944
+TIK.DSC0201;Data Entry Operator;Document management software;42;13;5.8654356;5.6441679
+TIK.DSC0201;Data Entry Operator;Electronic mail software;71;13;6.941764832;7.528995037
+TIK.DSC0201;Data Entry Operator;Enterprise resource planning ERP software;64;13;5.250026226;7.075669765
+TIK.DSC0201;Data Entry Operator;Medical software;22;13;6.435572624;5.696507931
+TIK.DSC0201;Data Entry Operator;Office suite software;90;13;7.181672096;3.326147556
+TIK.DSC0201;Data Entry Operator;Presentation software;88;13;7.164112568;3.636401892
+TIK.DSC0201;Data Entry Operator;Spreadsheet software;90;13;6.952990532;3.496418953
+TIK.DSC0201;Data Entry Operator;Video conferencing software;20;13;7.348774433;7.428820133
+TIK.DSC0201;Data Entry Operator;Word processing software;83;13;7.277560711;3.990605593
+TIK.INF0510;Associate Security Engineer;Access software;21;35;6.948070526;6.09119606
+TIK.INF0510;Associate Security Engineer;Application server software;33;35;6.376904488;8.339910507
+TIK.INF0510;Associate Security Engineer;Authentication server software;7;35;6.667496681;8.612740517
+TIK.INF0510;Associate Security Engineer;Cloud-based data access and sharing software;42;35;6.335213661;6.877230167
+TIK.INF0510;Associate Security Engineer;Cloud-based management software;34;35;6.07843256;6.652602673
+TIK.INF0510;Associate Security Engineer;Configuration management software;29;35;5.518614769;5.996460438
+TIK.INF0510;Associate Security Engineer;Content workflow software;27;35;5.687861443;5.835129738
+TIK.INF0510;Associate Security Engineer;Data base management system software;51;35;4.927266598;4.326683521
+TIK.INF0510;Associate Security Engineer;Data base reporting software;32;35;5.069587231;4.159716129
+TIK.INF0510;Associate Security Engineer;Data base user interface and query software;81;35;4.999883652;4.212739944
+TIK.INF0510;Associate Security Engineer;Development environment software;74;35;6.370265007;5.016391277
+TIK.INF0510;Associate Security Engineer;Electronic mail software;71;35;6.941764832;7.528995037
+TIK.INF0510;Associate Security Engineer;Enterprise application integration software;53;35;5.780583382;7.53935194
+TIK.INF0510;Associate Security Engineer;Enterprise resource planning ERP software;64;35;5.250026226;7.075669765
+TIK.INF0510;Associate Security Engineer;Enterprise system management software;23;35;5.703138351;6.966460705
+TIK.INF0510;Associate Security Engineer;Expert system software;25;35;6.210202694;5.637793064
+TIK.INF0510;Associate Security Engineer;File versioning software;35;35;7.453895569;5.735971451
+TIK.INF0510;Associate Security Engineer;Geographic information system;36;35;6.176881313;3.971498966
+TIK.INF0510;Associate Security Engineer;Graphics or photo imaging software;54;35;7.293769836;4.137690544
+TIK.INF0510;Associate Security Engineer;Internet directory services software;13;35;6.580571175;8.504705429
+TIK.INF0510;Associate Security Engineer;Network monitoring software;26;35;8.611577988;7.965328693
+TIK.INF0510;Associate Security Engineer;Network security and virtual private network VPN equipment software;24;35;8.606728554;7.737531662
+TIK.INF0510;Associate Security Engineer;Network security or virtual private network VPN management software;17;35;8.534561157;7.851856709
+TIK.INF0510;Associate Security Engineer;Object or component oriented development software;75;35;6.178874016;4.70263195
+TIK.INF0510;Associate Security Engineer;Office suite software;90;35;7.181672096;3.326147556
+TIK.INF0510;Associate Security Engineer;Operating system software;75;35;7.542918205;6.186805248
+TIK.INF0510;Associate Security Engineer;Presentation software;88;35;7.164112568;3.636401892
+TIK.INF0510;Associate Security Engineer;Project management software;65;35;5.289157391;5.879869938
+TIK.INF0510;Associate Security Engineer;Risk management data and analysis software;3;35;4.379782677;4.845313072
+TIK.INF0510;Associate Security Engineer;Spreadsheet software;90;35;6.952990532;3.496418953
+TIK.INF0510;Associate Security Engineer;Switch or router software;8;35;8.425765038;7.943946362
+TIK.INF0510;Associate Security Engineer;Transaction security and virus protection software;29;35;6.563827991;7.584819317
+TIK.INF0510;Associate Security Engineer;Transaction server software;23;35;6.661155224;8.231013298
+TIK.INF0510;Associate Security Engineer;Web platform development software;58;35;6.668569088;5.207745552
+TIK.INF0510;Associate Security Engineer;Word processing software;83;35;7.277560711;3.990605593
+TIK.DSC0604;Database Administrator;Access software;21;64;6.948070526;6.09119606
+TIK.DSC0604;Database Administrator;Accounting software;14;64;4.530653477;6.405688286
+TIK.DSC0604;Database Administrator;Administration software;12;64;6.063924789;6.369921207
+TIK.DSC0604;Database Administrator;Analytical or scientific software;66;64;4.622932911;4.967670441
+TIK.DSC0604;Database Administrator;Application server software;33;64;6.376904488;8.339910507
+TIK.DSC0604;Database Administrator;Backup or archival software;20;64;7.674407959;5.566030979
+TIK.DSC0604;Database Administrator;Business intelligence and data analysis software;39;64;4.622941017;4.611457825
+TIK.DSC0604;Database Administrator;Cloud-based data access and sharing software;42;64;6.335213661;6.877230167
+TIK.DSC0604;Database Administrator;Cloud-based management software;34;64;6.07843256;6.652602673
+TIK.DSC0604;Database Administrator;Cloud-based protection or security software;8;64;6.458732128;7.263839245
+TIK.DSC0604;Database Administrator;Clustering software;18;64;5.108061314;5.028034687
+TIK.DSC0604;Database Administrator;Communications server software;25;64;7.002101421;8.25972271
+TIK.DSC0604;Database Administrator;Computer aided design CAD software;50;64;6.640730381;4.039618015
+TIK.DSC0604;Database Administrator;Computer based training software;15;64;6.991323948;4.820628643
+TIK.DSC0604;Database Administrator;Configuration management software;29;64;5.518614769;5.996460438
+TIK.DSC0604;Database Administrator;Content workflow software;27;64;5.687861443;5.835129738
+TIK.DSC0604;Database Administrator;Customer relationship management CRM software;31;64;4.981754303;6.639668941
+TIK.DSC0604;Database Administrator;Data base management system software;51;64;4.927266598;4.326683521
+TIK.DSC0604;Database Administrator;Data base reporting software;32;64;5.069587231;4.159716129
+TIK.DSC0604;Database Administrator;Data base user interface and query software;81;64;4.999883652;4.212739944
+TIK.DSC0604;Database Administrator;Data mining software;25;64;4.901015759;4.634778023
+TIK.DSC0604;Database Administrator;Desktop communications software;22;64;7.280066013;7.986187935
+TIK.DSC0604;Database Administrator;Desktop publishing software;31;64;7.245614529;3.924886227
+TIK.DSC0604;Database Administrator;Development environment software;74;64;6.370265007;5.016391277
+TIK.DSC0604;Database Administrator;Electronic mail software;71;64;6.941764832;7.528995037
+TIK.DSC0604;Database Administrator;Enterprise application integration software;53;64;5.780583382;7.53935194
+TIK.DSC0604;Database Administrator;Enterprise resource planning ERP software;64;64;5.250026226;7.075669765
+TIK.DSC0604;Database Administrator;Enterprise system management software;23;64;5.703138351;6.966460705
+TIK.DSC0604;Database Administrator;Expert system software;25;64;6.210202694;5.637793064
+TIK.DSC0604;Database Administrator;File versioning software;35;64;7.453895569;5.735971451
+TIK.DSC0604;Database Administrator;Financial analysis software;23;64;4.352446556;4.83182478
+TIK.DSC0604;Database Administrator;Geographic information system;36;64;6.176881313;3.971498966
+TIK.DSC0604;Database Administrator;Graphical user interface development software;23;64;6.298155308;4.312372684
+TIK.DSC0604;Database Administrator;Human resources software;16;64;5.231661797;6.623996735
+TIK.DSC0604;Database Administrator;Industrial control software;29;64;6.421105862;6.191452503
+TIK.DSC0604;Database Administrator;Information retrieval or search software;24;64;5.720858097;5.241194248
+TIK.DSC0604;Database Administrator;Manufacturing execution system MES software;2;64;5.636993885;7.090109348
+TIK.DSC0604;Database Administrator;Medical software;22;64;6.435572624;5.696507931
+TIK.DSC0604;Database Administrator;Metadata management software;21;64;5.462931633;5.624073505
+TIK.DSC0604;Database Administrator;Multi-media educational software;4;64;7.318140984;4.799425602
+TIK.DSC0604;Database Administrator;Network conferencing software;10;64;7.800973415;7.817759514
+TIK.DSC0604;Database Administrator;Network monitoring software;26;64;8.611577988;7.965328693
+TIK.DSC0604;Database Administrator;Network security and virtual private network VPN equipment software;24;64;8.606728554;7.737531662
+TIK.DSC0604;Database Administrator;Network security or virtual private network VPN management software;17;64;8.534561157;7.851856709
+TIK.DSC0604;Database Administrator;Object or component oriented development software;75;64;6.178874016;4.70263195
+TIK.DSC0604;Database Administrator;Object oriented data base management software;28;64;5.273641109;4.260804176
+TIK.DSC0604;Database Administrator;Office suite software;90;64;7.181672096;3.326147556
+TIK.DSC0604;Database Administrator;Operating system software;75;64;7.542918205;6.186805248
+TIK.DSC0604;Database Administrator;Portal server software;22;64;6.773877621;8.501649857
+TIK.DSC0604;Database Administrator;Presentation software;88;64;7.164112568;3.636401892
+TIK.DSC0604;Database Administrator;Procedure management software;2;64;5.35067749;6.19995451
+TIK.DSC0604;Database Administrator;Process mapping and design software;56;64;6.220437527;3.830189705
+TIK.DSC0604;Database Administrator;Program testing software;31;64;6.351449013;5.267430782
+TIK.DSC0604;Database Administrator;Project management software;65;64;5.289157391;5.879869938
+TIK.DSC0604;Database Administrator;Requirements analysis and system architecture software;25;64;4.783376217;5.434447765
+TIK.DSC0604;Database Administrator;Sales and marketing software;18;64;4.755867958;6.813591957
+TIK.DSC0604;Database Administrator;Spreadsheet software;90;64;6.952990532;3.496418953
+TIK.DSC0604;Database Administrator;Storage networking software;21;64;8.600845337;7.2789011
+TIK.DSC0604;Database Administrator;Transaction security and virus protection software;29;64;6.563827991;7.584819317
+TIK.DSC0604;Database Administrator;Transaction server software;23;64;6.661155224;8.231013298
+TIK.DSC0604;Database Administrator;Video conferencing software;20;64;7.348774433;7.428820133
+TIK.DSC0604;Database Administrator;Web page creation and editing software;40;64;7.055449486;4.377140999
+TIK.DSC0604;Database Administrator;Web platform development software;58;64;6.668569088;5.207745552
+TIK.DSC0604;Database Administrator;Word processing software;83;64;7.277560711;3.990605593
+TIK.SRV0702;IT Manager;Access software;21;57;6.948070526;6.09119606
+TIK.SRV0702;IT Manager;Accounting software;14;57;4.530653477;6.405688286
+TIK.SRV0702;IT Manager;Analytical or scientific software;66;57;4.622932911;4.967670441
+TIK.SRV0702;IT Manager;Application server software;33;57;6.376904488;8.339910507
+TIK.SRV0702;IT Manager;Backup or archival software;20;57;7.674407959;5.566030979
+TIK.SRV0702;IT Manager;Business intelligence and data analysis software;39;57;4.622941017;4.611457825
+TIK.SRV0702;IT Manager;Calendar and scheduling software;10;57;4.983122826;6.280745506
+TIK.SRV0702;IT Manager;Cloud-based data access and sharing software;42;57;6.335213661;6.877230167
+TIK.SRV0702;IT Manager;Cloud-based management software;34;57;6.07843256;6.652602673
+TIK.SRV0702;IT Manager;Cloud-based protection or security software;8;57;6.458732128;7.263839245
+TIK.SRV0702;IT Manager;Clustering software;18;57;5.108061314;5.028034687
+TIK.SRV0702;IT Manager;Communications server software;25;57;7.002101421;8.25972271
+TIK.SRV0702;IT Manager;Compliance software;4;57;5.851675987;6.264015675
+TIK.SRV0702;IT Manager;Configuration management software;29;57;5.518614769;5.996460438
+TIK.SRV0702;IT Manager;Content workflow software;27;57;5.687861443;5.835129738
+TIK.SRV0702;IT Manager;Customer relationship management CRM software;31;57;4.981754303;6.639668941
+TIK.SRV0702;IT Manager;Data base management system software;51;57;4.927266598;4.326683521
+TIK.SRV0702;IT Manager;Data base reporting software;32;57;5.069587231;4.159716129
+TIK.SRV0702;IT Manager;Data base user interface and query software;81;57;4.999883652;4.212739944
+TIK.SRV0702;IT Manager;Data mining software;25;57;4.901015759;4.634778023
+TIK.SRV0702;IT Manager;Desktop publishing software;31;57;7.245614529;3.924886227
+TIK.SRV0702;IT Manager;Development environment software;74;57;6.370265007;5.016391277
+TIK.SRV0702;IT Manager;Electronic mail software;71;57;6.941764832;7.528995037
+TIK.SRV0702;IT Manager;Enterprise application integration software;53;57;5.780583382;7.53935194
+TIK.SRV0702;IT Manager;Enterprise resource planning ERP software;64;57;5.250026226;7.075669765
+TIK.SRV0702;IT Manager;Enterprise system management software;23;57;5.703138351;6.966460705
+TIK.SRV0702;IT Manager;Filesystem software;11;57;7.806435585;6.136655807
+TIK.SRV0702;IT Manager;Financial analysis software;23;57;4.352446556;4.83182478
+TIK.SRV0702;IT Manager;Graphical user interface development software;23;57;6.298155308;4.312372684
+TIK.SRV0702;IT Manager;Helpdesk or call center software;8;57;5.496074677;6.625240326
+TIK.SRV0702;IT Manager;Human resources software;16;57;5.231661797;6.623996735
+TIK.SRV0702;IT Manager;Internet browser software;42;57;6.984652042;5.438159466
+TIK.SRV0702;IT Manager;LAN software;4;57;8.051750183;7.658417225
+TIK.SRV0702;IT Manager;Metadata management software;21;57;5.462931633;5.624073505
+TIK.SRV0702;IT Manager;Network conferencing software;10;57;7.800973415;7.817759514
+TIK.SRV0702;IT Manager;Network connectivity terminal emulation software;3;57;8.086577415;8.031023979
+TIK.SRV0702;IT Manager;Network monitoring software;26;57;8.611577988;7.965328693
+TIK.SRV0702;IT Manager;Network security and virtual private network VPN equipment software;24;57;8.606728554;7.737531662
+TIK.SRV0702;IT Manager;Object or component oriented development software;75;57;6.178874016;4.70263195
+TIK.SRV0702;IT Manager;Object oriented data base management software;28;57;5.273641109;4.260804176
+TIK.SRV0702;IT Manager;Office suite software;90;57;7.181672096;3.326147556
+TIK.SRV0702;IT Manager;Operating system software;75;57;7.542918205;6.186805248
+TIK.SRV0702;IT Manager;Platform interconnectivity software;9;57;7.877929211;8.098153114
+TIK.SRV0702;IT Manager;Portal server software;22;57;6.773877621;8.501649857
+TIK.SRV0702;IT Manager;Presentation software;88;57;7.164112568;3.636401892
+TIK.SRV0702;IT Manager;Process mapping and design software;56;57;6.220437527;3.830189705
+TIK.SRV0702;IT Manager;Project management software;65;57;5.289157391;5.879869938
+TIK.SRV0702;IT Manager;Requirements analysis and system architecture software;25;57;4.783376217;5.434447765
+TIK.SRV0702;IT Manager;Software defined networking/ virtualization software;1;57;8.674263;7.644734383
+TIK.SRV0702;IT Manager;Spreadsheet software;90;57;6.952990532;3.496418953
+TIK.SRV0702;IT Manager;Transaction security and virus protection software;29;57;6.563827991;7.584819317
+TIK.SRV0702;IT Manager;Transaction server software;23;57;6.661155224;8.231013298
+TIK.SRV0702;IT Manager;Video creation and editing software;36;57;7.724330902;4.266777039
+TIK.SRV0702;IT Manager;Web page creation and editing software;40;57;7.055449486;4.377140999
+TIK.SRV0702;IT Manager;Web platform development software;58;57;6.668569088;5.207745552
+TIK.SRV0702;IT Manager;Wireless software;1;57;8.119151115;7.256842136
+TIK.SRV0702;IT Manager;Word processing software;83;57;7.277560711;3.990605593
+TIK.DEV0603;Database Programmer;Access software;21;58;6.948070526;6.09119606
+TIK.DEV0603;Database Programmer;Administration software;12;58;6.063924789;6.369921207
+TIK.DEV0603;Database Programmer;Analytical or scientific software;66;58;4.622932911;4.967670441
+TIK.DEV0603;Database Programmer;Application server software;33;58;6.376904488;8.339910507
+TIK.DEV0603;Database Programmer;Backup or archival software;20;58;7.674407959;5.566030979
+TIK.DEV0603;Database Programmer;Business intelligence and data analysis software;39;58;4.622941017;4.611457825
+TIK.DEV0603;Database Programmer;Cloud-based data access and sharing software;42;58;6.335213661;6.877230167
+TIK.DEV0603;Database Programmer;Cloud-based management software;34;58;6.07843256;6.652602673
+TIK.DEV0603;Database Programmer;Cloud-based protection or security software;8;58;6.458732128;7.263839245
+TIK.DEV0603;Database Programmer;Clustering software;18;58;5.108061314;5.028034687
+TIK.DEV0603;Database Programmer;Communications server software;25;58;7.002101421;8.25972271
+TIK.DEV0603;Database Programmer;Computer aided design CAD software;50;58;6.640730381;4.039618015
+TIK.DEV0603;Database Programmer;Configuration management software;29;58;5.518614769;5.996460438
+TIK.DEV0603;Database Programmer;Content workflow software;27;58;5.687861443;5.835129738
+TIK.DEV0603;Database Programmer;Customer relationship management CRM software;31;58;4.981754303;6.639668941
+TIK.DEV0603;Database Programmer;Data base management system software;51;58;4.927266598;4.326683521
+TIK.DEV0603;Database Programmer;Data base reporting software;32;58;5.069587231;4.159716129
+TIK.DEV0603;Database Programmer;Data base user interface and query software;81;58;4.999883652;4.212739944
+TIK.DEV0603;Database Programmer;Data mining software;25;58;4.901015759;4.634778023
+TIK.DEV0603;Database Programmer;Desktop communications software;22;58;7.280066013;7.986187935
+TIK.DEV0603;Database Programmer;Desktop publishing software;31;58;7.245614529;3.924886227
+TIK.DEV0603;Database Programmer;Development environment software;74;58;6.370265007;5.016391277
+TIK.DEV0603;Database Programmer;Document management software;42;58;5.8654356;5.6441679
+TIK.DEV0603;Database Programmer;Electronic mail software;71;58;6.941764832;7.528995037
+TIK.DEV0603;Database Programmer;Enterprise application integration software;53;58;5.780583382;7.53935194
+TIK.DEV0603;Database Programmer;Enterprise resource planning ERP software;64;58;5.250026226;7.075669765
+TIK.DEV0603;Database Programmer;Enterprise system management software;23;58;5.703138351;6.966460705
+TIK.DEV0603;Database Programmer;Expert system software;25;58;6.210202694;5.637793064
+TIK.DEV0603;Database Programmer;File versioning software;35;58;7.453895569;5.735971451
+TIK.DEV0603;Database Programmer;Geographic information system;36;58;6.176881313;3.971498966
+TIK.DEV0603;Database Programmer;Information retrieval or search software;24;58;5.720858097;5.241194248
+TIK.DEV0603;Database Programmer;Manufacturing execution system MES software;2;58;5.636993885;7.090109348
+TIK.DEV0603;Database Programmer;Medical software;22;58;6.435572624;5.696507931
+TIK.DEV0603;Database Programmer;Metadata management software;21;58;5.462931633;5.624073505
+TIK.DEV0603;Database Programmer;Multi-media educational software;4;58;7.318140984;4.799425602
+TIK.DEV0603;Database Programmer;Network conferencing software;10;58;7.800973415;7.817759514
+TIK.DEV0603;Database Programmer;Network monitoring software;26;58;8.611577988;7.965328693
+TIK.DEV0603;Database Programmer;Network security and virtual private network VPN equipment software;24;58;8.606728554;7.737531662
+TIK.DEV0603;Database Programmer;Network security or virtual private network VPN management software;17;58;8.534561157;7.851856709
+TIK.DEV0603;Database Programmer;Object or component oriented development software;75;58;6.178874016;4.70263195
+TIK.DEV0603;Database Programmer;Object oriented data base management software;28;58;5.273641109;4.260804176
+TIK.DEV0603;Database Programmer;Office suite software;90;58;7.181672096;3.326147556
+TIK.DEV0603;Database Programmer;Operating system software;75;58;7.542918205;6.186805248
+TIK.DEV0603;Database Programmer;Portal server software;22;58;6.773877621;8.501649857
+TIK.DEV0603;Database Programmer;Presentation software;88;58;7.164112568;3.636401892
+TIK.DEV0603;Database Programmer;Process mapping and design software;56;58;6.220437527;3.830189705
+TIK.DEV0603;Database Programmer;Program testing software;31;58;6.351449013;5.267430782
+TIK.DEV0603;Database Programmer;Project management software;65;58;5.289157391;5.879869938
+TIK.DEV0603;Database Programmer;Requirements analysis and system architecture software;25;58;4.783376217;5.434447765
+TIK.DEV0603;Database Programmer;Spreadsheet software;90;58;6.952990532;3.496418953
+TIK.DEV0603;Database Programmer;Storage media loading software;1;58;7.92564249;5.726023197
+TIK.DEV0603;Database Programmer;Storage networking software;21;58;8.600845337;7.2789011
+TIK.DEV0603;Database Programmer;Transaction security and virus protection software;29;58;6.563827991;7.584819317
+TIK.DEV0603;Database Programmer;Transaction server software;23;58;6.661155224;8.231013298
+TIK.DEV0603;Database Programmer;Video conferencing software;20;58;7.348774433;7.428820133
+TIK.DEV0603;Database Programmer;Web page creation and editing software;40;58;7.055449486;4.377140999
+TIK.DEV0603;Database Programmer;Web platform development software;58;58;6.668569088;5.207745552
+TIK.DEV0603;Database Programmer;Word processing software;83;58;7.277560711;3.990605593
+TIK.DEV0502;Associate Programmer;Access software;21;54;6.948070526;6.09119606
+TIK.DEV0502;Associate Programmer;Accounting software;14;54;4.530653477;6.405688286
+TIK.DEV0502;Associate Programmer;Analytical or scientific software;66;54;4.622932911;4.967670441
+TIK.DEV0502;Associate Programmer;Application server software;33;54;6.376904488;8.339910507
+TIK.DEV0502;Associate Programmer;Backup or archival software;20;54;7.674407959;5.566030979
+TIK.DEV0502;Associate Programmer;Business intelligence and data analysis software;39;54;4.622941017;4.611457825
+TIK.DEV0502;Associate Programmer;Cloud-based data access and sharing software;42;54;6.335213661;6.877230167
+TIK.DEV0502;Associate Programmer;Cloud-based management software;34;54;6.07843256;6.652602673
+TIK.DEV0502;Associate Programmer;Clustering software;18;54;5.108061314;5.028034687
+TIK.DEV0502;Associate Programmer;Communications server software;25;54;7.002101421;8.25972271
+TIK.DEV0502;Associate Programmer;Compiler and decompiler software;7;54;6.239408493;4.765593052
+TIK.DEV0502;Associate Programmer;Computer aided design CAD software;50;54;6.640730381;4.039618015
+TIK.DEV0502;Associate Programmer;Configuration management software;29;54;5.518614769;5.996460438
+TIK.DEV0502;Associate Programmer;Content workflow software;27;54;5.687861443;5.835129738
+TIK.DEV0502;Associate Programmer;Data base management system software;51;54;4.927266598;4.326683521
+TIK.DEV0502;Associate Programmer;Data base reporting software;32;54;5.069587231;4.159716129
+TIK.DEV0502;Associate Programmer;Data base user interface and query software;81;54;4.999883652;4.212739944
+TIK.DEV0502;Associate Programmer;Data mining software;25;54;4.901015759;4.634778023
+TIK.DEV0502;Associate Programmer;Desktop publishing software;31;54;7.245614529;3.924886227
+TIK.DEV0502;Associate Programmer;Development environment software;74;54;6.370265007;5.016391277
+TIK.DEV0502;Associate Programmer;Document management software;42;54;5.8654356;5.6441679
+TIK.DEV0502;Associate Programmer;Electronic mail software;71;54;6.941764832;7.528995037
+TIK.DEV0502;Associate Programmer;Enterprise application integration software;53;54;5.780583382;7.53935194
+TIK.DEV0502;Associate Programmer;Enterprise resource planning ERP software;64;54;5.250026226;7.075669765
+TIK.DEV0502;Associate Programmer;Enterprise system management software;23;54;5.703138351;6.966460705
+TIK.DEV0502;Associate Programmer;Expert system software;25;54;6.210202694;5.637793064
+TIK.DEV0502;Associate Programmer;File versioning software;35;54;7.453895569;5.735971451
+TIK.DEV0502;Associate Programmer;Financial analysis software;23;54;4.352446556;4.83182478
+TIK.DEV0502;Associate Programmer;Geographic information system;36;54;6.176881313;3.971498966
+TIK.DEV0502;Associate Programmer;Graphical user interface development software;23;54;6.298155308;4.312372684
+TIK.DEV0502;Associate Programmer;Graphics or photo imaging software;54;54;7.293769836;4.137690544
+TIK.DEV0502;Associate Programmer;Human resources software;16;54;5.231661797;6.623996735
+TIK.DEV0502;Associate Programmer;Industrial control software;29;54;6.421105862;6.191452503
+TIK.DEV0502;Associate Programmer;Medical software;22;54;6.435572624;5.696507931
+TIK.DEV0502;Associate Programmer;Metadata management software;21;54;5.462931633;5.624073505
+TIK.DEV0502;Associate Programmer;Network monitoring software;26;54;8.611577988;7.965328693
+TIK.DEV0502;Associate Programmer;Network security and virtual private network VPN equipment software;24;54;8.606728554;7.737531662
+TIK.DEV0502;Associate Programmer;Object or component oriented development software;75;54;6.178874016;4.70263195
+TIK.DEV0502;Associate Programmer;Object oriented data base management software;28;54;5.273641109;4.260804176
+TIK.DEV0502;Associate Programmer;Office suite software;90;54;7.181672096;3.326147556
+TIK.DEV0502;Associate Programmer;Operating system software;75;54;7.542918205;6.186805248
+TIK.DEV0502;Associate Programmer;Portal server software;22;54;6.773877621;8.501649857
+TIK.DEV0502;Associate Programmer;Presentation software;88;54;7.164112568;3.636401892
+TIK.DEV0502;Associate Programmer;Process mapping and design software;56;54;6.220437527;3.830189705
+TIK.DEV0502;Associate Programmer;Program testing software;31;54;6.351449013;5.267430782
+TIK.DEV0502;Associate Programmer;Project management software;65;54;5.289157391;5.879869938
+TIK.DEV0502;Associate Programmer;Requirements analysis and system architecture software;25;54;4.783376217;5.434447765
+TIK.DEV0502;Associate Programmer;Spreadsheet software;90;54;6.952990532;3.496418953
+TIK.DEV0502;Associate Programmer;Storage networking software;21;54;8.600845337;7.2789011
+TIK.DEV0502;Associate Programmer;Transaction security and virus protection software;29;54;6.563827991;7.584819317
+TIK.DEV0502;Associate Programmer;Transaction server software;23;54;6.661155224;8.231013298
+TIK.DEV0502;Associate Programmer;Web page creation and editing software;40;54;7.055449486;4.377140999
+TIK.DEV0502;Associate Programmer;Web platform development software;58;54;6.668569088;5.207745552
+TIK.DEV0502;Associate Programmer;Word processing software;83;54;7.277560711;3.990605593
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Backup or archival software;20;21;7.674407959;5.566030979
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Business intelligence and data analysis software;39;21;4.622941017;4.611457825
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Cloud-based data access and sharing software;42;21;6.335213661;6.877230167
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Communications server software;25;21;7.002101421;8.25972271
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Content workflow software;27;21;5.687861443;5.835129738
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Data base management system software;51;21;4.927266598;4.326683521
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Data base reporting software;32;21;5.069587231;4.159716129
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Data base user interface and query software;81;21;4.999883652;4.212739944
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Document management software;42;21;5.8654356;5.6441679
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Electronic mail software;71;21;6.941764832;7.528995037
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Enterprise resource planning ERP software;64;21;5.250026226;7.075669765
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Internet browser software;42;21;6.984652042;5.438159466
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;LAN software;4;21;8.051750183;7.658417225
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Network operation system software;4;21;8.538809776;7.454305172
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Office suite software;90;21;7.181672096;3.326147556
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Operating system software;75;21;7.542918205;6.186805248
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Presentation software;88;21;7.164112568;3.636401892
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Process mapping and design software;56;21;6.220437527;3.830189705
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Project management software;65;21;5.289157391;5.879869938
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Spreadsheet software;90;21;6.952990532;3.496418953
+TIK.ITG0702;Disaster Recovery And Business Continuity Manager;Word processing software;83;21;7.277560711;3.990605593
+TIK.DSC0701;Data Scientist;Analytical or scientific software;66;25;4.622932911;4.967670441
+TIK.DSC0701;Data Scientist;Application server software;33;25;6.376904488;8.339910507
+TIK.DSC0701;Data Scientist;Business intelligence and data analysis software;39;25;4.622941017;4.611457825
+TIK.DSC0701;Data Scientist;Cloud-based management software;34;25;6.07843256;6.652602673
+TIK.DSC0701;Data Scientist;Content workflow software;27;25;5.687861443;5.835129738
+TIK.DSC0701;Data Scientist;Data base management system software;51;25;4.927266598;4.326683521
+TIK.DSC0701;Data Scientist;Data base reporting software;32;25;5.069587231;4.159716129
+TIK.DSC0701;Data Scientist;Data base user interface and query software;81;25;4.999883652;4.212739944
+TIK.DSC0701;Data Scientist;Development environment software;74;25;6.370265007;5.016391277
+TIK.DSC0701;Data Scientist;Enterprise application integration software;53;25;5.780583382;7.53935194
+TIK.DSC0701;Data Scientist;Enterprise resource planning ERP software;64;25;5.250026226;7.075669765
+TIK.DSC0701;Data Scientist;Enterprise system management software;23;25;5.703138351;6.966460705
+TIK.DSC0701;Data Scientist;File versioning software;35;25;7.453895569;5.735971451
+TIK.DSC0701;Data Scientist;Geographic information system;36;25;6.176881313;3.971498966
+TIK.DSC0701;Data Scientist;Industrial control software;29;25;6.421105862;6.191452503
+TIK.DSC0701;Data Scientist;Object or component oriented development software;75;25;6.178874016;4.70263195
+TIK.DSC0701;Data Scientist;Object oriented data base management software;28;25;5.273641109;4.260804176
+TIK.DSC0701;Data Scientist;Office suite software;90;25;7.181672096;3.326147556
+TIK.DSC0701;Data Scientist;Operating system software;75;25;7.542918205;6.186805248
+TIK.DSC0701;Data Scientist;Presentation software;88;25;7.164112568;3.636401892
+TIK.DSC0701;Data Scientist;Procedure management software;2;25;5.35067749;6.19995451
+TIK.DSC0701;Data Scientist;Project management software;65;25;5.289157391;5.879869938
+TIK.DSC0701;Data Scientist;Spreadsheet software;90;25;6.952990532;3.496418953
+TIK.DSC0701;Data Scientist;Storage networking software;21;25;8.600845337;7.2789011
+TIK.DSC0701;Data Scientist;Web platform development software;58;25;6.668569088;5.207745552
+TIK.SRV0301;Computer Operator Technician;Analytical or scientific software;66;12;4.622932911;4.967670441
+TIK.SRV0301;Computer Operator Technician;Cloud-based data access and sharing software;42;12;6.335213661;6.877230167
+TIK.SRV0301;Computer Operator Technician;Desktop publishing software;31;12;7.245614529;3.924886227
+TIK.SRV0301;Computer Operator Technician;Document management software;42;12;5.8654356;5.6441679
+TIK.SRV0301;Computer Operator Technician;Electronic mail software;71;12;6.941764832;7.528995037
+TIK.SRV0301;Computer Operator Technician;Graphics or photo imaging software;54;12;7.293769836;4.137690544
+TIK.SRV0301;Computer Operator Technician;Office suite software;90;12;7.181672096;3.326147556
+TIK.SRV0301;Computer Operator Technician;Presentation software;88;12;7.164112568;3.636401892
+TIK.SRV0301;Computer Operator Technician;Spreadsheet software;90;12;6.952990532;3.496418953
+TIK.SRV0301;Computer Operator Technician;Video creation and editing software;36;12;7.724330902;4.266777039
+TIK.SRV0301;Computer Operator Technician;Web page creation and editing software;40;12;7.055449486;4.377140999
+TIK.SRV0301;Computer Operator Technician;Word processing software;83;12;7.277560711;3.990605593
+TIK.INF0201;Personal Computer Operator Staff;Cloud-based data access and sharing software;42;32;6.335213661;6.877230167
+TIK.INF0201;Personal Computer Operator Staff;Customer relationship management CRM software;31;32;4.981754303;6.639668941
+TIK.INF0201;Personal Computer Operator Staff;Data base management system software;51;32;4.927266598;4.326683521
+TIK.INF0201;Personal Computer Operator Staff;Data base user interface and query software;81;32;4.999883652;4.212739944
+TIK.INF0201;Personal Computer Operator Staff;Data conversion software;2;32;5.464191914;4.518065453
+TIK.INF0201;Personal Computer Operator Staff;Desktop publishing software;31;32;7.245614529;3.924886227
+TIK.INF0201;Personal Computer Operator Staff;Development environment software;74;32;6.370265007;5.016391277
+TIK.INF0201;Personal Computer Operator Staff;Document management software;42;32;5.8654356;5.6441679
+TIK.INF0201;Personal Computer Operator Staff;Electronic mail software;71;32;6.941764832;7.528995037
+TIK.INF0201;Personal Computer Operator Staff;Enterprise application integration software;53;32;5.780583382;7.53935194
+TIK.INF0201;Personal Computer Operator Staff;Enterprise resource planning ERP software;64;32;5.250026226;7.075669765
+TIK.INF0201;Personal Computer Operator Staff;Graphics card driver software;1;32;8.277649879;5.954544067
+TIK.INF0201;Personal Computer Operator Staff;Graphics or photo imaging software;54;32;7.293769836;4.137690544
+TIK.INF0201;Personal Computer Operator Staff;Information retrieval or search software;24;32;5.720858097;5.241194248
+TIK.INF0201;Personal Computer Operator Staff;Internet browser software;42;32;6.984652042;5.438159466
+TIK.INF0201;Personal Computer Operator Staff;Map creation software;11;32;6.436167717;3.695862055
+TIK.INF0201;Personal Computer Operator Staff;Network security or virtual private network VPN management software;17;32;8.534561157;7.851856709
+TIK.INF0201;Personal Computer Operator Staff;Object or component oriented development software;75;32;6.178874016;4.70263195
+TIK.INF0201;Personal Computer Operator Staff;Office suite software;90;32;7.181672096;3.326147556
+TIK.INF0201;Personal Computer Operator Staff;Operating system software;75;32;7.542918205;6.186805248
+TIK.INF0201;Personal Computer Operator Staff;Optical character reader OCR or scanning software;8;32;7.850557327;4.887176037
+TIK.INF0201;Personal Computer Operator Staff;Presentation software;88;32;7.164112568;3.636401892
+TIK.INF0201;Personal Computer Operator Staff;Printer driver software;1;32;8.241387367;5.797831535
+TIK.INF0201;Personal Computer Operator Staff;Process mapping and design software;56;32;6.220437527;3.830189705
+TIK.INF0201;Personal Computer Operator Staff;Project management software;65;32;5.289157391;5.879869938
+TIK.INF0201;Personal Computer Operator Staff;Spell checkers;1;32;7.319807529;4.356519222
+TIK.INF0201;Personal Computer Operator Staff;Spreadsheet software;90;32;6.952990532;3.496418953
+TIK.INF0201;Personal Computer Operator Staff;Video creation and editing software;36;32;7.724330902;4.266777039
+TIK.INF0201;Personal Computer Operator Staff;Voice recognition software;4;32;8.02788353;5.126906395
+TIK.INF0201;Personal Computer Operator Staff;Web page creation and editing software;40;32;7.055449486;4.377140999
+TIK.INF0201;Personal Computer Operator Staff;Web platform development software;58;32;6.668569088;5.207745552
+TIK.INF0201;Personal Computer Operator Staff;Word processing software;83;32;7.277560711;3.990605593
+TIK.INF0704;System Engineer;Analytical or scientific software;66;21;4.622932911;4.967670441
+TIK.INF0704;System Engineer;Computer aided design CAD software;50;21;6.640730381;4.039618015
+TIK.INF0704;System Engineer;Data base user interface and query software;81;21;4.999883652;4.212739944
+TIK.INF0704;System Engineer;Development environment software;74;21;6.370265007;5.016391277
+TIK.INF0704;System Engineer;Electronic mail software;71;21;6.941764832;7.528995037
+TIK.INF0704;System Engineer;Enterprise resource planning ERP software;64;21;5.250026226;7.075669765
+TIK.INF0704;System Engineer;File versioning software;35;21;7.453895569;5.735971451
+TIK.INF0704;System Engineer;Graphics or photo imaging software;54;21;7.293769836;4.137690544
+TIK.INF0704;System Engineer;Industrial control software;29;21;6.421105862;6.191452503
+TIK.INF0704;System Engineer;Internet browser software;42;21;6.984652042;5.438159466
+TIK.INF0704;System Engineer;Object or component oriented development software;75;21;6.178874016;4.70263195
+TIK.INF0704;System Engineer;Office suite software;90;21;7.181672096;3.326147556
+TIK.INF0704;System Engineer;Operating system software;75;21;7.542918205;6.186805248
+TIK.INF0704;System Engineer;Presentation software;88;21;7.164112568;3.636401892
+TIK.INF0704;System Engineer;Program testing software;31;21;6.351449013;5.267430782
+TIK.INF0704;System Engineer;Project management software;65;21;5.289157391;5.879869938
+TIK.INF0704;System Engineer;Requirements analysis and system architecture software;25;21;4.783376217;5.434447765
+TIK.INF0704;System Engineer;Spreadsheet software;90;21;6.952990532;3.496418953
+TIK.INF0704;System Engineer;Web page creation and editing software;40;21;7.055449486;4.377140999
+TIK.INF0704;System Engineer;Web platform development software;58;21;6.668569088;5.207745552
+TIK.INF0704;System Engineer;Word processing software;83;21;7.277560711;3.990605593
+TIK.DEV0617;Multimedia Technical Supervisor;Computer aided design CAD software;50;18;6.640730381;4.039618015
+TIK.DEV0617;Multimedia Technical Supervisor;Customer relationship management CRM software;31;18;4.981754303;6.639668941
+TIK.DEV0617;Multimedia Technical Supervisor;Data base management system software;51;18;4.927266598;4.326683521
+TIK.DEV0617;Multimedia Technical Supervisor;Data base user interface and query software;81;18;4.999883652;4.212739944
+TIK.DEV0617;Multimedia Technical Supervisor;Development environment software;74;18;6.370265007;5.016391277
+TIK.DEV0617;Multimedia Technical Supervisor;Electronic mail software;71;18;6.941764832;7.528995037
+TIK.DEV0617;Multimedia Technical Supervisor;Graphics or photo imaging software;54;18;7.293769836;4.137690544
+TIK.DEV0617;Multimedia Technical Supervisor;Information retrieval or search software;24;18;5.720858097;5.241194248
+TIK.DEV0617;Multimedia Technical Supervisor;Music or sound editing software;7;18;7.612557888;4.225774288
+TIK.DEV0617;Multimedia Technical Supervisor;Object or component oriented development software;75;18;6.178874016;4.70263195
+TIK.DEV0617;Multimedia Technical Supervisor;Office suite software;90;18;7.181672096;3.326147556
+TIK.DEV0617;Multimedia Technical Supervisor;Operating system software;75;18;7.542918205;6.186805248
+TIK.DEV0617;Multimedia Technical Supervisor;Presentation software;88;18;7.164112568;3.636401892
+TIK.DEV0617;Multimedia Technical Supervisor;Project management software;65;18;5.289157391;5.879869938
+TIK.DEV0617;Multimedia Technical Supervisor;Spreadsheet software;90;18;6.952990532;3.496418953
+TIK.DEV0617;Multimedia Technical Supervisor;Video creation and editing software;36;18;7.724330902;4.266777039
+TIK.DEV0617;Multimedia Technical Supervisor;Web page creation and editing software;40;18;7.055449486;4.377140999
+TIK.DEV0617;Multimedia Technical Supervisor;Word processing software;83;18;7.277560711;3.990605593
+TIK.SEC0703;Information Security Manager;Calendar and scheduling software;10;25;4.983122826;6.280745506
+TIK.SEC0703;Information Security Manager;Cloud-based data access and sharing software;42;25;6.335213661;6.877230167
+TIK.SEC0703;Information Security Manager;Communications server software;25;25;7.002101421;8.25972271
+TIK.SEC0703;Information Security Manager;Data base user interface and query software;81;25;4.999883652;4.212739944
+TIK.SEC0703;Information Security Manager;Development environment software;74;25;6.370265007;5.016391277
+TIK.SEC0703;Information Security Manager;Electronic mail software;71;25;6.941764832;7.528995037
+TIK.SEC0703;Information Security Manager;Enterprise resource planning ERP software;64;25;5.250026226;7.075669765
+TIK.SEC0703;Information Security Manager;Facilities management software;3;25;5.163205624;6.201695442
+TIK.SEC0703;Information Security Manager;Graphics or photo imaging software;54;25;7.293769836;4.137690544
+TIK.SEC0703;Information Security Manager;Human resources software;16;25;5.231661797;6.623996735
+TIK.SEC0703;Information Security Manager;Instant messaging software;16;25;7.250390053;7.665102005
+TIK.SEC0703;Information Security Manager;Internet browser software;42;25;6.984652042;5.438159466
+TIK.SEC0703;Information Security Manager;Inventory management software;5;25;5.059348583;6.711595058
+TIK.SEC0703;Information Security Manager;Map creation software;11;25;6.436167717;3.695862055
+TIK.SEC0703;Information Security Manager;Network security and virtual private network VPN equipment software;24;25;8.606728554;7.737531662
+TIK.SEC0703;Information Security Manager;Office suite software;90;25;7.181672096;3.326147556
+TIK.SEC0703;Information Security Manager;Operating system software;75;25;7.542918205;6.186805248
+TIK.SEC0703;Information Security Manager;Presentation software;88;25;7.164112568;3.636401892
+TIK.SEC0703;Information Security Manager;Process mapping and design software;56;25;6.220437527;3.830189705
+TIK.SEC0703;Information Security Manager;Project management software;65;25;5.289157391;5.879869938
+TIK.SEC0703;Information Security Manager;Spreadsheet software;90;25;6.952990532;3.496418953
+TIK.SEC0703;Information Security Manager;Time accounting software;3;25;4.603624821;6.238343716
+TIK.SEC0703;Information Security Manager;Transaction security and virus protection software;29;25;6.563827991;7.584819317
+TIK.SEC0703;Information Security Manager;Web page creation and editing software;40;25;7.055449486;4.377140999
+TIK.SEC0703;Information Security Manager;Word processing software;83;25;7.277560711;3.990605593
+TIK.SEC0706;Cryptographic Engineer;Application server software;33;19;6.376904488;8.339910507
+TIK.SEC0706;Cryptographic Engineer;Cloud-based data access and sharing software;42;19;6.335213661;6.877230167
+TIK.SEC0706;Cryptographic Engineer;Cloud-based management software;34;19;6.07843256;6.652602673
+TIK.SEC0706;Cryptographic Engineer;Configuration management software;29;19;5.518614769;5.996460438
+TIK.SEC0706;Cryptographic Engineer;Content workflow software;27;19;5.687861443;5.835129738
+TIK.SEC0706;Cryptographic Engineer;Data base management system software;51;19;4.927266598;4.326683521
+TIK.SEC0706;Cryptographic Engineer;Data base user interface and query software;81;19;4.999883652;4.212739944
+TIK.SEC0706;Cryptographic Engineer;Development environment software;74;19;6.370265007;5.016391277
+TIK.SEC0706;Cryptographic Engineer;Enterprise application integration software;53;19;5.780583382;7.53935194
+TIK.SEC0706;Cryptographic Engineer;Enterprise system management software;23;19;5.703138351;6.966460705
+TIK.SEC0706;Cryptographic Engineer;Expert system software;25;19;6.210202694;5.637793064
+TIK.SEC0706;Cryptographic Engineer;File versioning software;35;19;7.453895569;5.735971451
+TIK.SEC0706;Cryptographic Engineer;Graphical user interface development software;23;19;6.298155308;4.312372684
+TIK.SEC0706;Cryptographic Engineer;Object or component oriented development software;75;19;6.178874016;4.70263195
+TIK.SEC0706;Cryptographic Engineer;Object oriented data base management software;28;19;5.273641109;4.260804176
+TIK.SEC0706;Cryptographic Engineer;Operating system software;75;19;7.542918205;6.186805248
+TIK.SEC0706;Cryptographic Engineer;Project management software;65;19;5.289157391;5.879869938
+TIK.SEC0706;Cryptographic Engineer;Storage networking software;21;19;8.600845337;7.2789011
+TIK.SEC0706;Cryptographic Engineer;Web platform development software;58;19;6.668569088;5.207745552
+TIK.INF0704;System Engineer;Clustering software;18;18;5.108061314;5.028034687
+TIK.INF0704;System Engineer;Computer aided design CAD software;50;18;6.640730381;4.039618015
+TIK.INF0704;System Engineer;Desktop publishing software;31;18;7.245614529;3.924886227
+TIK.INF0704;System Engineer;Document management software;42;18;5.8654356;5.6441679
+TIK.INF0704;System Engineer;File versioning software;35;18;7.453895569;5.735971451
+TIK.INF0704;System Engineer;Graphics or photo imaging software;54;18;7.293769836;4.137690544
+TIK.INF0704;System Engineer;Internet protocol IP multimedia subsystem software;17;18;7.213408947;8.112949371
+TIK.INF0704;System Engineer;Metadata management software;21;18;5.462931633;5.624073505
+TIK.INF0704;System Engineer;Music or sound editing software;7;18;7.612557888;4.225774288
+TIK.INF0704;System Engineer;Object or component oriented development software;75;18;6.178874016;4.70263195
+TIK.INF0704;System Engineer;Office suite software;90;18;7.181672096;3.326147556
+TIK.INF0704;System Engineer;Operating system software;75;18;7.542918205;6.186805248
+TIK.INF0704;System Engineer;Presentation software;88;18;7.164112568;3.636401892
+TIK.INF0704;System Engineer;Process mapping and design software;56;18;6.220437527;3.830189705
+TIK.INF0704;System Engineer;Spreadsheet software;90;18;6.952990532;3.496418953
+TIK.INF0704;System Engineer;Video creation and editing software;36;18;7.724330902;4.266777039
+TIK.INF0704;System Engineer;Web page creation and editing software;40;18;7.055449486;4.377140999
+TIK.INF0704;System Engineer;Word processing software;83;18;7.277560711;3.990605593
+TIK.DSC0607;Data Quality Engineer;Analytical or scientific software;66;31;4.622932911;4.967670441
+TIK.DSC0607;Data Quality Engineer;Application server software;33;31;6.376904488;8.339910507
+TIK.DSC0607;Data Quality Engineer;Cloud-based management software;34;31;6.07843256;6.652602673
+TIK.DSC0607;Data Quality Engineer;Compliance software;4;31;5.851675987;6.264015675
+TIK.DSC0607;Data Quality Engineer;Computer aided design CAD software;50;31;6.640730381;4.039618015
+TIK.DSC0607;Data Quality Engineer;Configuration management software;29;31;5.518614769;5.996460438
+TIK.DSC0607;Data Quality Engineer;Content workflow software;27;31;5.687861443;5.835129738
+TIK.DSC0607;Data Quality Engineer;Data base management system software;51;31;4.927266598;4.326683521
+TIK.DSC0607;Data Quality Engineer;Data base user interface and query software;81;31;4.999883652;4.212739944
+TIK.DSC0607;Data Quality Engineer;Development environment software;74;31;6.370265007;5.016391277
+TIK.DSC0607;Data Quality Engineer;Document management software;42;31;5.8654356;5.6441679
+TIK.DSC0607;Data Quality Engineer;Electronic mail software;71;31;6.941764832;7.528995037
+TIK.DSC0607;Data Quality Engineer;Enterprise application integration software;53;31;5.780583382;7.53935194
+TIK.DSC0607;Data Quality Engineer;Expert system software;25;31;6.210202694;5.637793064
+TIK.DSC0607;Data Quality Engineer;File versioning software;35;31;7.453895569;5.735971451
+TIK.DSC0607;Data Quality Engineer;Graphical user interface development software;23;31;6.298155308;4.312372684
+TIK.DSC0607;Data Quality Engineer;Industrial control software;29;31;6.421105862;6.191452503
+TIK.DSC0607;Data Quality Engineer;Network monitoring software;26;31;8.611577988;7.965328693
+TIK.DSC0607;Data Quality Engineer;Network security and virtual private network VPN equipment software;24;31;8.606728554;7.737531662
+TIK.DSC0607;Data Quality Engineer;Object or component oriented development software;75;31;6.178874016;4.70263195
+TIK.DSC0607;Data Quality Engineer;Object oriented data base management software;28;31;5.273641109;4.260804176
+TIK.DSC0607;Data Quality Engineer;Office suite software;90;31;7.181672096;3.326147556
+TIK.DSC0607;Data Quality Engineer;Operating system software;75;31;7.542918205;6.186805248
+TIK.DSC0607;Data Quality Engineer;Portal server software;22;31;6.773877621;8.501649857
+TIK.DSC0607;Data Quality Engineer;Presentation software;88;31;7.164112568;3.636401892
+TIK.DSC0607;Data Quality Engineer;Process mapping and design software;56;31;6.220437527;3.830189705
+TIK.DSC0607;Data Quality Engineer;Program testing software;31;31;6.351449013;5.267430782
+TIK.DSC0607;Data Quality Engineer;Project management software;65;31;5.289157391;5.879869938
+TIK.DSC0607;Data Quality Engineer;Spreadsheet software;90;31;6.952990532;3.496418953
+TIK.DSC0607;Data Quality Engineer;Web platform development software;58;31;6.668569088;5.207745552
+TIK.DSC0607;Data Quality Engineer;Word processing software;83;31;7.277560711;3.990605593
+TIK.INF0505;Associate Device Engineer;Analytical or scientific software;66;19;4.622932911;4.967670441
+TIK.INF0505;Associate Device Engineer;Compiler and decompiler software;7;19;6.239408493;4.765593052
+TIK.INF0505;Associate Device Engineer;Computer aided design CAD software;50;19;6.640730381;4.039618015
+TIK.INF0505;Associate Device Engineer;Data base user interface and query software;81;19;4.999883652;4.212739944
+TIK.INF0505;Associate Device Engineer;Desktop communications software;22;19;7.280066013;7.986187935
+TIK.INF0505;Associate Device Engineer;Development environment software;74;19;6.370265007;5.016391277
+TIK.INF0505;Associate Device Engineer;File versioning software;35;19;7.453895569;5.735971451
+TIK.INF0505;Associate Device Engineer;Information retrieval or search software;24;19;5.720858097;5.241194248
+TIK.INF0505;Associate Device Engineer;Internet browser software;42;19;6.984652042;5.438159466
+TIK.INF0505;Associate Device Engineer;Object or component oriented development software;75;19;6.178874016;4.70263195
+TIK.INF0505;Associate Device Engineer;Office suite software;90;19;7.181672096;3.326147556
+TIK.INF0505;Associate Device Engineer;Operating system software;75;19;7.542918205;6.186805248
+TIK.INF0505;Associate Device Engineer;Pattern design software;6;19;6.706031799;3.890466928
+TIK.INF0505;Associate Device Engineer;Presentation software;88;19;7.164112568;3.636401892
+TIK.INF0505;Associate Device Engineer;Process mapping and design software;56;19;6.220437527;3.830189705
+TIK.INF0505;Associate Device Engineer;Program testing software;31;19;6.351449013;5.267430782
+TIK.INF0505;Associate Device Engineer;Project management software;65;19;5.289157391;5.879869938
+TIK.INF0505;Associate Device Engineer;Spreadsheet software;90;19;6.952990532;3.496418953
+TIK.INF0505;Associate Device Engineer;Word processing software;83;19;7.277560711;3.990605593
+TIK.DSC0301;Data Management Technician;Analytical or scientific software;66;22;4.622932911;4.967670441
+TIK.DSC0301;Data Management Technician;Categorization or classification software;5;22;5.194570065;5.126209259
+TIK.DSC0301;Data Management Technician;Cloud-based data access and sharing software;42;22;6.335213661;6.877230167
+TIK.DSC0301;Data Management Technician;Computer aided design CAD software;50;22;6.640730381;4.039618015
+TIK.DSC0301;Data Management Technician;Data base reporting software;32;22;5.069587231;4.159716129
+TIK.DSC0301;Data Management Technician;Data base user interface and query software;81;22;4.999883652;4.212739944
+TIK.DSC0301;Data Management Technician;Desktop publishing software;31;22;7.245614529;3.924886227
+TIK.DSC0301;Data Management Technician;Development environment software;74;22;6.370265007;5.016391277
+TIK.DSC0301;Data Management Technician;Electronic mail software;71;22;6.941764832;7.528995037
+TIK.DSC0301;Data Management Technician;Geographic information system;36;22;6.176881313;3.971498966
+TIK.DSC0301;Data Management Technician;Graphics or photo imaging software;54;22;7.293769836;4.137690544
+TIK.DSC0301;Data Management Technician;Internet browser software;42;22;6.984652042;5.438159466
+TIK.DSC0301;Data Management Technician;Map creation software;11;22;6.436167717;3.695862055
+TIK.DSC0301;Data Management Technician;Mobile location based services software;6;22;7.368852139;6.83541584
+TIK.DSC0301;Data Management Technician;Object or component oriented development software;75;22;6.178874016;4.70263195
+TIK.DSC0301;Data Management Technician;Office suite software;90;22;7.181672096;3.326147556
+TIK.DSC0301;Data Management Technician;Presentation software;88;22;7.164112568;3.636401892
+TIK.DSC0301;Data Management Technician;Process mapping and design software;56;22;6.220437527;3.830189705
+TIK.DSC0301;Data Management Technician;Project management software;65;22;5.289157391;5.879869938
+TIK.DSC0301;Data Management Technician;Spreadsheet software;90;22;6.952990532;3.496418953
+TIK.DSC0301;Data Management Technician;Web platform development software;58;22;6.668569088;5.207745552
+TIK.DSC0301;Data Management Technician;Word processing software;83;22;7.277560711;3.990605593
+TIK.DEV0404;Information Management Assistant;Accounting software;14;32;4.530653477;6.405688286
+TIK.DEV0404;Information Management Assistant;Analytical or scientific software;66;32;4.622932911;4.967670441
+TIK.DEV0404;Information Management Assistant;Business intelligence and data analysis software;39;32;4.622941017;4.611457825
+TIK.DEV0404;Information Management Assistant;Calendar and scheduling software;10;32;4.983122826;6.280745506
+TIK.DEV0404;Information Management Assistant;Categorization or classification software;5;32;5.194570065;5.126209259
+TIK.DEV0404;Information Management Assistant;Data base management system software;51;32;4.927266598;4.326683521
+TIK.DEV0404;Information Management Assistant;Data base reporting software;32;32;5.069587231;4.159716129
+TIK.DEV0404;Information Management Assistant;Data base user interface and query software;81;32;4.999883652;4.212739944
+TIK.DEV0404;Information Management Assistant;Desktop communications software;22;32;7.280066013;7.986187935
+TIK.DEV0404;Information Management Assistant;Development environment software;74;32;6.370265007;5.016391277
+TIK.DEV0404;Information Management Assistant;Document management software;42;32;5.8654356;5.6441679
+TIK.DEV0404;Information Management Assistant;Electronic mail software;71;32;6.941764832;7.528995037
+TIK.DEV0404;Information Management Assistant;Enterprise application integration software;53;32;5.780583382;7.53935194
+TIK.DEV0404;Information Management Assistant;Enterprise resource planning ERP software;64;32;5.250026226;7.075669765
+TIK.DEV0404;Information Management Assistant;Expert system software;25;32;6.210202694;5.637793064
+TIK.DEV0404;Information Management Assistant;Graphics or photo imaging software;54;32;7.293769836;4.137690544
+TIK.DEV0404;Information Management Assistant;Information retrieval or search software;24;32;5.720858097;5.241194248
+TIK.DEV0404;Information Management Assistant;Internet browser software;42;32;6.984652042;5.438159466
+TIK.DEV0404;Information Management Assistant;Medical software;22;32;6.435572624;5.696507931
+TIK.DEV0404;Information Management Assistant;Metadata management software;21;32;5.462931633;5.624073505
+TIK.DEV0404;Information Management Assistant;Network security and virtual private network VPN equipment software;24;32;8.606728554;7.737531662
+TIK.DEV0404;Information Management Assistant;Object or component oriented development software;75;32;6.178874016;4.70263195
+TIK.DEV0404;Information Management Assistant;Office suite software;90;32;7.181672096;3.326147556
+TIK.DEV0404;Information Management Assistant;Operating system software;75;32;7.542918205;6.186805248
+TIK.DEV0404;Information Management Assistant;Optical character reader OCR or scanning software;8;32;7.850557327;4.887176037
+TIK.DEV0404;Information Management Assistant;Presentation software;88;32;7.164112568;3.636401892
+TIK.DEV0404;Information Management Assistant;Process mapping and design software;56;32;6.220437527;3.830189705
+TIK.DEV0404;Information Management Assistant;Project management software;65;32;5.289157391;5.879869938
+TIK.DEV0404;Information Management Assistant;Spreadsheet software;90;32;6.952990532;3.496418953
+TIK.DEV0404;Information Management Assistant;Transaction security and virus protection software;29;32;6.563827991;7.584819317
+TIK.DEV0404;Information Management Assistant;Voice recognition software;4;32;8.02788353;5.126906395
+TIK.DEV0404;Information Management Assistant;Word processing software;83;32;7.277560711;3.990605593
+TIK.INF0304;Device Technician;Analytical or scientific software;66;7;4.622932911;4.967670441
+TIK.INF0304;Device Technician;Data base user interface and query software;81;7;4.999883652;4.212739944
+TIK.INF0304;Device Technician;Development environment software;74;7;6.370265007;5.016391277
+TIK.INF0304;Device Technician;Industrial control software;29;7;6.421105862;6.191452503
+TIK.INF0304;Device Technician;Office suite software;90;7;7.181672096;3.326147556
+TIK.INF0304;Device Technician;Spreadsheet software;90;7;6.952990532;3.496418953
+TIK.INF0304;Device Technician;Word processing software;83;7;7.277560711;3.990605593
+TIK.INF0704;System Engineer;Analytical or scientific software;66;20;4.622932911;4.967670441
+TIK.INF0704;System Engineer;Computer aided design CAD software;50;20;6.640730381;4.039618015
+TIK.INF0704;System Engineer;Computer aided manufacturing CAM software;9;20;6.733502865;4.521728516
+TIK.INF0704;System Engineer;Data base user interface and query software;81;20;4.999883652;4.212739944
+TIK.INF0704;System Engineer;Development environment software;74;20;6.370265007;5.016391277
+TIK.INF0704;System Engineer;Document management software;42;20;5.8654356;5.6441679
+TIK.INF0704;System Engineer;Enterprise resource planning ERP software;64;20;5.250026226;7.075669765
+TIK.INF0704;System Engineer;Filesystem software;11;20;7.806435585;6.136655807
+TIK.INF0704;System Engineer;Industrial control software;29;20;6.421105862;6.191452503
+TIK.INF0704;System Engineer;Object or component oriented development software;75;20;6.178874016;4.70263195
+TIK.INF0704;System Engineer;Office suite software;90;20;7.181672096;3.326147556
+TIK.INF0704;System Engineer;Operating system software;75;20;7.542918205;6.186805248
+TIK.INF0704;System Engineer;Platform interconnectivity software;9;20;7.877929211;8.098153114
+TIK.INF0704;System Engineer;Presentation software;88;20;7.164112568;3.636401892
+TIK.INF0704;System Engineer;Process mapping and design software;56;20;6.220437527;3.830189705
+TIK.INF0704;System Engineer;Program testing software;31;20;6.351449013;5.267430782
+TIK.INF0704;System Engineer;Project management software;65;20;5.289157391;5.879869938
+TIK.INF0704;System Engineer;Requirements analysis and system architecture software;25;20;4.783376217;5.434447765
+TIK.INF0704;System Engineer;Spreadsheet software;90;20;6.952990532;3.496418953
+TIK.INF0704;System Engineer;Word processing software;83;20;7.277560711;3.990605593
+TIK.DEV0404;Information Management Assistant;Accounting software;14;32;4.530653477;6.405688286
+TIK.DEV0404;Information Management Assistant;Analytical or scientific software;66;32;4.622932911;4.967670441
+TIK.DEV0404;Information Management Assistant;Business intelligence and data analysis software;39;32;4.622941017;4.611457825
+TIK.DEV0404;Information Management Assistant;Calendar and scheduling software;10;32;4.983122826;6.280745506
+TIK.DEV0404;Information Management Assistant;Categorization or classification software;5;32;5.194570065;5.126209259
+TIK.DEV0404;Information Management Assistant;Data base management system software;51;32;4.927266598;4.326683521
+TIK.DEV0404;Information Management Assistant;Data base reporting software;32;32;5.069587231;4.159716129
+TIK.DEV0404;Information Management Assistant;Data base user interface and query software;81;32;4.999883652;4.212739944
+TIK.DEV0404;Information Management Assistant;Desktop communications software;22;32;7.280066013;7.986187935
+TIK.DEV0404;Information Management Assistant;Development environment software;74;32;6.370265007;5.016391277
+TIK.DEV0404;Information Management Assistant;Document management software;42;32;5.8654356;5.6441679
+TIK.DEV0404;Information Management Assistant;Electronic mail software;71;32;6.941764832;7.528995037
+TIK.DEV0404;Information Management Assistant;Enterprise application integration software;53;32;5.780583382;7.53935194
+TIK.DEV0404;Information Management Assistant;Enterprise resource planning ERP software;64;32;5.250026226;7.075669765
+TIK.DEV0404;Information Management Assistant;Expert system software;25;32;6.210202694;5.637793064
+TIK.DEV0404;Information Management Assistant;Graphics or photo imaging software;54;32;7.293769836;4.137690544
+TIK.DEV0404;Information Management Assistant;Information retrieval or search software;24;32;5.720858097;5.241194248
+TIK.DEV0404;Information Management Assistant;Internet browser software;42;32;6.984652042;5.438159466
+TIK.DEV0404;Information Management Assistant;Medical software;22;32;6.435572624;5.696507931
+TIK.DEV0404;Information Management Assistant;Metadata management software;21;32;5.462931633;5.624073505
+TIK.DEV0404;Information Management Assistant;Network security and virtual private network VPN equipment software;24;32;8.606728554;7.737531662
+TIK.DEV0404;Information Management Assistant;Object or component oriented development software;75;32;6.178874016;4.70263195
+TIK.DEV0404;Information Management Assistant;Office suite software;90;32;7.181672096;3.326147556
+TIK.DEV0404;Information Management Assistant;Operating system software;75;32;7.542918205;6.186805248
+TIK.DEV0404;Information Management Assistant;Optical character reader OCR or scanning software;8;32;7.850557327;4.887176037
+TIK.DEV0404;Information Management Assistant;Presentation software;88;32;7.164112568;3.636401892
+TIK.DEV0404;Information Management Assistant;Process mapping and design software;56;32;6.220437527;3.830189705
+TIK.DEV0404;Information Management Assistant;Project management software;65;32;5.289157391;5.879869938
+TIK.DEV0404;Information Management Assistant;Spreadsheet software;90;32;6.952990532;3.496418953
+TIK.DEV0404;Information Management Assistant;Transaction security and virus protection software;29;32;6.563827991;7.584819317
+TIK.DEV0404;Information Management Assistant;Voice recognition software;4;32;8.02788353;5.126906395
+TIK.DEV0404;Information Management Assistant;Word processing software;83;32;7.277560711;3.990605593
+TIK.SRV0301;Computer Operator Technician;Analytical or scientific software;66;16;4.622932911;4.967670441
+TIK.SRV0301;Computer Operator Technician;Computer aided design CAD software;50;16;6.640730381;4.039618015
+TIK.SRV0301;Computer Operator Technician;Computer aided manufacturing CAM software;9;16;6.733502865;4.521728516
+TIK.SRV0301;Computer Operator Technician;Desktop communications software;22;16;7.280066013;7.986187935
+TIK.SRV0301;Computer Operator Technician;Development environment software;74;16;6.370265007;5.016391277
+TIK.SRV0301;Computer Operator Technician;Electronic mail software;71;16;6.941764832;7.528995037
+TIK.SRV0301;Computer Operator Technician;Enterprise resource planning ERP software;64;16;5.250026226;7.075669765
+TIK.SRV0301;Computer Operator Technician;Industrial control software;29;16;6.421105862;6.191452503
+TIK.SRV0301;Computer Operator Technician;Information retrieval or search software;24;16;5.720858097;5.241194248
+TIK.SRV0301;Computer Operator Technician;Object or component oriented development software;75;16;6.178874016;4.70263195
+TIK.SRV0301;Computer Operator Technician;Office suite software;90;16;7.181672096;3.326147556
+TIK.SRV0301;Computer Operator Technician;Presentation software;88;16;7.164112568;3.636401892
+TIK.SRV0301;Computer Operator Technician;Project management software;65;16;5.289157391;5.879869938
+TIK.SRV0301;Computer Operator Technician;Spreadsheet software;90;16;6.952990532;3.496418953
+TIK.SRV0301;Computer Operator Technician;Video conferencing software;20;16;7.348774433;7.428820133
+TIK.SRV0301;Computer Operator Technician;Word processing software;83;16;7.277560711;3.990605593
+TIK.INF0704;System Engineer;Analytical or scientific software;66;21;4.622932911;4.967670441
+TIK.INF0704;System Engineer;Business intelligence and data analysis software;39;21;4.622941017;4.611457825
+TIK.INF0704;System Engineer;Computer aided design CAD software;50;21;6.640730381;4.039618015
+TIK.INF0704;System Engineer;Computer aided manufacturing CAM software;9;21;6.733502865;4.521728516
+TIK.INF0704;System Engineer;Customer relationship management CRM software;31;21;4.981754303;6.639668941
+TIK.INF0704;System Engineer;Data base management system software;51;21;4.927266598;4.326683521
+TIK.INF0704;System Engineer;Data base user interface and query software;81;21;4.999883652;4.212739944
+TIK.INF0704;System Engineer;Development environment software;74;21;6.370265007;5.016391277
+TIK.INF0704;System Engineer;Enterprise resource planning ERP software;64;21;5.250026226;7.075669765
+TIK.INF0704;System Engineer;Graphics or photo imaging software;54;21;7.293769836;4.137690544
+TIK.INF0704;System Engineer;Industrial control software;29;21;6.421105862;6.191452503
+TIK.INF0704;System Engineer;Materials requirements planning logistics and supply chain software;4;21;5.195672512;7.200902462
+TIK.INF0704;System Engineer;Medical software;22;21;6.435572624;5.696507931
+TIK.INF0704;System Engineer;Object or component oriented development software;75;21;6.178874016;4.70263195
+TIK.INF0704;System Engineer;Office suite software;90;21;7.181672096;3.326147556
+TIK.INF0704;System Engineer;Operating system software;75;21;7.542918205;6.186805248
+TIK.INF0704;System Engineer;Presentation software;88;21;7.164112568;3.636401892
+TIK.INF0704;System Engineer;Process mapping and design software;56;21;6.220437527;3.830189705
+TIK.INF0704;System Engineer;Project management software;65;21;5.289157391;5.879869938
+TIK.INF0704;System Engineer;Spreadsheet software;90;21;6.952990532;3.496418953
+TIK.INF0704;System Engineer;Word processing software;83;21;7.277560711;3.990605593
+TIK.INF0302;Network Technician;Analytical or scientific software;66;15;4.622932911;4.967670441
+TIK.INF0302;Network Technician;Communications server software;25;15;7.002101421;8.25972271
+TIK.INF0302;Network Technician;Computer aided design CAD software;50;15;6.640730381;4.039618015
+TIK.INF0302;Network Technician;Electronic mail software;71;15;6.941764832;7.528995037
+TIK.INF0302;Network Technician;Expert system software;25;15;6.210202694;5.637793064
+TIK.INF0302;Network Technician;Geographic information system;36;15;6.176881313;3.971498966
+TIK.INF0302;Network Technician;Industrial control software;29;15;6.421105862;6.191452503
+TIK.INF0302;Network Technician;Internet protocol IP multimedia subsystem software;17;15;7.213408947;8.112949371
+TIK.INF0302;Network Technician;Network security and virtual private network VPN equipment software;24;15;8.606728554;7.737531662
+TIK.INF0302;Network Technician;Office suite software;90;15;7.181672096;3.326147556
+TIK.INF0302;Network Technician;Operating system software;75;15;7.542918205;6.186805248
+TIK.INF0302;Network Technician;Presentation software;88;15;7.164112568;3.636401892
+TIK.INF0302;Network Technician;Spreadsheet software;90;15;6.952990532;3.496418953
+TIK.INF0302;Network Technician;Web platform development software;58;15;6.668569088;5.207745552
+TIK.INF0302;Network Technician;Word processing software;83;15;7.277560711;3.990605593
+TIK.DSC0701;Data Scientist;Analytical or scientific software;66;22;4.622932911;4.967670441
+TIK.DSC0701;Data Scientist;Application server software;33;22;6.376904488;8.339910507
+TIK.DSC0701;Data Scientist;Business intelligence and data analysis software;39;22;4.622941017;4.611457825
+TIK.DSC0701;Data Scientist;Cloud-based data access and sharing software;42;22;6.335213661;6.877230167
+TIK.DSC0701;Data Scientist;Customer relationship management CRM software;31;22;4.981754303;6.639668941
+TIK.DSC0701;Data Scientist;Data base management system software;51;22;4.927266598;4.326683521
+TIK.DSC0701;Data Scientist;Data base user interface and query software;81;22;4.999883652;4.212739944
+TIK.DSC0701;Data Scientist;Development environment software;74;22;6.370265007;5.016391277
+TIK.DSC0701;Data Scientist;Enterprise application integration software;53;22;5.780583382;7.53935194
+TIK.DSC0701;Data Scientist;Enterprise resource planning ERP software;64;22;5.250026226;7.075669765
+TIK.DSC0701;Data Scientist;File versioning software;35;22;7.453895569;5.735971451
+TIK.DSC0701;Data Scientist;Internet browser software;42;22;6.984652042;5.438159466
+TIK.DSC0701;Data Scientist;Object or component oriented development software;75;22;6.178874016;4.70263195
+TIK.DSC0701;Data Scientist;Object oriented data base management software;28;22;5.273641109;4.260804176
+TIK.DSC0701;Data Scientist;Office suite software;90;22;7.181672096;3.326147556
+TIK.DSC0701;Data Scientist;Operating system software;75;22;7.542918205;6.186805248
+TIK.DSC0701;Data Scientist;Portal server software;22;22;6.773877621;8.501649857
+TIK.DSC0701;Data Scientist;Presentation software;88;22;7.164112568;3.636401892
+TIK.DSC0701;Data Scientist;Program testing software;31;22;6.351449013;5.267430782
+TIK.DSC0701;Data Scientist;Spreadsheet software;90;22;6.952990532;3.496418953
+TIK.DSC0701;Data Scientist;Web platform development software;58;22;6.668569088;5.207745552
+TIK.DSC0701;Data Scientist;Word processing software;83;22;7.277560711;3.990605593
+TIK.SRV0302;Computer Repair Technician;Calendar and scheduling software;10;27;4.983122826;6.280745506
+TIK.SRV0302;Computer Repair Technician;Cloud-based management software;34;27;6.07843256;6.652602673
+TIK.SRV0302;Computer Repair Technician;Configuration management software;29;27;5.518614769;5.996460438
+TIK.SRV0302;Computer Repair Technician;Data base user interface and query software;81;27;4.999883652;4.212739944
+TIK.SRV0302;Computer Repair Technician;Document management software;42;27;5.8654356;5.6441679
+TIK.SRV0302;Computer Repair Technician;Electronic mail software;71;27;6.941764832;7.528995037
+TIK.SRV0302;Computer Repair Technician;Enterprise application integration software;53;27;5.780583382;7.53935194
+TIK.SRV0302;Computer Repair Technician;Filesystem software;11;27;7.806435585;6.136655807
+TIK.SRV0302;Computer Repair Technician;Graphics or photo imaging software;54;27;7.293769836;4.137690544
+TIK.SRV0302;Computer Repair Technician;Helpdesk or call center software;8;27;5.496074677;6.625240326
+TIK.SRV0302;Computer Repair Technician;Internet browser software;42;27;6.984652042;5.438159466
+TIK.SRV0302;Computer Repair Technician;Internet directory services software;13;27;6.580571175;8.504705429
+TIK.SRV0302;Computer Repair Technician;Inventory management software;5;27;5.059348583;6.711595058
+TIK.SRV0302;Computer Repair Technician;Network connectivity terminal emulation software;3;27;8.086577415;8.031023979
+TIK.SRV0302;Computer Repair Technician;Network security or virtual private network VPN management software;17;27;8.534561157;7.851856709
+TIK.SRV0302;Computer Repair Technician;Object or component oriented development software;75;27;6.178874016;4.70263195
+TIK.SRV0302;Computer Repair Technician;Office suite software;90;27;7.181672096;3.326147556
+TIK.SRV0302;Computer Repair Technician;Operating system software;75;27;7.542918205;6.186805248
+TIK.SRV0302;Computer Repair Technician;Platform interconnectivity software;9;27;7.877929211;8.098153114
+TIK.SRV0302;Computer Repair Technician;Presentation software;88;27;7.164112568;3.636401892
+TIK.SRV0302;Computer Repair Technician;Program testing software;31;27;6.351449013;5.267430782
+TIK.SRV0302;Computer Repair Technician;Spreadsheet software;90;27;6.952990532;3.496418953
+TIK.SRV0302;Computer Repair Technician;Transaction security and virus protection software;29;27;6.563827991;7.584819317
+TIK.SRV0302;Computer Repair Technician;Video conferencing software;20;27;7.348774433;7.428820133
+TIK.SRV0302;Computer Repair Technician;Web page creation and editing software;40;27;7.055449486;4.377140999
+TIK.SRV0302;Computer Repair Technician;Web platform development software;58;27;6.668569088;5.207745552
+TIK.SRV0302;Computer Repair Technician;Word processing software;83;27;7.277560711;3.990605593
+TIK.SEC0709;Digital Forensic Analyst;Analytical or scientific software;66;29;4.622932911;4.967670441
+TIK.SEC0709;Digital Forensic Analyst;Application server software;33;29;6.376904488;8.339910507
+TIK.SEC0709;Digital Forensic Analyst;Authentication server software;7;29;6.667496681;8.612740517
+TIK.SEC0709;Digital Forensic Analyst;Cloud-based data access and sharing software;42;29;6.335213661;6.877230167
+TIK.SEC0709;Digital Forensic Analyst;Configuration management software;29;29;5.518614769;5.996460438
+TIK.SEC0709;Digital Forensic Analyst;Data base user interface and query software;81;29;4.999883652;4.212739944
+TIK.SEC0709;Digital Forensic Analyst;Development environment software;74;29;6.370265007;5.016391277
+TIK.SEC0709;Digital Forensic Analyst;Enterprise application integration software;53;29;5.780583382;7.53935194
+TIK.SEC0709;Digital Forensic Analyst;Enterprise resource planning ERP software;64;29;5.250026226;7.075669765
+TIK.SEC0709;Digital Forensic Analyst;Enterprise system management software;23;29;5.703138351;6.966460705
+TIK.SEC0709;Digital Forensic Analyst;Expert system software;25;29;6.210202694;5.637793064
+TIK.SEC0709;Digital Forensic Analyst;Filesystem software;11;29;7.806435585;6.136655807
+TIK.SEC0709;Digital Forensic Analyst;Geographic information system;36;29;6.176881313;3.971498966
+TIK.SEC0709;Digital Forensic Analyst;Graphical user interface development software;23;29;6.298155308;4.312372684
+TIK.SEC0709;Digital Forensic Analyst;Internet directory services software;13;29;6.580571175;8.504705429
+TIK.SEC0709;Digital Forensic Analyst;Network monitoring software;26;29;8.611577988;7.965328693
+TIK.SEC0709;Digital Forensic Analyst;Network security and virtual private network VPN equipment software;24;29;8.606728554;7.737531662
+TIK.SEC0709;Digital Forensic Analyst;Network security or virtual private network VPN management software;17;29;8.534561157;7.851856709
+TIK.SEC0709;Digital Forensic Analyst;Object or component oriented development software;75;29;6.178874016;4.70263195
+TIK.SEC0709;Digital Forensic Analyst;Office suite software;90;29;7.181672096;3.326147556
+TIK.SEC0709;Digital Forensic Analyst;Operating system software;75;29;7.542918205;6.186805248
+TIK.SEC0709;Digital Forensic Analyst;Presentation software;88;29;7.164112568;3.636401892
+TIK.SEC0709;Digital Forensic Analyst;Program testing software;31;29;6.351449013;5.267430782
+TIK.SEC0709;Digital Forensic Analyst;Spreadsheet software;90;29;6.952990532;3.496418953
+TIK.SEC0709;Digital Forensic Analyst;Storage networking software;21;29;8.600845337;7.2789011
+TIK.SEC0709;Digital Forensic Analyst;Switch or router software;8;29;8.425765038;7.943946362
+TIK.SEC0709;Digital Forensic Analyst;Transaction security and virus protection software;29;29;6.563827991;7.584819317
+TIK.SEC0709;Digital Forensic Analyst;Transaction server software;23;29;6.661155224;8.231013298
+TIK.SEC0709;Digital Forensic Analyst;Web platform development software;58;29;6.668569088;5.207745552

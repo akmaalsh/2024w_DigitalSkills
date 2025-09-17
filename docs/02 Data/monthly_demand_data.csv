@@ -1,0 +1,1467 @@
+﻿at_year;year_month;Kode Okupasi;SKKNI Occupation;monthly_demand
+year_1;2021-05;TIK.DEV0708;Software Engineer;227
+year_1;2021-05;TIK.DEV0604;Web Developer;84
+year_1;2021-05;TIK.DEV0608;Software Quality Assurance Analyst;72
+year_1;2021-05;TIK.SRV0504;Associate IT Service Support Specialist;46
+year_1;2021-05;TIK.ITG0703;ICT Project Manager;40
+year_1;2021-05;TIK.DEV0613;System Analyst;29
+year_1;2021-05;TIK.INF0704;System Engineer;27
+year_1;2021-05;TIK.DSC0605;Business Intelligence Analyst;27
+year_1;2021-05;TIK.INF0609;Network Architect;15
+year_1;2021-05;TIK.DSC0502;Associate Data Analyst;14
+year_1;2021-05;TIK.SRV0702;IT Manager;11
+year_1;2021-05;TIK.DSC0604;Database Administrator;11
+year_1;2021-05;TIK.SEC0613;Information Security Analyst;10
+year_1;2021-05;TIK.INF0602;Network Administrator;9
+year_1;2021-05;TIK.DEV0502;Associate Programmer;9
+year_1;2021-05;TIK.DSC0701;Data Scientist;7
+year_1;2021-05;TIK.INF0510;Associate Security Engineer;6
+year_1;2021-05;TIK.SRV0606;Web Administrator;5
+year_1;2021-05;TIK.DEV0404;Information Management Assistant;5
+year_1;2021-05;TIK.INF0605;Computer Network Technician;4
+year_1;2021-05;TIK.SEC0601;Cybersecurity Analyst;4
+year_1;2021-05;TIK.DEV0603;Database Programmer;3
+year_1;2021-05;TIK.DEV0617;Multimedia Technical Supervisor;3
+year_1;2021-05;TIK.SRV0301;Computer Operator Technician;3
+year_1;2021-05;TIK.SEC0703;Information Security Manager;2
+year_1;2021-05;TIK.DSC0201;Data Entry Operator;2
+year_1;2021-05;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;1
+year_1;2021-05;TIK.SEC0503;Penetration Tester;1
+year_1;2021-05;TIK.SEC0706;Cryptographic Engineer;1
+year_1;2021-05;TIK.INF0704;System Engineer;1
+year_1;2021-05;TIK.ITG0803;Head Of Program Management;1
+year_1;2021-05;TIK.INF0201;Personal Computer Operator Staff;1
+year_1;2021-06;TIK.DEV0708;Software Engineer;292
+year_1;2021-06;TIK.DEV0604;Web Developer;123
+year_1;2021-06;TIK.DEV0608;Software Quality Assurance Analyst;71
+year_1;2021-06;TIK.SRV0504;Associate IT Service Support Specialist;52
+year_1;2021-06;TIK.DSC0605;Business Intelligence Analyst;49
+year_1;2021-06;TIK.ITG0703;ICT Project Manager;46
+year_1;2021-06;TIK.INF0704;System Engineer;38
+year_1;2021-06;TIK.DEV0613;System Analyst;23
+year_1;2021-06;TIK.DSC0701;Data Scientist;19
+year_1;2021-06;TIK.DEV0502;Associate Programmer;18
+year_1;2021-06;TIK.DSC0604;Database Administrator;14
+year_1;2021-06;TIK.INF0602;Network Administrator;12
+year_1;2021-06;TIK.DEV0617;Multimedia Technical Supervisor;10
+year_1;2021-06;TIK.INF0609;Network Architect;9
+year_1;2021-06;TIK.SRV0702;IT Manager;8
+year_1;2021-06;TIK.SEC0703;Information Security Manager;7
+year_1;2021-06;TIK.SRV0301;Computer Operator Technician;7
+year_1;2021-06;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;6
+year_1;2021-06;TIK.SEC0613;Information Security Analyst;6
+year_1;2021-06;TIK.INF0605;Computer Network Technician;6
+year_1;2021-06;TIK.SRV0606;Web Administrator;6
+year_1;2021-06;TIK.DSC0502;Associate Data Analyst;6
+year_1;2021-06;TIK.DEV0603;Database Programmer;4
+year_1;2021-06;TIK.DEV0404;Information Management Assistant;4
+year_1;2021-06;TIK.INF0510;Associate Security Engineer;4
+year_1;2021-06;TIK.ITG0803;Head Of Program Management;4
+year_1;2021-06;TIK.DSC0607;Data Quality Engineer;3
+year_1;2021-06;TIK.INF0704;System Engineer;3
+year_1;2021-06;TIK.SEC0503;Penetration Tester;2
+year_1;2021-06;TIK.SEC0706;Cryptographic Engineer;2
+year_1;2021-06;TIK.SEC0601;Cybersecurity Analyst;2
+year_1;2021-06;TIK.INF0505;Associate Device Engineer;1
+year_1;2021-06;TIK.INF0704;System Engineer;1
+year_1;2021-06;TIK.DSC0301;Data Management Technician;1
+year_1;2021-06;TIK.DSC0201;Data Entry Operator;1
+year_1;2021-07;TIK.DEV0708;Software Engineer;548
+year_1;2021-07;TIK.DEV0604;Web Developer;186
+year_1;2021-07;TIK.DEV0608;Software Quality Assurance Analyst;103
+year_1;2021-07;TIK.INF0704;System Engineer;68
+year_1;2021-07;TIK.DSC0605;Business Intelligence Analyst;62
+year_1;2021-07;TIK.ITG0703;ICT Project Manager;60
+year_1;2021-07;TIK.DEV0613;System Analyst;54
+year_1;2021-07;TIK.SRV0504;Associate IT Service Support Specialist;50
+year_1;2021-07;TIK.DSC0701;Data Scientist;37
+year_1;2021-07;TIK.DEV0502;Associate Programmer;32
+year_1;2021-07;TIK.DSC0604;Database Administrator;18
+year_1;2021-07;TIK.INF0510;Associate Security Engineer;18
+year_1;2021-07;TIK.INF0602;Network Administrator;16
+year_1;2021-07;TIK.DEV0404;Information Management Assistant;11
+year_1;2021-07;TIK.DSC0502;Associate Data Analyst;11
+year_1;2021-07;TIK.SEC0613;Information Security Analyst;10
+year_1;2021-07;TIK.INF0605;Computer Network Technician;10
+year_1;2021-07;TIK.SEC0601;Cybersecurity Analyst;10
+year_1;2021-07;TIK.INF0609;Network Architect;9
+year_1;2021-07;TIK.SRV0606;Web Administrator;9
+year_1;2021-07;TIK.SRV0702;IT Manager;8
+year_1;2021-07;TIK.DEV0603;Database Programmer;8
+year_1;2021-07;TIK.DEV0617;Multimedia Technical Supervisor;8
+year_1;2021-07;TIK.DEV0404;Information Management Assistant;7
+year_1;2021-07;TIK.DSC0201;Data Entry Operator;6
+year_1;2021-07;TIK.INF0704;System Engineer;5
+year_1;2021-07;TIK.SEC0703;Information Security Manager;4
+year_1;2021-07;TIK.SEC0503;Penetration Tester;4
+year_1;2021-07;TIK.SRV0301;Computer Operator Technician;4
+year_1;2021-07;TIK.SEC0706;Cryptographic Engineer;3
+year_1;2021-07;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;2
+year_1;2021-07;TIK.ITG0803;Head Of Program Management;2
+year_1;2021-07;TIK.INF0704;System Engineer;2
+year_1;2021-07;TIK.INF0201;Personal Computer Operator Staff;1
+year_1;2021-07;TIK.INF0304;Device Technician;1
+year_1;2021-08;TIK.DEV0708;Software Engineer;502
+year_1;2021-08;TIK.DEV0604;Web Developer;201
+year_1;2021-08;TIK.DEV0608;Software Quality Assurance Analyst;115
+year_1;2021-08;TIK.DSC0605;Business Intelligence Analyst;85
+year_1;2021-08;TIK.INF0704;System Engineer;67
+year_1;2021-08;TIK.ITG0703;ICT Project Manager;67
+year_1;2021-08;TIK.SRV0504;Associate IT Service Support Specialist;48
+year_1;2021-08;TIK.DEV0613;System Analyst;43
+year_1;2021-08;TIK.DSC0701;Data Scientist;39
+year_1;2021-08;TIK.DEV0502;Associate Programmer;22
+year_1;2021-08;TIK.DSC0604;Database Administrator;21
+year_1;2021-08;TIK.SRV0702;IT Manager;17
+year_1;2021-08;TIK.INF0510;Associate Security Engineer;12
+year_1;2021-08;TIK.INF0609;Network Architect;11
+year_1;2021-08;TIK.INF0602;Network Administrator;11
+year_1;2021-08;TIK.SRV0301;Computer Operator Technician;10
+year_1;2021-08;TIK.DSC0502;Associate Data Analyst;9
+year_1;2021-08;TIK.DEV0404;Information Management Assistant;8
+year_1;2021-08;TIK.SEC0613;Information Security Analyst;7
+year_1;2021-08;TIK.DEV0617;Multimedia Technical Supervisor;7
+year_1;2021-08;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;6
+year_1;2021-08;TIK.INF0605;Computer Network Technician;6
+year_1;2021-08;TIK.DEV0603;Database Programmer;6
+year_1;2021-08;TIK.DEV0404;Information Management Assistant;6
+year_1;2021-08;TIK.SEC0601;Cybersecurity Analyst;6
+year_1;2021-08;TIK.DSC0201;Data Entry Operator;6
+year_1;2021-08;TIK.SEC0706;Cryptographic Engineer;5
+year_1;2021-08;TIK.ITG0803;Head Of Program Management;5
+year_1;2021-08;TIK.INF0704;System Engineer;5
+year_1;2021-08;TIK.SRV0606;Web Administrator;4
+year_1;2021-08;TIK.SEC0503;Penetration Tester;4
+year_1;2021-08;TIK.SEC0703;Information Security Manager;2
+year_1;2021-08;TIK.INF0505;Associate Device Engineer;2
+year_1;2021-08;TIK.INF0704;System Engineer;2
+year_1;2021-08;TIK.INF0704;System Engineer;1
+year_1;2021-08;TIK.DEV0404;Information Management Assistant;1
+year_1;2021-08;TIK.INF0201;Personal Computer Operator Staff;1
+year_1;2021-09;TIK.DEV0708;Software Engineer;605
+year_1;2021-09;TIK.DEV0604;Web Developer;226
+year_1;2021-09;TIK.DEV0608;Software Quality Assurance Analyst;143
+year_1;2021-09;TIK.ITG0703;ICT Project Manager;77
+year_1;2021-09;TIK.DSC0605;Business Intelligence Analyst;77
+year_1;2021-09;TIK.SRV0504;Associate IT Service Support Specialist;64
+year_1;2021-09;TIK.INF0704;System Engineer;46
+year_1;2021-09;TIK.DEV0613;System Analyst;40
+year_1;2021-09;TIK.DSC0604;Database Administrator;24
+year_1;2021-09;TIK.DSC0701;Data Scientist;24
+year_1;2021-09;TIK.DEV0502;Associate Programmer;21
+year_1;2021-09;TIK.DSC0502;Associate Data Analyst;16
+year_1;2021-09;TIK.SEC0613;Information Security Analyst;15
+year_1;2021-09;TIK.INF0609;Network Architect;14
+year_1;2021-09;TIK.SEC0503;Penetration Tester;14
+year_1;2021-09;TIK.INF0510;Associate Security Engineer;13
+year_1;2021-09;TIK.INF0602;Network Administrator;12
+year_1;2021-09;TIK.DEV0617;Multimedia Technical Supervisor;12
+year_1;2021-09;TIK.DEV0404;Information Management Assistant;10
+year_1;2021-09;TIK.DEV0603;Database Programmer;9
+year_1;2021-09;TIK.SRV0301;Computer Operator Technician;9
+year_1;2021-09;TIK.SRV0606;Web Administrator;8
+year_1;2021-09;TIK.INF0704;System Engineer;8
+year_1;2021-09;TIK.SRV0702;IT Manager;7
+year_1;2021-09;TIK.DEV0404;Information Management Assistant;6
+year_1;2021-09;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;4
+year_1;2021-09;TIK.INF0605;Computer Network Technician;4
+year_1;2021-09;TIK.INF0505;Associate Device Engineer;4
+year_1;2021-09;TIK.SEC0601;Cybersecurity Analyst;4
+year_1;2021-09;TIK.DSC0201;Data Entry Operator;4
+year_1;2021-09;TIK.SEC0706;Cryptographic Engineer;3
+year_1;2021-09;TIK.INF0704;System Engineer;3
+year_1;2021-09;TIK.ITG0803;Head Of Program Management;2
+year_1;2021-09;TIK.SEC0703;Information Security Manager;1
+year_1;2021-09;TIK.DSC0607;Data Quality Engineer;1
+year_1;2021-09;TIK.INF0704;System Engineer;1
+year_1;2021-09;TIK.DEV0404;Information Management Assistant;1
+year_1;2021-09;TIK.INF0201;Personal Computer Operator Staff;1
+year_1;2021-09;TIK.SRV0301;Computer Operator Technician;1
+year_1;2021-10;TIK.DEV0708;Software Engineer;968
+year_1;2021-10;TIK.DEV0608;Software Quality Assurance Analyst;408
+year_1;2021-10;TIK.DEV0604;Web Developer;361
+year_1;2021-10;TIK.ITG0703;ICT Project Manager;203
+year_1;2021-10;TIK.DSC0605;Business Intelligence Analyst;195
+year_1;2021-10;TIK.SRV0504;Associate IT Service Support Specialist;155
+year_1;2021-10;TIK.INF0704;System Engineer;136
+year_1;2021-10;TIK.DEV0613;System Analyst;115
+year_1;2021-10;TIK.DEV0502;Associate Programmer;81
+year_1;2021-10;TIK.DSC0604;Database Administrator;65
+year_1;2021-10;TIK.SRV0702;IT Manager;62
+year_1;2021-10;TIK.INF0602;Network Administrator;60
+year_1;2021-10;TIK.DSC0701;Data Scientist;47
+year_1;2021-10;TIK.INF0609;Network Architect;44
+year_1;2021-10;TIK.INF0510;Associate Security Engineer;39
+year_1;2021-10;TIK.SRV0606;Web Administrator;34
+year_1;2021-10;TIK.DEV0617;Multimedia Technical Supervisor;31
+year_1;2021-10;TIK.SEC0613;Information Security Analyst;28
+year_1;2021-10;TIK.DEV0404;Information Management Assistant;26
+year_1;2021-10;TIK.SEC0503;Penetration Tester;25
+year_1;2021-10;TIK.SRV0301;Computer Operator Technician;25
+year_1;2021-10;TIK.SEC0703;Information Security Manager;23
+year_1;2021-10;TIK.INF0605;Computer Network Technician;22
+year_1;2021-10;TIK.DSC0502;Associate Data Analyst;18
+year_1;2021-10;TIK.DEV0603;Database Programmer;17
+year_1;2021-10;TIK.DSC0201;Data Entry Operator;13
+year_1;2021-10;TIK.DSC0607;Data Quality Engineer;12
+year_1;2021-10;TIK.INF0704;System Engineer;12
+year_1;2021-10;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;9
+year_1;2021-10;TIK.INF0704;System Engineer;9
+year_1;2021-10;TIK.ITG0803;Head Of Program Management;9
+year_1;2021-10;TIK.INF0505;Associate Device Engineer;7
+year_1;2021-10;TIK.SEC0706;Cryptographic Engineer;6
+year_1;2021-10;TIK.INF0304;Device Technician;5
+year_1;2021-10;TIK.INF0201;Personal Computer Operator Staff;4
+year_1;2021-10;TIK.DEV0404;Information Management Assistant;3
+year_1;2021-10;TIK.SEC0601;Cybersecurity Analyst;3
+year_1;2021-10;TIK.SRV0301;Computer Operator Technician;3
+year_1;2021-10;TIK.INF0704;System Engineer;1
+year_1;2021-10;TIK.DSC0301;Data Management Technician;1
+year_1;2021-10;TIK.INF0704;System Engineer;1
+year_1;2021-10;TIK.DEV0404;Information Management Assistant;1
+year_1;2021-11;TIK.DEV0708;Software Engineer;1177
+year_1;2021-11;TIK.DEV0604;Web Developer;441
+year_1;2021-11;TIK.DEV0608;Software Quality Assurance Analyst;228
+year_1;2021-11;TIK.DSC0605;Business Intelligence Analyst;213
+year_1;2021-11;TIK.ITG0703;ICT Project Manager;201
+year_1;2021-11;TIK.INF0704;System Engineer;170
+year_1;2021-11;TIK.DEV0613;System Analyst;149
+year_1;2021-11;TIK.SRV0504;Associate IT Service Support Specialist;144
+year_1;2021-11;TIK.DEV0502;Associate Programmer;143
+year_1;2021-11;TIK.SRV0702;IT Manager;66
+year_1;2021-11;TIK.DSC0604;Database Administrator;56
+year_1;2021-11;TIK.SRV0606;Web Administrator;50
+year_1;2021-11;TIK.DSC0701;Data Scientist;48
+year_1;2021-11;TIK.DEV0617;Multimedia Technical Supervisor;47
+year_1;2021-11;TIK.INF0609;Network Architect;45
+year_1;2021-11;TIK.INF0602;Network Administrator;43
+year_1;2021-11;TIK.DEV0404;Information Management Assistant;37
+year_1;2021-11;TIK.SEC0613;Information Security Analyst;36
+year_1;2021-11;TIK.SRV0301;Computer Operator Technician;34
+year_1;2021-11;TIK.INF0510;Associate Security Engineer;32
+year_1;2021-11;TIK.DSC0502;Associate Data Analyst;31
+year_1;2021-11;TIK.SEC0703;Information Security Manager;28
+year_1;2021-11;TIK.DEV0603;Database Programmer;23
+year_1;2021-11;TIK.INF0704;System Engineer;21
+year_1;2021-11;TIK.INF0605;Computer Network Technician;19
+year_1;2021-11;TIK.INF0704;System Engineer;19
+year_1;2021-11;TIK.ITG0803;Head Of Program Management;14
+year_1;2021-11;TIK.DSC0201;Data Entry Operator;13
+year_1;2021-11;TIK.INF0505;Associate Device Engineer;12
+year_1;2021-11;TIK.DSC0607;Data Quality Engineer;12
+year_1;2021-11;TIK.SEC0503;Penetration Tester;10
+year_1;2021-11;TIK.SEC0706;Cryptographic Engineer;10
+year_1;2021-11;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;9
+year_1;2021-11;TIK.SRV0301;Computer Operator Technician;9
+year_1;2021-11;TIK.DEV0404;Information Management Assistant;4
+year_1;2021-11;TIK.INF0304;Device Technician;4
+year_1;2021-11;TIK.INF0704;System Engineer;1
+year_1;2021-11;TIK.SEC0601;Cybersecurity Analyst;1
+year_1;2021-11;TIK.INF0302;Network Technician;1
+year_1;2021-12;TIK.DEV0708;Software Engineer;1128
+year_1;2021-12;TIK.DEV0604;Web Developer;432
+year_1;2021-12;TIK.DEV0608;Software Quality Assurance Analyst;254
+year_1;2021-12;TIK.ITG0703;ICT Project Manager;201
+year_1;2021-12;TIK.DSC0605;Business Intelligence Analyst;164
+year_1;2021-12;TIK.INF0704;System Engineer;160
+year_1;2021-12;TIK.SRV0504;Associate IT Service Support Specialist;135
+year_1;2021-12;TIK.DEV0613;System Analyst;132
+year_1;2021-12;TIK.DEV0502;Associate Programmer;124
+year_1;2021-12;TIK.DSC0604;Database Administrator;63
+year_1;2021-12;TIK.INF0609;Network Architect;61
+year_1;2021-12;TIK.SRV0702;IT Manager;60
+year_1;2021-12;TIK.DSC0701;Data Scientist;54
+year_1;2021-12;TIK.INF0602;Network Administrator;52
+year_1;2021-12;TIK.INF0510;Associate Security Engineer;47
+year_1;2021-12;TIK.SRV0606;Web Administrator;37
+year_1;2021-12;TIK.SEC0613;Information Security Analyst;36
+year_1;2021-12;TIK.SRV0301;Computer Operator Technician;31
+year_1;2021-12;TIK.DEV0404;Information Management Assistant;28
+year_1;2021-12;TIK.DEV0617;Multimedia Technical Supervisor;25
+year_1;2021-12;TIK.INF0605;Computer Network Technician;23
+year_1;2021-12;TIK.DSC0502;Associate Data Analyst;20
+year_1;2021-12;TIK.SEC0703;Information Security Manager;15
+year_1;2021-12;TIK.DEV0603;Database Programmer;15
+year_1;2021-12;TIK.INF0704;System Engineer;11
+year_1;2021-12;TIK.SEC0706;Cryptographic Engineer;10
+year_1;2021-12;TIK.INF0704;System Engineer;9
+year_1;2021-12;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;8
+year_1;2021-12;TIK.ITG0803;Head Of Program Management;8
+year_1;2021-12;TIK.DSC0607;Data Quality Engineer;6
+year_1;2021-12;TIK.DSC0201;Data Entry Operator;5
+year_1;2021-12;TIK.SEC0503;Penetration Tester;4
+year_1;2021-12;TIK.INF0505;Associate Device Engineer;3
+year_1;2021-12;TIK.DSC0701;Data Scientist;3
+year_1;2021-12;TIK.INF0304;Device Technician;3
+year_1;2021-12;TIK.SRV0301;Computer Operator Technician;3
+year_1;2021-12;TIK.DSC0301;Data Management Technician;2
+year_1;2021-12;TIK.DEV0404;Information Management Assistant;1
+year_1;2021-12;TIK.SEC0601;Cybersecurity Analyst;1
+year_1;2021-12;TIK.INF0201;Personal Computer Operator Staff;1
+year_1;2022-01;TIK.DEV0708;Software Engineer;1214
+year_1;2022-01;TIK.DEV0604;Web Developer;430
+year_1;2022-01;TIK.DEV0608;Software Quality Assurance Analyst;247
+year_1;2022-01;TIK.ITG0703;ICT Project Manager;233
+year_1;2022-01;TIK.DSC0605;Business Intelligence Analyst;222
+year_1;2022-01;TIK.SRV0504;Associate IT Service Support Specialist;180
+year_1;2022-01;TIK.INF0704;System Engineer;172
+year_1;2022-01;TIK.DEV0613;System Analyst;134
+year_1;2022-01;TIK.DEV0502;Associate Programmer;124
+year_1;2022-01;TIK.INF0609;Network Architect;68
+year_1;2022-01;TIK.DSC0604;Database Administrator;67
+year_1;2022-01;TIK.SRV0702;IT Manager;64
+year_1;2022-01;TIK.DSC0701;Data Scientist;59
+year_1;2022-01;TIK.INF0510;Associate Security Engineer;50
+year_1;2022-01;TIK.INF0602;Network Administrator;49
+year_1;2022-01;TIK.SRV0606;Web Administrator;49
+year_1;2022-01;TIK.DEV0404;Information Management Assistant;41
+year_1;2022-01;TIK.DEV0617;Multimedia Technical Supervisor;41
+year_1;2022-01;TIK.SEC0613;Information Security Analyst;40
+year_1;2022-01;TIK.INF0605;Computer Network Technician;36
+year_1;2022-01;TIK.SRV0301;Computer Operator Technician;36
+year_1;2022-01;TIK.DSC0502;Associate Data Analyst;33
+year_1;2022-01;TIK.SEC0703;Information Security Manager;23
+year_1;2022-01;TIK.SEC0503;Penetration Tester;19
+year_1;2022-01;TIK.DEV0603;Database Programmer;17
+year_1;2022-01;TIK.SEC0706;Cryptographic Engineer;12
+year_1;2022-01;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;11
+year_1;2022-01;TIK.ITG0803;Head Of Program Management;10
+year_1;2022-01;TIK.INF0704;System Engineer;9
+year_1;2022-01;TIK.INF0704;System Engineer;9
+year_1;2022-01;TIK.SRV0301;Computer Operator Technician;8
+year_1;2022-01;TIK.DSC0607;Data Quality Engineer;7
+year_1;2022-01;TIK.SEC0601;Cybersecurity Analyst;4
+year_1;2022-01;TIK.DSC0201;Data Entry Operator;3
+year_1;2022-01;TIK.INF0505;Associate Device Engineer;2
+year_1;2022-01;TIK.DEV0404;Information Management Assistant;2
+year_1;2022-01;TIK.INF0304;Device Technician;2
+year_1;2022-01;TIK.SEC0709;Digital Forensic Analyst;1
+year_1;2022-01;TIK.DSC0301;Data Management Technician;1
+year_1;2022-01;TIK.DSC0701;Data Scientist;1
+year_1;2022-01;TIK.INF0704;System Engineer;1
+year_1;2022-01;TIK.DEV0404;Information Management Assistant;1
+year_1;2022-01;TIK.INF0201;Personal Computer Operator Staff;1
+year_1;2022-01;TIK.SRV0302;Computer Repair Technician;1
+year_1;2022-02;TIK.DEV0708;Software Engineer;1084
+year_1;2022-02;TIK.DEV0604;Web Developer;429
+year_1;2022-02;TIK.DEV0608;Software Quality Assurance Analyst;234
+year_1;2022-02;TIK.ITG0703;ICT Project Manager;227
+year_1;2022-02;TIK.DSC0605;Business Intelligence Analyst;165
+year_1;2022-02;TIK.SRV0504;Associate IT Service Support Specialist;146
+year_1;2022-02;TIK.INF0704;System Engineer;139
+year_1;2022-02;TIK.DEV0502;Associate Programmer;117
+year_1;2022-02;TIK.DEV0613;System Analyst;100
+year_1;2022-02;TIK.INF0609;Network Architect;65
+year_1;2022-02;TIK.SRV0702;IT Manager;64
+year_1;2022-02;TIK.INF0602;Network Administrator;61
+year_1;2022-02;TIK.DSC0604;Database Administrator;59
+year_1;2022-02;TIK.DSC0701;Data Scientist;45
+year_1;2022-02;TIK.DEV0404;Information Management Assistant;38
+year_1;2022-02;TIK.SRV0606;Web Administrator;36
+year_1;2022-02;TIK.SEC0613;Information Security Analyst;32
+year_1;2022-02;TIK.INF0510;Associate Security Engineer;31
+year_1;2022-02;TIK.SRV0301;Computer Operator Technician;30
+year_1;2022-02;TIK.DSC0502;Associate Data Analyst;30
+year_1;2022-02;TIK.SEC0703;Information Security Manager;28
+year_1;2022-02;TIK.DEV0617;Multimedia Technical Supervisor;22
+year_1;2022-02;TIK.INF0605;Computer Network Technician;21
+year_1;2022-02;TIK.SEC0503;Penetration Tester;19
+year_1;2022-02;TIK.DEV0603;Database Programmer;16
+year_1;2022-02;TIK.SEC0706;Cryptographic Engineer;13
+year_1;2022-02;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;10
+year_1;2022-02;TIK.INF0704;System Engineer;10
+year_1;2022-02;TIK.ITG0803;Head Of Program Management;9
+year_1;2022-02;TIK.DSC0607;Data Quality Engineer;8
+year_1;2022-02;TIK.INF0505;Associate Device Engineer;7
+year_1;2022-02;TIK.SRV0301;Computer Operator Technician;7
+year_1;2022-02;TIK.INF0704;System Engineer;6
+year_1;2022-02;TIK.DEV0404;Information Management Assistant;4
+year_1;2022-02;TIK.DSC0201;Data Entry Operator;4
+year_1;2022-02;TIK.INF0704;System Engineer;3
+year_1;2022-02;TIK.SEC0601;Cybersecurity Analyst;3
+year_1;2022-02;TIK.INF0304;Device Technician;2
+year_1;2022-02;TIK.INF0704;System Engineer;1
+year_1;2022-02;TIK.DSC0301;Data Management Technician;1
+year_1;2022-02;TIK.DSC0701;Data Scientist;1
+year_1;2022-02;TIK.DEV0404;Information Management Assistant;1
+year_1;2022-02;TIK.INF0302;Network Technician;1
+year_1;2022-03;TIK.DEV0708;Software Engineer;1369
+year_1;2022-03;TIK.DEV0604;Web Developer;471
+year_1;2022-03;TIK.ITG0703;ICT Project Manager;313
+year_1;2022-03;TIK.DEV0608;Software Quality Assurance Analyst;293
+year_1;2022-03;TIK.INF0704;System Engineer;219
+year_1;2022-03;TIK.DSC0605;Business Intelligence Analyst;219
+year_1;2022-03;TIK.SRV0504;Associate IT Service Support Specialist;195
+year_1;2022-03;TIK.DEV0613;System Analyst;162
+year_1;2022-03;TIK.DEV0502;Associate Programmer;138
+year_1;2022-03;TIK.DSC0604;Database Administrator;83
+year_1;2022-03;TIK.SRV0702;IT Manager;70
+year_1;2022-03;TIK.INF0602;Network Administrator;69
+year_1;2022-03;TIK.DSC0701;Data Scientist;65
+year_1;2022-03;TIK.INF0609;Network Architect;62
+year_1;2022-03;TIK.INF0510;Associate Security Engineer;53
+year_1;2022-03;TIK.DEV0617;Multimedia Technical Supervisor;51
+year_1;2022-03;TIK.DEV0404;Information Management Assistant;50
+year_1;2022-03;TIK.SRV0606;Web Administrator;47
+year_1;2022-03;TIK.SEC0613;Information Security Analyst;45
+year_1;2022-03;TIK.SRV0301;Computer Operator Technician;31
+year_1;2022-03;TIK.INF0704;System Engineer;29
+year_1;2022-03;TIK.SEC0703;Information Security Manager;27
+year_1;2022-03;TIK.DSC0502;Associate Data Analyst;27
+year_1;2022-03;TIK.INF0605;Computer Network Technician;24
+year_1;2022-03;TIK.SEC0706;Cryptographic Engineer;22
+year_1;2022-03;TIK.DEV0603;Database Programmer;20
+year_1;2022-03;TIK.SEC0503;Penetration Tester;14
+year_1;2022-03;TIK.INF0704;System Engineer;14
+year_1;2022-03;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;13
+year_1;2022-03;TIK.DSC0607;Data Quality Engineer;11
+year_1;2022-03;TIK.DSC0201;Data Entry Operator;11
+year_1;2022-03;TIK.ITG0803;Head Of Program Management;10
+year_1;2022-03;TIK.INF0505;Associate Device Engineer;7
+year_1;2022-03;TIK.INF0304;Device Technician;5
+year_1;2022-03;TIK.SRV0301;Computer Operator Technician;4
+year_1;2022-03;TIK.INF0704;System Engineer;3
+year_1;2022-03;TIK.DSC0701;Data Scientist;2
+year_1;2022-03;TIK.DEV0404;Information Management Assistant;2
+year_1;2022-03;TIK.INF0201;Personal Computer Operator Staff;2
+year_1;2022-03;TIK.DSC0301;Data Management Technician;1
+year_1;2022-03;TIK.DEV0404;Information Management Assistant;1
+year_1;2022-03;TIK.SEC0601;Cybersecurity Analyst;1
+year_1;2022-04;TIK.DEV0708;Software Engineer;1209
+year_1;2022-04;TIK.DEV0604;Web Developer;434
+year_1;2022-04;TIK.ITG0703;ICT Project Manager;235
+year_1;2022-04;TIK.DEV0608;Software Quality Assurance Analyst;210
+year_1;2022-04;TIK.INF0704;System Engineer;188
+year_1;2022-04;TIK.SRV0504;Associate IT Service Support Specialist;174
+year_1;2022-04;TIK.DSC0605;Business Intelligence Analyst;170
+year_1;2022-04;TIK.DEV0613;System Analyst;129
+year_1;2022-04;TIK.DEV0502;Associate Programmer;122
+year_1;2022-04;TIK.SRV0702;IT Manager;67
+year_1;2022-04;TIK.DSC0604;Database Administrator;67
+year_1;2022-04;TIK.INF0602;Network Administrator;66
+year_1;2022-04;TIK.DSC0701;Data Scientist;60
+year_1;2022-04;TIK.INF0609;Network Architect;50
+year_1;2022-04;TIK.SEC0613;Information Security Analyst;49
+year_1;2022-04;TIK.INF0510;Associate Security Engineer;41
+year_1;2022-04;TIK.SRV0606;Web Administrator;36
+year_1;2022-04;TIK.DEV0617;Multimedia Technical Supervisor;35
+year_1;2022-04;TIK.DSC0502;Associate Data Analyst;32
+year_1;2022-04;TIK.SRV0301;Computer Operator Technician;31
+year_1;2022-04;TIK.DEV0404;Information Management Assistant;30
+year_1;2022-04;TIK.SEC0703;Information Security Manager;24
+year_1;2022-04;TIK.DEV0603;Database Programmer;24
+year_1;2022-04;TIK.INF0605;Computer Network Technician;15
+year_1;2022-04;TIK.INF0704;System Engineer;14
+year_1;2022-04;TIK.ITG0803;Head Of Program Management;14
+year_1;2022-04;TIK.SEC0503;Penetration Tester;12
+year_1;2022-04;TIK.SEC0706;Cryptographic Engineer;10
+year_1;2022-04;TIK.INF0704;System Engineer;10
+year_1;2022-04;TIK.DSC0607;Data Quality Engineer;9
+year_1;2022-04;TIK.DSC0201;Data Entry Operator;7
+year_1;2022-04;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;6
+year_1;2022-04;TIK.INF0505;Associate Device Engineer;6
+year_1;2022-04;TIK.SRV0301;Computer Operator Technician;5
+year_1;2022-04;TIK.INF0304;Device Technician;4
+year_1;2022-04;TIK.INF0704;System Engineer;3
+year_1;2022-04;TIK.SEC0601;Cybersecurity Analyst;3
+year_1;2022-04;TIK.INF0201;Personal Computer Operator Staff;2
+year_1;2022-04;TIK.DSC0301;Data Management Technician;1
+year_1;2022-04;TIK.DSC0701;Data Scientist;1
+year_1;2022-04;TIK.SRV0302;Computer Repair Technician;1
+year_2;2022-05;TIK.DEV0708;Software Engineer;1002
+year_2;2022-05;TIK.DEV0604;Web Developer;356
+year_2;2022-05;TIK.DEV0608;Software Quality Assurance Analyst;231
+year_2;2022-05;TIK.SRV0504;Associate IT Service Support Specialist;181
+year_2;2022-05;TIK.ITG0703;ICT Project Manager;167
+year_2;2022-05;TIK.DSC0605;Business Intelligence Analyst;156
+year_2;2022-05;TIK.INF0704;System Engineer;144
+year_2;2022-05;TIK.DEV0502;Associate Programmer;115
+year_2;2022-05;TIK.DEV0613;System Analyst;109
+year_2;2022-05;TIK.DSC0604;Database Administrator;72
+year_2;2022-05;TIK.SRV0702;IT Manager;58
+year_2;2022-05;TIK.DSC0701;Data Scientist;58
+year_2;2022-05;TIK.INF0609;Network Architect;55
+year_2;2022-05;TIK.INF0510;Associate Security Engineer;49
+year_2;2022-05;TIK.DEV0617;Multimedia Technical Supervisor;45
+year_2;2022-05;TIK.INF0602;Network Administrator;44
+year_2;2022-05;TIK.SEC0613;Information Security Analyst;41
+year_2;2022-05;TIK.SRV0301;Computer Operator Technician;37
+year_2;2022-05;TIK.SRV0606;Web Administrator;30
+year_2;2022-05;TIK.INF0605;Computer Network Technician;29
+year_2;2022-05;TIK.DEV0404;Information Management Assistant;28
+year_2;2022-05;TIK.INF0704;System Engineer;24
+year_2;2022-05;TIK.DSC0502;Associate Data Analyst;22
+year_2;2022-05;TIK.SEC0703;Information Security Manager;20
+year_2;2022-05;TIK.SEC0503;Penetration Tester;16
+year_2;2022-05;TIK.SEC0706;Cryptographic Engineer;15
+year_2;2022-05;TIK.DSC0201;Data Entry Operator;15
+year_2;2022-05;TIK.ITG0803;Head Of Program Management;14
+year_2;2022-05;TIK.DEV0603;Database Programmer;12
+year_2;2022-05;TIK.DSC0607;Data Quality Engineer;12
+year_2;2022-05;TIK.INF0704;System Engineer;11
+year_2;2022-05;TIK.SRV0301;Computer Operator Technician;9
+year_2;2022-05;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;8
+year_2;2022-05;TIK.INF0304;Device Technician;5
+year_2;2022-05;TIK.INF0505;Associate Device Engineer;4
+year_2;2022-05;TIK.SEC0601;Cybersecurity Analyst;4
+year_2;2022-05;TIK.DSC0701;Data Scientist;3
+year_2;2022-05;TIK.INF0201;Personal Computer Operator Staff;3
+year_2;2022-05;TIK.INF0704;System Engineer;2
+year_2;2022-05;TIK.DEV0404;Information Management Assistant;2
+year_2;2022-05;TIK.SEC0709;Digital Forensic Analyst;1
+year_2;2022-05;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-05;TIK.INF0302;Network Technician;1
+year_2;2022-06;TIK.DEV0708;Software Engineer;1289
+year_2;2022-06;TIK.DEV0604;Web Developer;415
+year_2;2022-06;TIK.DEV0608;Software Quality Assurance Analyst;323
+year_2;2022-06;TIK.ITG0703;ICT Project Manager;261
+year_2;2022-06;TIK.SRV0504;Associate IT Service Support Specialist;201
+year_2;2022-06;TIK.INF0704;System Engineer;186
+year_2;2022-06;TIK.DEV0613;System Analyst;177
+year_2;2022-06;TIK.DSC0605;Business Intelligence Analyst;163
+year_2;2022-06;TIK.DEV0502;Associate Programmer;139
+year_2;2022-06;TIK.SRV0702;IT Manager;80
+year_2;2022-06;TIK.DSC0604;Database Administrator;80
+year_2;2022-06;TIK.INF0609;Network Architect;68
+year_2;2022-06;TIK.INF0602;Network Administrator;63
+year_2;2022-06;TIK.DSC0701;Data Scientist;61
+year_2;2022-06;TIK.DEV0617;Multimedia Technical Supervisor;50
+year_2;2022-06;TIK.INF0510;Associate Security Engineer;47
+year_2;2022-06;TIK.DEV0404;Information Management Assistant;42
+year_2;2022-06;TIK.SRV0606;Web Administrator;41
+year_2;2022-06;TIK.SRV0301;Computer Operator Technician;41
+year_2;2022-06;TIK.SEC0613;Information Security Analyst;35
+year_2;2022-06;TIK.SEC0703;Information Security Manager;33
+year_2;2022-06;TIK.DSC0502;Associate Data Analyst;29
+year_2;2022-06;TIK.INF0605;Computer Network Technician;27
+year_2;2022-06;TIK.DEV0603;Database Programmer;21
+year_2;2022-06;TIK.INF0704;System Engineer;17
+year_2;2022-06;TIK.DSC0701;Data Scientist;16
+year_2;2022-06;TIK.SEC0503;Penetration Tester;14
+year_2;2022-06;TIK.DSC0201;Data Entry Operator;14
+year_2;2022-06;TIK.SEC0706;Cryptographic Engineer;13
+year_2;2022-06;TIK.ITG0803;Head Of Program Management;13
+year_2;2022-06;TIK.DSC0607;Data Quality Engineer;11
+year_2;2022-06;TIK.INF0704;System Engineer;11
+year_2;2022-06;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;8
+year_2;2022-06;TIK.INF0304;Device Technician;8
+year_2;2022-06;TIK.SRV0301;Computer Operator Technician;6
+year_2;2022-06;TIK.INF0505;Associate Device Engineer;4
+year_2;2022-06;TIK.DEV0404;Information Management Assistant;4
+year_2;2022-06;TIK.INF0704;System Engineer;3
+year_2;2022-06;TIK.SRV0302;Computer Repair Technician;2
+year_2;2022-06;TIK.SEC0709;Digital Forensic Analyst;1
+year_2;2022-06;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-06;TIK.SEC0601;Cybersecurity Analyst;1
+year_2;2022-07;TIK.DEV0708;Software Engineer;1196
+year_2;2022-07;TIK.DEV0604;Web Developer;423
+year_2;2022-07;TIK.DEV0608;Software Quality Assurance Analyst;349
+year_2;2022-07;TIK.ITG0703;ICT Project Manager;250
+year_2;2022-07;TIK.INF0704;System Engineer;189
+year_2;2022-07;TIK.DEV0613;System Analyst;174
+year_2;2022-07;TIK.DSC0605;Business Intelligence Analyst;173
+year_2;2022-07;TIK.SRV0504;Associate IT Service Support Specialist;163
+year_2;2022-07;TIK.DEV0502;Associate Programmer;134
+year_2;2022-07;TIK.DSC0604;Database Administrator;100
+year_2;2022-07;TIK.INF0602;Network Administrator;74
+year_2;2022-07;TIK.SRV0702;IT Manager;70
+year_2;2022-07;TIK.SEC0613;Information Security Analyst;59
+year_2;2022-07;TIK.INF0609;Network Architect;55
+year_2;2022-07;TIK.INF0510;Associate Security Engineer;53
+year_2;2022-07;TIK.DSC0701;Data Scientist;48
+year_2;2022-07;TIK.DSC0502;Associate Data Analyst;45
+year_2;2022-07;TIK.SRV0606;Web Administrator;44
+year_2;2022-07;TIK.DEV0404;Information Management Assistant;41
+year_2;2022-07;TIK.DEV0617;Multimedia Technical Supervisor;41
+year_2;2022-07;TIK.SRV0301;Computer Operator Technician;41
+year_2;2022-07;TIK.INF0605;Computer Network Technician;31
+year_2;2022-07;TIK.SEC0703;Information Security Manager;26
+year_2;2022-07;TIK.DEV0603;Database Programmer;24
+year_2;2022-07;TIK.ITG0803;Head Of Program Management;22
+year_2;2022-07;TIK.INF0704;System Engineer;18
+year_2;2022-07;TIK.SEC0706;Cryptographic Engineer;12
+year_2;2022-07;TIK.SEC0503;Penetration Tester;10
+year_2;2022-07;TIK.INF0704;System Engineer;10
+year_2;2022-07;TIK.SRV0301;Computer Operator Technician;10
+year_2;2022-07;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;8
+year_2;2022-07;TIK.INF0505;Associate Device Engineer;7
+year_2;2022-07;TIK.DSC0607;Data Quality Engineer;6
+year_2;2022-07;TIK.DSC0201;Data Entry Operator;6
+year_2;2022-07;TIK.INF0704;System Engineer;5
+year_2;2022-07;TIK.INF0304;Device Technician;4
+year_2;2022-07;TIK.SEC0601;Cybersecurity Analyst;2
+year_2;2022-07;TIK.SRV0302;Computer Repair Technician;1
+year_2;2022-07;TIK.INF0302;Network Technician;1
+year_2;2022-08;TIK.DEV0708;Software Engineer;1127
+year_2;2022-08;TIK.DEV0604;Web Developer;364
+year_2;2022-08;TIK.DEV0608;Software Quality Assurance Analyst;252
+year_2;2022-08;TIK.ITG0703;ICT Project Manager;245
+year_2;2022-08;TIK.INF0704;System Engineer;171
+year_2;2022-08;TIK.SRV0504;Associate IT Service Support Specialist;158
+year_2;2022-08;TIK.DEV0613;System Analyst;151
+year_2;2022-08;TIK.DSC0605;Business Intelligence Analyst;134
+year_2;2022-08;TIK.DEV0502;Associate Programmer;98
+year_2;2022-08;TIK.DSC0604;Database Administrator;63
+year_2;2022-08;TIK.SRV0702;IT Manager;55
+year_2;2022-08;TIK.SEC0613;Information Security Analyst;53
+year_2;2022-08;TIK.INF0609;Network Architect;51
+year_2;2022-08;TIK.INF0510;Associate Security Engineer;46
+year_2;2022-08;TIK.INF0602;Network Administrator;43
+year_2;2022-08;TIK.DSC0701;Data Scientist;41
+year_2;2022-08;TIK.DEV0617;Multimedia Technical Supervisor;33
+year_2;2022-08;TIK.SRV0301;Computer Operator Technician;31
+year_2;2022-08;TIK.SRV0606;Web Administrator;30
+year_2;2022-08;TIK.DEV0404;Information Management Assistant;25
+year_2;2022-08;TIK.DSC0502;Associate Data Analyst;22
+year_2;2022-08;TIK.SEC0703;Information Security Manager;20
+year_2;2022-08;TIK.INF0605;Computer Network Technician;19
+year_2;2022-08;TIK.DEV0603;Database Programmer;15
+year_2;2022-08;TIK.INF0704;System Engineer;14
+year_2;2022-08;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;13
+year_2;2022-08;TIK.INF0704;System Engineer;13
+year_2;2022-08;TIK.ITG0803;Head Of Program Management;13
+year_2;2022-08;TIK.DSC0201;Data Entry Operator;13
+year_2;2022-08;TIK.SEC0503;Penetration Tester;11
+year_2;2022-08;TIK.SEC0706;Cryptographic Engineer;11
+year_2;2022-08;TIK.SRV0301;Computer Operator Technician;9
+year_2;2022-08;TIK.DSC0607;Data Quality Engineer;7
+year_2;2022-08;TIK.INF0505;Associate Device Engineer;4
+year_2;2022-08;TIK.INF0304;Device Technician;4
+year_2;2022-08;TIK.DSC0701;Data Scientist;2
+year_2;2022-08;TIK.DEV0404;Information Management Assistant;2
+year_2;2022-08;TIK.SEC0709;Digital Forensic Analyst;1
+year_2;2022-08;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-08;TIK.INF0302;Network Technician;1
+year_2;2022-09;TIK.DEV0708;Software Engineer;1134
+year_2;2022-09;TIK.DEV0604;Web Developer;391
+year_2;2022-09;TIK.ITG0703;ICT Project Manager;274
+year_2;2022-09;TIK.DEV0608;Software Quality Assurance Analyst;257
+year_2;2022-09;TIK.SRV0504;Associate IT Service Support Specialist;210
+year_2;2022-09;TIK.INF0704;System Engineer;192
+year_2;2022-09;TIK.DEV0613;System Analyst;165
+year_2;2022-09;TIK.DSC0605;Business Intelligence Analyst;161
+year_2;2022-09;TIK.DEV0502;Associate Programmer;123
+year_2;2022-09;TIK.SRV0702;IT Manager;98
+year_2;2022-09;TIK.DSC0604;Database Administrator;85
+year_2;2022-09;TIK.SEC0613;Information Security Analyst;66
+year_2;2022-09;TIK.DSC0701;Data Scientist;65
+year_2;2022-09;TIK.INF0602;Network Administrator;64
+year_2;2022-09;TIK.INF0609;Network Architect;60
+year_2;2022-09;TIK.DEV0404;Information Management Assistant;59
+year_2;2022-09;TIK.SRV0606;Web Administrator;57
+year_2;2022-09;TIK.DEV0617;Multimedia Technical Supervisor;55
+year_2;2022-09;TIK.INF0510;Associate Security Engineer;46
+year_2;2022-09;TIK.SRV0301;Computer Operator Technician;44
+year_2;2022-09;TIK.INF0605;Computer Network Technician;41
+year_2;2022-09;TIK.DSC0502;Associate Data Analyst;41
+year_2;2022-09;TIK.SEC0703;Information Security Manager;39
+year_2;2022-09;TIK.DEV0603;Database Programmer;24
+year_2;2022-09;TIK.ITG0803;Head Of Program Management;19
+year_2;2022-09;TIK.SEC0503;Penetration Tester;17
+year_2;2022-09;TIK.SRV0301;Computer Operator Technician;14
+year_2;2022-09;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;13
+year_2;2022-09;TIK.INF0704;System Engineer;13
+year_2;2022-09;TIK.SEC0706;Cryptographic Engineer;11
+year_2;2022-09;TIK.INF0704;System Engineer;11
+year_2;2022-09;TIK.INF0304;Device Technician;10
+year_2;2022-09;TIK.DSC0607;Data Quality Engineer;9
+year_2;2022-09;TIK.DSC0201;Data Entry Operator;5
+year_2;2022-09;TIK.INF0505;Associate Device Engineer;3
+year_2;2022-09;TIK.DSC0701;Data Scientist;3
+year_2;2022-09;TIK.INF0201;Personal Computer Operator Staff;3
+year_2;2022-09;TIK.INF0302;Network Technician;2
+year_2;2022-09;TIK.INF0704;System Engineer;1
+year_2;2022-09;TIK.DSC0301;Data Management Technician;1
+year_2;2022-09;TIK.INF0704;System Engineer;1
+year_2;2022-09;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-09;TIK.SEC0601;Cybersecurity Analyst;1
+year_2;2022-10;TIK.DEV0708;Software Engineer;1056
+year_2;2022-10;TIK.DEV0604;Web Developer;342
+year_2;2022-10;TIK.ITG0703;ICT Project Manager;246
+year_2;2022-10;TIK.DEV0608;Software Quality Assurance Analyst;244
+year_2;2022-10;TIK.INF0704;System Engineer;211
+year_2;2022-10;TIK.SRV0504;Associate IT Service Support Specialist;187
+year_2;2022-10;TIK.DSC0605;Business Intelligence Analyst;170
+year_2;2022-10;TIK.DEV0613;System Analyst;158
+year_2;2022-10;TIK.DEV0502;Associate Programmer;115
+year_2;2022-10;TIK.DSC0604;Database Administrator;90
+year_2;2022-10;TIK.SRV0702;IT Manager;69
+year_2;2022-10;TIK.INF0602;Network Administrator;68
+year_2;2022-10;TIK.INF0609;Network Architect;66
+year_2;2022-10;TIK.SEC0613;Information Security Analyst;60
+year_2;2022-10;TIK.INF0510;Associate Security Engineer;55
+year_2;2022-10;TIK.DEV0404;Information Management Assistant;51
+year_2;2022-10;TIK.DEV0617;Multimedia Technical Supervisor;45
+year_2;2022-10;TIK.SRV0606;Web Administrator;44
+year_2;2022-10;TIK.DSC0502;Associate Data Analyst;40
+year_2;2022-10;TIK.SRV0301;Computer Operator Technician;35
+year_2;2022-10;TIK.DSC0701;Data Scientist;32
+year_2;2022-10;TIK.SEC0703;Information Security Manager;28
+year_2;2022-10;TIK.INF0605;Computer Network Technician;24
+year_2;2022-10;TIK.DEV0603;Database Programmer;23
+year_2;2022-10;TIK.ITG0803;Head Of Program Management;21
+year_2;2022-10;TIK.SEC0503;Penetration Tester;16
+year_2;2022-10;TIK.INF0704;System Engineer;14
+year_2;2022-10;TIK.DSC0201;Data Entry Operator;14
+year_2;2022-10;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;10
+year_2;2022-10;TIK.DSC0607;Data Quality Engineer;10
+year_2;2022-10;TIK.SRV0301;Computer Operator Technician;9
+year_2;2022-10;TIK.SEC0706;Cryptographic Engineer;8
+year_2;2022-10;TIK.INF0704;System Engineer;8
+year_2;2022-10;TIK.SEC0601;Cybersecurity Analyst;8
+year_2;2022-10;TIK.INF0304;Device Technician;7
+year_2;2022-10;TIK.INF0505;Associate Device Engineer;5
+year_2;2022-10;TIK.INF0704;System Engineer;4
+year_2;2022-10;TIK.SEC0709;Digital Forensic Analyst;3
+year_2;2022-10;TIK.DSC0701;Data Scientist;1
+year_2;2022-10;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-10;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-10;TIK.INF0201;Personal Computer Operator Staff;1
+year_2;2022-11;TIK.DEV0708;Software Engineer;1101
+year_2;2022-11;TIK.DEV0604;Web Developer;350
+year_2;2022-11;TIK.ITG0703;ICT Project Manager;250
+year_2;2022-11;TIK.DEV0608;Software Quality Assurance Analyst;228
+year_2;2022-11;TIK.INF0704;System Engineer;208
+year_2;2022-11;TIK.DSC0605;Business Intelligence Analyst;169
+year_2;2022-11;TIK.SRV0504;Associate IT Service Support Specialist;135
+year_2;2022-11;TIK.DEV0613;System Analyst;117
+year_2;2022-11;TIK.DEV0502;Associate Programmer;97
+year_2;2022-11;TIK.DSC0604;Database Administrator;87
+year_2;2022-11;TIK.INF0602;Network Administrator;81
+year_2;2022-11;TIK.SRV0702;IT Manager;67
+year_2;2022-11;TIK.SEC0613;Information Security Analyst;60
+year_2;2022-11;TIK.INF0609;Network Architect;60
+year_2;2022-11;TIK.SRV0606;Web Administrator;49
+year_2;2022-11;TIK.INF0510;Associate Security Engineer;49
+year_2;2022-11;TIK.DSC0701;Data Scientist;49
+year_2;2022-11;TIK.DEV0617;Multimedia Technical Supervisor;46
+year_2;2022-11;TIK.SRV0301;Computer Operator Technician;39
+year_2;2022-11;TIK.DEV0404;Information Management Assistant;34
+year_2;2022-11;TIK.INF0605;Computer Network Technician;29
+year_2;2022-11;TIK.SEC0703;Information Security Manager;28
+year_2;2022-11;TIK.DSC0502;Associate Data Analyst;28
+year_2;2022-11;TIK.DSC0201;Data Entry Operator;18
+year_2;2022-11;TIK.DEV0603;Database Programmer;17
+year_2;2022-11;TIK.SEC0503;Penetration Tester;17
+year_2;2022-11;TIK.INF0704;System Engineer;16
+year_2;2022-11;TIK.ITG0803;Head Of Program Management;14
+year_2;2022-11;TIK.SEC0706;Cryptographic Engineer;10
+year_2;2022-11;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;8
+year_2;2022-11;TIK.INF0304;Device Technician;7
+year_2;2022-11;TIK.INF0505;Associate Device Engineer;6
+year_2;2022-11;TIK.INF0704;System Engineer;6
+year_2;2022-11;TIK.DSC0701;Data Scientist;4
+year_2;2022-11;TIK.SEC0601;Cybersecurity Analyst;4
+year_2;2022-11;TIK.SRV0301;Computer Operator Technician;4
+year_2;2022-11;TIK.DSC0607;Data Quality Engineer;3
+year_2;2022-11;TIK.INF0704;System Engineer;2
+year_2;2022-11;TIK.DEV0404;Information Management Assistant;2
+year_2;2022-11;TIK.INF0704;System Engineer;1
+year_2;2022-11;TIK.DEV0404;Information Management Assistant;1
+year_2;2022-11;TIK.INF0201;Personal Computer Operator Staff;1
+year_2;2022-12;TIK.DEV0708;Software Engineer;864
+year_2;2022-12;TIK.DEV0604;Web Developer;276
+year_2;2022-12;TIK.ITG0703;ICT Project Manager;219
+year_2;2022-12;TIK.DEV0608;Software Quality Assurance Analyst;149
+year_2;2022-12;TIK.INF0704;System Engineer;143
+year_2;2022-12;TIK.DSC0605;Business Intelligence Analyst;129
+year_2;2022-12;TIK.SRV0504;Associate IT Service Support Specialist;119
+year_2;2022-12;TIK.DEV0613;System Analyst;112
+year_2;2022-12;TIK.DEV0502;Associate Programmer;99
+year_2;2022-12;TIK.DSC0604;Database Administrator;80
+year_2;2022-12;TIK.SRV0702;IT Manager;56
+year_2;2022-12;TIK.INF0602;Network Administrator;49
+year_2;2022-12;TIK.INF0609;Network Architect;44
+year_2;2022-12;TIK.DEV0404;Information Management Assistant;44
+year_2;2022-12;TIK.INF0510;Associate Security Engineer;44
+year_2;2022-12;TIK.DSC0502;Associate Data Analyst;44
+year_2;2022-12;TIK.DSC0701;Data Scientist;43
+year_2;2022-12;TIK.SRV0606;Web Administrator;42
+year_2;2022-12;TIK.SEC0613;Information Security Analyst;38
+year_2;2022-12;TIK.DEV0617;Multimedia Technical Supervisor;38
+year_2;2022-12;TIK.SRV0301;Computer Operator Technician;34
+year_2;2022-12;TIK.SEC0703;Information Security Manager;28
+year_2;2022-12;TIK.INF0605;Computer Network Technician;16
+year_2;2022-12;TIK.DEV0603;Database Programmer;16
+year_2;2022-12;TIK.SEC0503;Penetration Tester;15
+year_2;2022-12;TIK.ITG0803;Head Of Program Management;15
+year_2;2022-12;TIK.SEC0706;Cryptographic Engineer;10
+year_2;2022-12;TIK.INF0704;System Engineer;10
+year_2;2022-12;TIK.DSC0201;Data Entry Operator;10
+year_2;2022-12;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;9
+year_2;2022-12;TIK.INF0505;Associate Device Engineer;6
+year_2;2022-12;TIK.INF0704;System Engineer;6
+year_2;2022-12;TIK.DSC0607;Data Quality Engineer;4
+year_2;2022-12;TIK.DSC0701;Data Scientist;3
+year_2;2022-12;TIK.INF0304;Device Technician;3
+year_2;2022-12;TIK.SEC0601;Cybersecurity Analyst;2
+year_2;2022-12;TIK.SRV0301;Computer Operator Technician;2
+year_2;2022-12;TIK.INF0704;System Engineer;1
+year_2;2022-12;TIK.INF0201;Personal Computer Operator Staff;1
+year_2;2023-01;TIK.DEV0708;Software Engineer;885
+year_2;2023-01;TIK.DEV0604;Web Developer;280
+year_2;2023-01;TIK.ITG0703;ICT Project Manager;247
+year_2;2023-01;TIK.DEV0608;Software Quality Assurance Analyst;167
+year_2;2023-01;TIK.INF0704;System Engineer;163
+year_2;2023-01;TIK.SRV0504;Associate IT Service Support Specialist;142
+year_2;2023-01;TIK.DSC0605;Business Intelligence Analyst;133
+year_2;2023-01;TIK.DEV0613;System Analyst;125
+year_2;2023-01;TIK.DEV0502;Associate Programmer;100
+year_2;2023-01;TIK.INF0609;Network Architect;65
+year_2;2023-01;TIK.INF0602;Network Administrator;61
+year_2;2023-01;TIK.SRV0702;IT Manager;60
+year_2;2023-01;TIK.DSC0604;Database Administrator;58
+year_2;2023-01;TIK.SEC0613;Information Security Analyst;51
+year_2;2023-01;TIK.INF0510;Associate Security Engineer;44
+year_2;2023-01;TIK.DEV0617;Multimedia Technical Supervisor;44
+year_2;2023-01;TIK.DSC0701;Data Scientist;43
+year_2;2023-01;TIK.SRV0606;Web Administrator;39
+year_2;2023-01;TIK.INF0605;Computer Network Technician;34
+year_2;2023-01;TIK.DSC0502;Associate Data Analyst;34
+year_2;2023-01;TIK.SRV0301;Computer Operator Technician;30
+year_2;2023-01;TIK.DEV0404;Information Management Assistant;28
+year_2;2023-01;TIK.DEV0603;Database Programmer;23
+year_2;2023-01;TIK.ITG0803;Head Of Program Management;20
+year_2;2023-01;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;18
+year_2;2023-01;TIK.SEC0703;Information Security Manager;15
+year_2;2023-01;TIK.SEC0503;Penetration Tester;14
+year_2;2023-01;TIK.INF0704;System Engineer;13
+year_2;2023-01;TIK.DSC0201;Data Entry Operator;9
+year_2;2023-01;TIK.INF0704;System Engineer;8
+year_2;2023-01;TIK.DSC0607;Data Quality Engineer;6
+year_2;2023-01;TIK.SEC0706;Cryptographic Engineer;5
+year_2;2023-01;TIK.INF0505;Associate Device Engineer;4
+year_2;2023-01;TIK.SEC0709;Digital Forensic Analyst;3
+year_2;2023-01;TIK.DSC0301;Data Management Technician;2
+year_2;2023-01;TIK.DEV0404;Information Management Assistant;2
+year_2;2023-01;TIK.SEC0601;Cybersecurity Analyst;2
+year_2;2023-01;TIK.INF0201;Personal Computer Operator Staff;2
+year_2;2023-01;TIK.INF0304;Device Technician;2
+year_2;2023-01;TIK.INF0704;System Engineer;1
+year_2;2023-01;TIK.DSC0701;Data Scientist;1
+year_2;2023-01;TIK.INF0704;System Engineer;1
+year_2;2023-01;TIK.DEV0404;Information Management Assistant;1
+year_2;2023-01;TIK.SRV0302;Computer Repair Technician;1
+year_2;2023-01;TIK.SRV0301;Computer Operator Technician;1
+year_2;2023-02;TIK.DEV0708;Software Engineer;717
+year_2;2023-02;TIK.DEV0604;Web Developer;237
+year_2;2023-02;TIK.ITG0703;ICT Project Manager;186
+year_2;2023-02;TIK.DEV0608;Software Quality Assurance Analyst;163
+year_2;2023-02;TIK.DSC0605;Business Intelligence Analyst;150
+year_2;2023-02;TIK.INF0704;System Engineer;137
+year_2;2023-02;TIK.SRV0504;Associate IT Service Support Specialist;136
+year_2;2023-02;TIK.DEV0613;System Analyst;115
+year_2;2023-02;TIK.DEV0502;Associate Programmer;87
+year_2;2023-02;TIK.DSC0604;Database Administrator;65
+year_2;2023-02;TIK.SRV0702;IT Manager;59
+year_2;2023-02;TIK.INF0602;Network Administrator;47
+year_2;2023-02;TIK.INF0609;Network Architect;45
+year_2;2023-02;TIK.INF0510;Associate Security Engineer;45
+year_2;2023-02;TIK.SEC0613;Information Security Analyst;41
+year_2;2023-02;TIK.SRV0606;Web Administrator;39
+year_2;2023-02;TIK.DSC0701;Data Scientist;39
+year_2;2023-02;TIK.DEV0617;Multimedia Technical Supervisor;35
+year_2;2023-02;TIK.DEV0404;Information Management Assistant;34
+year_2;2023-02;TIK.INF0605;Computer Network Technician;24
+year_2;2023-02;TIK.SRV0301;Computer Operator Technician;24
+year_2;2023-02;TIK.DSC0502;Associate Data Analyst;23
+year_2;2023-02;TIK.DEV0603;Database Programmer;19
+year_2;2023-02;TIK.SEC0703;Information Security Manager;18
+year_2;2023-02;TIK.SEC0503;Penetration Tester;15
+year_2;2023-02;TIK.INF0704;System Engineer;15
+year_2;2023-02;TIK.ITG0803;Head Of Program Management;14
+year_2;2023-02;TIK.SEC0706;Cryptographic Engineer;7
+year_2;2023-02;TIK.DSC0607;Data Quality Engineer;7
+year_2;2023-02;TIK.DSC0201;Data Entry Operator;7
+year_2;2023-02;TIK.INF0704;System Engineer;4
+year_2;2023-02;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;3
+year_2;2023-02;TIK.DSC0301;Data Management Technician;3
+year_2;2023-02;TIK.DEV0404;Information Management Assistant;3
+year_2;2023-02;TIK.INF0505;Associate Device Engineer;2
+year_2;2023-02;TIK.DSC0701;Data Scientist;2
+year_2;2023-02;TIK.DEV0404;Information Management Assistant;2
+year_2;2023-02;TIK.SEC0601;Cybersecurity Analyst;2
+year_2;2023-02;TIK.INF0304;Device Technician;2
+year_2;2023-02;TIK.INF0704;System Engineer;1
+year_2;2023-02;TIK.SRV0302;Computer Repair Technician;1
+year_2;2023-03;TIK.DEV0708;Software Engineer;785
+year_2;2023-03;TIK.DEV0604;Web Developer;217
+year_2;2023-03;TIK.ITG0703;ICT Project Manager;202
+year_2;2023-03;TIK.SRV0504;Associate IT Service Support Specialist;144
+year_2;2023-03;TIK.INF0704;System Engineer;143
+year_2;2023-03;TIK.DEV0608;Software Quality Assurance Analyst;142
+year_2;2023-03;TIK.DSC0605;Business Intelligence Analyst;140
+year_2;2023-03;TIK.DEV0613;System Analyst;103
+year_2;2023-03;TIK.DEV0502;Associate Programmer;88
+year_2;2023-03;TIK.DSC0604;Database Administrator;78
+year_2;2023-03;TIK.SRV0702;IT Manager;68
+year_2;2023-03;TIK.INF0602;Network Administrator;47
+year_2;2023-03;TIK.INF0510;Associate Security Engineer;46
+year_2;2023-03;TIK.INF0609;Network Architect;45
+year_2;2023-03;TIK.SEC0613;Information Security Analyst;42
+year_2;2023-03;TIK.DEV0404;Information Management Assistant;42
+year_2;2023-03;TIK.SRV0301;Computer Operator Technician;37
+year_2;2023-03;TIK.DEV0617;Multimedia Technical Supervisor;36
+year_2;2023-03;TIK.SRV0606;Web Administrator;33
+year_2;2023-03;TIK.DSC0701;Data Scientist;33
+year_2;2023-03;TIK.DSC0502;Associate Data Analyst;33
+year_2;2023-03;TIK.INF0605;Computer Network Technician;32
+year_2;2023-03;TIK.SEC0703;Information Security Manager;22
+year_2;2023-03;TIK.SEC0503;Penetration Tester;21
+year_2;2023-03;TIK.ITG0803;Head Of Program Management;18
+year_2;2023-03;TIK.DEV0603;Database Programmer;16
+year_2;2023-03;TIK.INF0704;System Engineer;13
+year_2;2023-03;TIK.INF0704;System Engineer;10
+year_2;2023-03;TIK.DSC0201;Data Entry Operator;8
+year_2;2023-03;TIK.INF0505;Associate Device Engineer;6
+year_2;2023-03;TIK.SEC0706;Cryptographic Engineer;5
+year_2;2023-03;TIK.DSC0607;Data Quality Engineer;4
+year_2;2023-03;TIK.INF0304;Device Technician;4
+year_2;2023-03;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;3
+year_2;2023-03;TIK.DSC0701;Data Scientist;3
+year_2;2023-03;TIK.INF0704;System Engineer;3
+year_2;2023-03;TIK.SEC0709;Digital Forensic Analyst;2
+year_2;2023-03;TIK.DEV0404;Information Management Assistant;2
+year_2;2023-03;TIK.SEC0601;Cybersecurity Analyst;2
+year_2;2023-03;TIK.SRV0301;Computer Operator Technician;2
+year_2;2023-03;TIK.DSC0301;Data Management Technician;1
+year_2;2023-03;TIK.DEV0404;Information Management Assistant;1
+year_2;2023-03;TIK.INF0201;Personal Computer Operator Staff;1
+year_2;2023-04;TIK.DEV0708;Software Engineer;588
+year_2;2023-04;TIK.DEV0604;Web Developer;169
+year_2;2023-04;TIK.ITG0703;ICT Project Manager;147
+year_2;2023-04;TIK.DEV0608;Software Quality Assurance Analyst;106
+year_2;2023-04;TIK.INF0704;System Engineer;104
+year_2;2023-04;TIK.DSC0605;Business Intelligence Analyst;103
+year_2;2023-04;TIK.SRV0504;Associate IT Service Support Specialist;99
+year_2;2023-04;TIK.DEV0613;System Analyst;85
+year_2;2023-04;TIK.DSC0604;Database Administrator;58
+year_2;2023-04;TIK.DEV0502;Associate Programmer;55
+year_2;2023-04;TIK.SRV0702;IT Manager;53
+year_2;2023-04;TIK.SEC0613;Information Security Analyst;42
+year_2;2023-04;TIK.INF0602;Network Administrator;42
+year_2;2023-04;TIK.DEV0617;Multimedia Technical Supervisor;35
+year_2;2023-04;TIK.INF0609;Network Architect;32
+year_2;2023-04;TIK.INF0510;Associate Security Engineer;31
+year_2;2023-04;TIK.DEV0404;Information Management Assistant;30
+year_2;2023-04;TIK.DSC0502;Associate Data Analyst;29
+year_2;2023-04;TIK.DSC0701;Data Scientist;28
+year_2;2023-04;TIK.SEC0703;Information Security Manager;23
+year_2;2023-04;TIK.SRV0606;Web Administrator;20
+year_2;2023-04;TIK.INF0605;Computer Network Technician;19
+year_2;2023-04;TIK.SRV0301;Computer Operator Technician;16
+year_2;2023-04;TIK.DSC0201;Data Entry Operator;16
+year_2;2023-04;TIK.DEV0603;Database Programmer;14
+year_2;2023-04;TIK.SEC0503;Penetration Tester;14
+year_2;2023-04;TIK.ITG0803;Head Of Program Management;13
+year_2;2023-04;TIK.INF0704;System Engineer;10
+year_2;2023-04;TIK.DSC0607;Data Quality Engineer;8
+year_2;2023-04;TIK.INF0505;Associate Device Engineer;5
+year_2;2023-04;TIK.SEC0706;Cryptographic Engineer;4
+year_2;2023-04;TIK.INF0704;System Engineer;4
+year_2;2023-04;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;3
+year_2;2023-04;TIK.SEC0601;Cybersecurity Analyst;3
+year_2;2023-04;TIK.INF0704;System Engineer;2
+year_2;2023-04;TIK.SEC0709;Digital Forensic Analyst;1
+year_2;2023-04;TIK.INF0704;System Engineer;1
+year_2;2023-04;TIK.DSC0701;Data Scientist;1
+year_2;2023-04;TIK.DEV0404;Information Management Assistant;1
+year_2;2023-04;TIK.DEV0404;Information Management Assistant;1
+year_3;2023-05;TIK.DEV0708;Software Engineer;588
+year_3;2023-05;TIK.DEV0604;Web Developer;197
+year_3;2023-05;TIK.ITG0703;ICT Project Manager;175
+year_3;2023-05;TIK.SRV0504;Associate IT Service Support Specialist;143
+year_3;2023-05;TIK.DEV0608;Software Quality Assurance Analyst;132
+year_3;2023-05;TIK.DSC0605;Business Intelligence Analyst;118
+year_3;2023-05;TIK.DEV0613;System Analyst;112
+year_3;2023-05;TIK.INF0704;System Engineer;112
+year_3;2023-05;TIK.DSC0604;Database Administrator;68
+year_3;2023-05;TIK.SRV0702;IT Manager;66
+year_3;2023-05;TIK.DEV0502;Associate Programmer;65
+year_3;2023-05;TIK.INF0510;Associate Security Engineer;45
+year_3;2023-05;TIK.INF0609;Network Architect;44
+year_3;2023-05;TIK.INF0602;Network Administrator;42
+year_3;2023-05;TIK.SEC0613;Information Security Analyst;40
+year_3;2023-05;TIK.DSC0502;Associate Data Analyst;38
+year_3;2023-05;TIK.SRV0606;Web Administrator;37
+year_3;2023-05;TIK.DEV0404;Information Management Assistant;34
+year_3;2023-05;TIK.DSC0701;Data Scientist;34
+year_3;2023-05;TIK.SRV0301;Computer Operator Technician;32
+year_3;2023-05;TIK.DEV0617;Multimedia Technical Supervisor;30
+year_3;2023-05;TIK.SEC0703;Information Security Manager;26
+year_3;2023-05;TIK.INF0605;Computer Network Technician;25
+year_3;2023-05;TIK.INF0704;System Engineer;22
+year_3;2023-05;TIK.DSC0607;Data Quality Engineer;20
+year_3;2023-05;TIK.SEC0503;Penetration Tester;16
+year_3;2023-05;TIK.ITG0803;Head Of Program Management;16
+year_3;2023-05;TIK.DSC0201;Data Entry Operator;15
+year_3;2023-05;TIK.DEV0603;Database Programmer;13
+year_3;2023-05;TIK.INF0304;Device Technician;8
+year_3;2023-05;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;6
+year_3;2023-05;TIK.SEC0706;Cryptographic Engineer;6
+year_3;2023-05;TIK.INF0704;System Engineer;5
+year_3;2023-05;TIK.SEC0601;Cybersecurity Analyst;4
+year_3;2023-05;TIK.INF0505;Associate Device Engineer;3
+year_3;2023-05;TIK.INF0704;System Engineer;3
+year_3;2023-05;TIK.DEV0404;Information Management Assistant;3
+year_3;2023-05;TIK.SEC0709;Digital Forensic Analyst;2
+year_3;2023-05;TIK.INF0201;Personal Computer Operator Staff;2
+year_3;2023-05;TIK.DSC0701;Data Scientist;1
+year_3;2023-05;TIK.DEV0404;Information Management Assistant;1
+year_3;2023-06;TIK.DEV0708;Software Engineer;567
+year_3;2023-06;TIK.ITG0703;ICT Project Manager;149
+year_3;2023-06;TIK.DEV0604;Web Developer;147
+year_3;2023-06;TIK.INF0704;System Engineer;138
+year_3;2023-06;TIK.DSC0605;Business Intelligence Analyst;126
+year_3;2023-06;TIK.SRV0504;Associate IT Service Support Specialist;112
+year_3;2023-06;TIK.DEV0608;Software Quality Assurance Analyst;98
+year_3;2023-06;TIK.DEV0613;System Analyst;83
+year_3;2023-06;TIK.DEV0502;Associate Programmer;80
+year_3;2023-06;TIK.SRV0702;IT Manager;54
+year_3;2023-06;TIK.DSC0604;Database Administrator;54
+year_3;2023-06;TIK.INF0609;Network Architect;49
+year_3;2023-06;TIK.INF0510;Associate Security Engineer;43
+year_3;2023-06;TIK.INF0602;Network Administrator;37
+year_3;2023-06;TIK.SEC0613;Information Security Analyst;36
+year_3;2023-06;TIK.DEV0404;Information Management Assistant;32
+year_3;2023-06;TIK.DSC0701;Data Scientist;29
+year_3;2023-06;TIK.DEV0617;Multimedia Technical Supervisor;29
+year_3;2023-06;TIK.DSC0502;Associate Data Analyst;28
+year_3;2023-06;TIK.SEC0703;Information Security Manager;24
+year_3;2023-06;TIK.INF0605;Computer Network Technician;22
+year_3;2023-06;TIK.SRV0301;Computer Operator Technician;22
+year_3;2023-06;TIK.SRV0606;Web Administrator;20
+year_3;2023-06;TIK.DEV0603;Database Programmer;15
+year_3;2023-06;TIK.INF0704;System Engineer;15
+year_3;2023-06;TIK.ITG0803;Head Of Program Management;15
+year_3;2023-06;TIK.SEC0503;Penetration Tester;13
+year_3;2023-06;TIK.DSC0607;Data Quality Engineer;9
+year_3;2023-06;TIK.INF0704;System Engineer;9
+year_3;2023-06;TIK.DSC0201;Data Entry Operator;8
+year_3;2023-06;TIK.SEC0706;Cryptographic Engineer;7
+year_3;2023-06;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;6
+year_3;2023-06;TIK.INF0505;Associate Device Engineer;4
+year_3;2023-06;TIK.INF0304;Device Technician;4
+year_3;2023-06;TIK.DEV0404;Information Management Assistant;2
+year_3;2023-06;TIK.SRV0302;Computer Repair Technician;2
+year_3;2023-06;TIK.SRV0301;Computer Operator Technician;2
+year_3;2023-06;TIK.SEC0709;Digital Forensic Analyst;1
+year_3;2023-06;TIK.SEC0601;Cybersecurity Analyst;1
+year_3;2023-06;TIK.INF0201;Personal Computer Operator Staff;1
+year_3;2023-07;TIK.DEV0708;Software Engineer;650
+year_3;2023-07;TIK.DEV0604;Web Developer;189
+year_3;2023-07;TIK.ITG0703;ICT Project Manager;169
+year_3;2023-07;TIK.INF0704;System Engineer;140
+year_3;2023-07;TIK.DSC0605;Business Intelligence Analyst;138
+year_3;2023-07;TIK.DEV0608;Software Quality Assurance Analyst;122
+year_3;2023-07;TIK.SRV0504;Associate IT Service Support Specialist;116
+year_3;2023-07;TIK.DEV0613;System Analyst;109
+year_3;2023-07;TIK.DEV0502;Associate Programmer;82
+year_3;2023-07;TIK.DSC0604;Database Administrator;77
+year_3;2023-07;TIK.INF0510;Associate Security Engineer;58
+year_3;2023-07;TIK.SRV0702;IT Manager;53
+year_3;2023-07;TIK.INF0609;Network Architect;48
+year_3;2023-07;TIK.DEV0617;Multimedia Technical Supervisor;45
+year_3;2023-07;TIK.DSC0701;Data Scientist;41
+year_3;2023-07;TIK.INF0602;Network Administrator;39
+year_3;2023-07;TIK.SRV0606;Web Administrator;36
+year_3;2023-07;TIK.SEC0613;Information Security Analyst;34
+year_3;2023-07;TIK.INF0605;Computer Network Technician;33
+year_3;2023-07;TIK.DEV0404;Information Management Assistant;33
+year_3;2023-07;TIK.SEC0703;Information Security Manager;29
+year_3;2023-07;TIK.SRV0301;Computer Operator Technician;29
+year_3;2023-07;TIK.DSC0502;Associate Data Analyst;23
+year_3;2023-07;TIK.ITG0803;Head Of Program Management;21
+year_3;2023-07;TIK.INF0704;System Engineer;17
+year_3;2023-07;TIK.DEV0603;Database Programmer;16
+year_3;2023-07;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;12
+year_3;2023-07;TIK.SEC0503;Penetration Tester;9
+year_3;2023-07;TIK.DSC0607;Data Quality Engineer;8
+year_3;2023-07;TIK.INF0704;System Engineer;7
+year_3;2023-07;TIK.INF0704;System Engineer;7
+year_3;2023-07;TIK.INF0505;Associate Device Engineer;6
+year_3;2023-07;TIK.DSC0201;Data Entry Operator;6
+year_3;2023-07;TIK.SEC0706;Cryptographic Engineer;3
+year_3;2023-07;TIK.DEV0404;Information Management Assistant;3
+year_3;2023-07;TIK.INF0304;Device Technician;3
+year_3;2023-07;TIK.SRV0301;Computer Operator Technician;3
+year_3;2023-07;TIK.SEC0709;Digital Forensic Analyst;2
+year_3;2023-07;TIK.SEC0601;Cybersecurity Analyst;2
+year_3;2023-07;TIK.INF0201;Personal Computer Operator Staff;2
+year_3;2023-07;TIK.SRV0302;Computer Repair Technician;2
+year_3;2023-07;TIK.INF0704;System Engineer;1
+year_3;2023-07;TIK.DSC0301;Data Management Technician;1
+year_3;2023-07;TIK.DSC0701;Data Scientist;1
+year_3;2023-07;TIK.DEV0404;Information Management Assistant;1
+year_3;2023-07;TIK.INF0302;Network Technician;1
+year_3;2023-08;TIK.DEV0708;Software Engineer;616
+year_3;2023-08;TIK.DEV0604;Web Developer;180
+year_3;2023-08;TIK.ITG0703;ICT Project Manager;175
+year_3;2023-08;TIK.DEV0608;Software Quality Assurance Analyst;147
+year_3;2023-08;TIK.DSC0605;Business Intelligence Analyst;146
+year_3;2023-08;TIK.SRV0504;Associate IT Service Support Specialist;132
+year_3;2023-08;TIK.INF0704;System Engineer;132
+year_3;2023-08;TIK.DEV0613;System Analyst;108
+year_3;2023-08;TIK.DEV0502;Associate Programmer;86
+year_3;2023-08;TIK.SRV0702;IT Manager;68
+year_3;2023-08;TIK.DSC0604;Database Administrator;65
+year_3;2023-08;TIK.DEV0617;Multimedia Technical Supervisor;53
+year_3;2023-08;TIK.SEC0613;Information Security Analyst;50
+year_3;2023-08;TIK.INF0602;Network Administrator;49
+year_3;2023-08;TIK.INF0609;Network Architect;46
+year_3;2023-08;TIK.DSC0502;Associate Data Analyst;40
+year_3;2023-08;TIK.DSC0701;Data Scientist;36
+year_3;2023-08;TIK.DEV0404;Information Management Assistant;34
+year_3;2023-08;TIK.SRV0301;Computer Operator Technician;33
+year_3;2023-08;TIK.INF0510;Associate Security Engineer;31
+year_3;2023-08;TIK.ITG0803;Head Of Program Management;31
+year_3;2023-08;TIK.SEC0703;Information Security Manager;29
+year_3;2023-08;TIK.SRV0606;Web Administrator;26
+year_3;2023-08;TIK.INF0605;Computer Network Technician;24
+year_3;2023-08;TIK.INF0704;System Engineer;22
+year_3;2023-08;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;17
+year_3;2023-08;TIK.DEV0603;Database Programmer;13
+year_3;2023-08;TIK.SEC0503;Penetration Tester;9
+year_3;2023-08;TIK.DSC0607;Data Quality Engineer;9
+year_3;2023-08;TIK.DSC0201;Data Entry Operator;9
+year_3;2023-08;TIK.INF0304;Device Technician;7
+year_3;2023-08;TIK.INF0505;Associate Device Engineer;6
+year_3;2023-08;TIK.INF0704;System Engineer;4
+year_3;2023-08;TIK.INF0704;System Engineer;4
+year_3;2023-08;TIK.INF0201;Personal Computer Operator Staff;4
+year_3;2023-08;TIK.SEC0706;Cryptographic Engineer;3
+year_3;2023-08;TIK.SEC0601;Cybersecurity Analyst;3
+year_3;2023-08;TIK.INF0704;System Engineer;1
+year_3;2023-08;TIK.DEV0404;Information Management Assistant;1
+year_3;2023-08;TIK.SRV0301;Computer Operator Technician;1
+year_3;2023-09;TIK.DEV0708;Software Engineer;1209
+year_3;2023-09;TIK.ITG0703;ICT Project Manager;347
+year_3;2023-09;TIK.DEV0604;Web Developer;330
+year_3;2023-09;TIK.DEV0608;Software Quality Assurance Analyst;266
+year_3;2023-09;TIK.DSC0605;Business Intelligence Analyst;236
+year_3;2023-09;TIK.SRV0504;Associate IT Service Support Specialist;229
+year_3;2023-09;TIK.INF0704;System Engineer;215
+year_3;2023-09;TIK.DEV0613;System Analyst;199
+year_3;2023-09;TIK.DEV0502;Associate Programmer;130
+year_3;2023-09;TIK.DSC0604;Database Administrator;106
+year_3;2023-09;TIK.DSC0701;Data Scientist;90
+year_3;2023-09;TIK.SRV0702;IT Manager;85
+year_3;2023-09;TIK.INF0602;Network Administrator;80
+year_3;2023-09;TIK.DEV0617;Multimedia Technical Supervisor;71
+year_3;2023-09;TIK.INF0609;Network Architect;70
+year_3;2023-09;TIK.DSC0502;Associate Data Analyst;67
+year_3;2023-09;TIK.SEC0613;Information Security Analyst;61
+year_3;2023-09;TIK.SRV0301;Computer Operator Technician;58
+year_3;2023-09;TIK.INF0605;Computer Network Technician;55
+year_3;2023-09;TIK.DEV0404;Information Management Assistant;52
+year_3;2023-09;TIK.INF0510;Associate Security Engineer;50
+year_3;2023-09;TIK.ITG0803;Head Of Program Management;40
+year_3;2023-09;TIK.SEC0703;Information Security Manager;38
+year_3;2023-09;TIK.SRV0606;Web Administrator;38
+year_3;2023-09;TIK.DEV0603;Database Programmer;33
+year_3;2023-09;TIK.INF0704;System Engineer;26
+year_3;2023-09;TIK.INF0704;System Engineer;12
+year_3;2023-09;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;11
+year_3;2023-09;TIK.DSC0607;Data Quality Engineer;11
+year_3;2023-09;TIK.DSC0201;Data Entry Operator;11
+year_3;2023-09;TIK.SEC0503;Penetration Tester;9
+year_3;2023-09;TIK.SEC0706;Cryptographic Engineer;7
+year_3;2023-09;TIK.INF0304;Device Technician;6
+year_3;2023-09;TIK.INF0505;Associate Device Engineer;5
+year_3;2023-09;TIK.INF0704;System Engineer;4
+year_3;2023-09;TIK.DEV0404;Information Management Assistant;4
+year_3;2023-09;TIK.SEC0601;Cybersecurity Analyst;4
+year_3;2023-09;TIK.SRV0301;Computer Operator Technician;4
+year_3;2023-09;TIK.DSC0701;Data Scientist;2
+year_3;2023-09;TIK.INF0201;Personal Computer Operator Staff;2
+year_3;2023-09;TIK.DSC0301;Data Management Technician;1
+year_3;2023-09;TIK.DEV0404;Information Management Assistant;1
+year_3;2023-09;TIK.SRV0302;Computer Repair Technician;1
+year_3;2023-10;TIK.DEV0708;Software Engineer;1205
+year_3;2023-10;TIK.ITG0703;ICT Project Manager;377
+year_3;2023-10;TIK.DEV0604;Web Developer;303
+year_3;2023-10;TIK.DEV0608;Software Quality Assurance Analyst;240
+year_3;2023-10;TIK.SRV0504;Associate IT Service Support Specialist;228
+year_3;2023-10;TIK.DSC0605;Business Intelligence Analyst;219
+year_3;2023-10;TIK.DEV0613;System Analyst;199
+year_3;2023-10;TIK.INF0704;System Engineer;187
+year_3;2023-10;TIK.DEV0502;Associate Programmer;118
+year_3;2023-10;TIK.DSC0604;Database Administrator;90
+year_3;2023-10;TIK.SRV0702;IT Manager;89
+year_3;2023-10;TIK.INF0510;Associate Security Engineer;74
+year_3;2023-10;TIK.INF0609;Network Architect;68
+year_3;2023-10;TIK.INF0602;Network Administrator;68
+year_3;2023-10;TIK.DSC0701;Data Scientist;66
+year_3;2023-10;TIK.DEV0404;Information Management Assistant;59
+year_3;2023-10;TIK.DEV0617;Multimedia Technical Supervisor;56
+year_3;2023-10;TIK.SEC0613;Information Security Analyst;55
+year_3;2023-10;TIK.SEC0703;Information Security Manager;49
+year_3;2023-10;TIK.SRV0301;Computer Operator Technician;48
+year_3;2023-10;TIK.SRV0606;Web Administrator;42
+year_3;2023-10;TIK.DSC0502;Associate Data Analyst;42
+year_3;2023-10;TIK.DEV0603;Database Programmer;39
+year_3;2023-10;TIK.INF0704;System Engineer;35
+year_3;2023-10;TIK.ITG0803;Head Of Program Management;35
+year_3;2023-10;TIK.INF0605;Computer Network Technician;30
+year_3;2023-10;TIK.DSC0607;Data Quality Engineer;23
+year_3;2023-10;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;19
+year_3;2023-10;TIK.DSC0201;Data Entry Operator;17
+year_3;2023-10;TIK.SEC0503;Penetration Tester;16
+year_3;2023-10;TIK.SEC0706;Cryptographic Engineer;15
+year_3;2023-10;TIK.INF0704;System Engineer;9
+year_3;2023-10;TIK.DEV0404;Information Management Assistant;9
+year_3;2023-10;TIK.INF0704;System Engineer;7
+year_3;2023-10;TIK.SEC0601;Cybersecurity Analyst;6
+year_3;2023-10;TIK.INF0304;Device Technician;6
+year_3;2023-10;TIK.SRV0301;Computer Operator Technician;6
+year_3;2023-10;TIK.INF0505;Associate Device Engineer;3
+year_3;2023-10;TIK.DSC0701;Data Scientist;3
+year_3;2023-10;TIK.INF0201;Personal Computer Operator Staff;3
+year_3;2023-10;TIK.DEV0404;Information Management Assistant;2
+year_3;2023-10;TIK.SRV0302;Computer Repair Technician;2
+year_3;2023-10;TIK.DSC0301;Data Management Technician;1
+year_3;2023-10;TIK.INF0302;Network Technician;1
+year_3;2023-11;TIK.DEV0708;Software Engineer;1038
+year_3;2023-11;TIK.ITG0703;ICT Project Manager;303
+year_3;2023-11;TIK.DEV0604;Web Developer;245
+year_3;2023-11;TIK.SRV0504;Associate IT Service Support Specialist;225
+year_3;2023-11;TIK.DSC0605;Business Intelligence Analyst;211
+year_3;2023-11;TIK.DEV0608;Software Quality Assurance Analyst;201
+year_3;2023-11;TIK.DEV0613;System Analyst;198
+year_3;2023-11;TIK.INF0704;System Engineer;186
+year_3;2023-11;TIK.DSC0604;Database Administrator;100
+year_3;2023-11;TIK.DEV0502;Associate Programmer;97
+year_3;2023-11;TIK.SRV0702;IT Manager;81
+year_3;2023-11;TIK.INF0510;Associate Security Engineer;81
+year_3;2023-11;TIK.INF0609;Network Architect;78
+year_3;2023-11;TIK.INF0602;Network Administrator;62
+year_3;2023-11;TIK.SEC0613;Information Security Analyst;61
+year_3;2023-11;TIK.DSC0502;Associate Data Analyst;59
+year_3;2023-11;TIK.DEV0617;Multimedia Technical Supervisor;53
+year_3;2023-11;TIK.SRV0301;Computer Operator Technician;49
+year_3;2023-11;TIK.DSC0701;Data Scientist;44
+year_3;2023-11;TIK.SEC0703;Information Security Manager;38
+year_3;2023-11;TIK.INF0605;Computer Network Technician;37
+year_3;2023-11;TIK.DEV0603;Database Programmer;31
+year_3;2023-11;TIK.SRV0606;Web Administrator;31
+year_3;2023-11;TIK.DEV0404;Information Management Assistant;30
+year_3;2023-11;TIK.ITG0803;Head Of Program Management;28
+year_3;2023-11;TIK.INF0704;System Engineer;26
+year_3;2023-11;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;13
+year_3;2023-11;TIK.DSC0607;Data Quality Engineer;13
+year_3;2023-11;TIK.INF0704;System Engineer;13
+year_3;2023-11;TIK.SEC0503;Penetration Tester;12
+year_3;2023-11;TIK.DSC0201;Data Entry Operator;11
+year_3;2023-11;TIK.INF0704;System Engineer;7
+year_3;2023-11;TIK.SEC0706;Cryptographic Engineer;5
+year_3;2023-11;TIK.DSC0701;Data Scientist;5
+year_3;2023-11;TIK.INF0304;Device Technician;4
+year_3;2023-11;TIK.DEV0404;Information Management Assistant;3
+year_3;2023-11;TIK.SEC0601;Cybersecurity Analyst;3
+year_3;2023-11;TIK.INF0505;Associate Device Engineer;2
+year_3;2023-11;TIK.INF0201;Personal Computer Operator Staff;2
+year_3;2023-11;TIK.SEC0709;Digital Forensic Analyst;1
+year_3;2023-11;TIK.DSC0301;Data Management Technician;1
+year_3;2023-11;TIK.DEV0404;Information Management Assistant;1
+year_3;2023-11;TIK.SRV0302;Computer Repair Technician;1
+year_3;2023-11;TIK.SRV0301;Computer Operator Technician;1
+year_3;2023-12;TIK.DEV0708;Software Engineer;748
+year_3;2023-12;TIK.ITG0703;ICT Project Manager;208
+year_3;2023-12;TIK.SRV0504;Associate IT Service Support Specialist;182
+year_3;2023-12;TIK.DEV0604;Web Developer;178
+year_3;2023-12;TIK.INF0704;System Engineer;146
+year_3;2023-12;TIK.DSC0605;Business Intelligence Analyst;144
+year_3;2023-12;TIK.DEV0608;Software Quality Assurance Analyst;138
+year_3;2023-12;TIK.DEV0613;System Analyst;133
+year_3;2023-12;TIK.DEV0502;Associate Programmer;97
+year_3;2023-12;TIK.DSC0604;Database Administrator;67
+year_3;2023-12;TIK.INF0609;Network Architect;52
+year_3;2023-12;TIK.SRV0702;IT Manager;49
+year_3;2023-12;TIK.INF0602;Network Administrator;49
+year_3;2023-12;TIK.DSC0502;Associate Data Analyst;42
+year_3;2023-12;TIK.ITG0803;Head Of Program Management;40
+year_3;2023-12;TIK.INF0510;Associate Security Engineer;39
+year_3;2023-12;TIK.DEV0617;Multimedia Technical Supervisor;39
+year_3;2023-12;TIK.SEC0613;Information Security Analyst;37
+year_3;2023-12;TIK.DSC0701;Data Scientist;35
+year_3;2023-12;TIK.DEV0404;Information Management Assistant;32
+year_3;2023-12;TIK.SRV0606;Web Administrator;27
+year_3;2023-12;TIK.SRV0301;Computer Operator Technician;26
+year_3;2023-12;TIK.SEC0703;Information Security Manager;24
+year_3;2023-12;TIK.INF0605;Computer Network Technician;20
+year_3;2023-12;TIK.INF0704;System Engineer;19
+year_3;2023-12;TIK.DEV0603;Database Programmer;17
+year_3;2023-12;TIK.INF0704;System Engineer;14
+year_3;2023-12;TIK.SEC0503;Penetration Tester;8
+year_3;2023-12;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;6
+year_3;2023-12;TIK.SEC0706;Cryptographic Engineer;6
+year_3;2023-12;TIK.DSC0201;Data Entry Operator;6
+year_3;2023-12;TIK.DSC0607;Data Quality Engineer;5
+year_3;2023-12;TIK.INF0704;System Engineer;5
+year_3;2023-12;TIK.INF0304;Device Technician;4
+year_3;2023-12;TIK.INF0505;Associate Device Engineer;3
+year_3;2023-12;TIK.DEV0404;Information Management Assistant;2
+year_3;2023-12;TIK.SEC0601;Cybersecurity Analyst;2
+year_3;2023-12;TIK.SRV0301;Computer Operator Technician;2
+year_3;2023-12;TIK.INF0704;System Engineer;1
+year_3;2023-12;TIK.DSC0301;Data Management Technician;1
+year_3;2023-12;TIK.DEV0404;Information Management Assistant;1
+year_3;2024-01;TIK.DEV0708;Software Engineer;773
+year_3;2024-01;TIK.DEV0604;Web Developer;240
+year_3;2024-01;TIK.ITG0703;ICT Project Manager;169
+year_3;2024-01;TIK.DEV0608;Software Quality Assurance Analyst;147
+year_3;2024-01;TIK.SRV0504;Associate IT Service Support Specialist;140
+year_3;2024-01;TIK.INF0704;System Engineer;131
+year_3;2024-01;TIK.DSC0605;Business Intelligence Analyst;126
+year_3;2024-01;TIK.DEV0613;System Analyst;96
+year_3;2024-01;TIK.DSC0604;Database Administrator;56
+year_3;2024-01;TIK.SEC0613;Information Security Analyst;54
+year_3;2024-01;TIK.INF0510;Associate Security Engineer;53
+year_3;2024-01;TIK.INF0609;Network Architect;52
+year_3;2024-01;TIK.DSC0701;Data Scientist;51
+year_3;2024-01;TIK.SRV0301;Computer Operator Technician;49
+year_3;2024-01;TIK.SRV0702;IT Manager;47
+year_3;2024-01;TIK.DEV0502;Associate Programmer;47
+year_3;2024-01;TIK.DEV0617;Multimedia Technical Supervisor;41
+year_3;2024-01;TIK.DEV0404;Information Management Assistant;38
+year_3;2024-01;TIK.ITG0803;Head Of Program Management;33
+year_3;2024-01;TIK.DSC0502;Associate Data Analyst;32
+year_3;2024-01;TIK.INF0602;Network Administrator;29
+year_3;2024-01;TIK.SEC0703;Information Security Manager;28
+year_3;2024-01;TIK.SRV0606;Web Administrator;27
+year_3;2024-01;TIK.INF0605;Computer Network Technician;24
+year_3;2024-01;TIK.DEV0603;Database Programmer;24
+year_3;2024-01;TIK.SEC0503;Penetration Tester;11
+year_3;2024-01;TIK.INF0704;System Engineer;10
+year_3;2024-01;TIK.DSC0201;Data Entry Operator;10
+year_3;2024-01;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;4
+year_3;2024-01;TIK.DSC0607;Data Quality Engineer;4
+year_3;2024-01;TIK.INF0704;System Engineer;4
+year_3;2024-01;TIK.SEC0601;Cybersecurity Analyst;3
+year_3;2024-01;TIK.INF0304;Device Technician;3
+year_3;2024-01;TIK.SEC0706;Cryptographic Engineer;2
+year_3;2024-01;TIK.INF0505;Associate Device Engineer;2
+year_3;2024-01;TIK.INF0302;Network Technician;2
+year_3;2024-01;TIK.SRV0301;Computer Operator Technician;2
+year_3;2024-01;TIK.SRV0302;Computer Repair Technician;1
+year_3;2024-02;TIK.DEV0708;Software Engineer;476
+year_3;2024-02;TIK.DEV0604;Web Developer;157
+year_3;2024-02;TIK.DEV0608;Software Quality Assurance Analyst;121
+year_3;2024-02;TIK.ITG0703;ICT Project Manager;106
+year_3;2024-02;TIK.DSC0605;Business Intelligence Analyst;97
+year_3;2024-02;TIK.INF0704;System Engineer;85
+year_3;2024-02;TIK.SRV0504;Associate IT Service Support Specialist;69
+year_3;2024-02;TIK.DEV0613;System Analyst;62
+year_3;2024-02;TIK.DSC0701;Data Scientist;41
+year_3;2024-02;TIK.DEV0502;Associate Programmer;38
+year_3;2024-02;TIK.INF0510;Associate Security Engineer;34
+year_3;2024-02;TIK.SRV0702;IT Manager;29
+year_3;2024-02;TIK.SRV0301;Computer Operator Technician;28
+year_3;2024-02;TIK.INF0609;Network Architect;24
+year_3;2024-02;TIK.SRV0606;Web Administrator;24
+year_3;2024-02;TIK.SEC0613;Information Security Analyst;23
+year_3;2024-02;TIK.ITG0803;Head Of Program Management;23
+year_3;2024-02;TIK.DSC0604;Database Administrator;22
+year_3;2024-02;TIK.DEV0617;Multimedia Technical Supervisor;22
+year_3;2024-02;TIK.INF0602;Network Administrator;18
+year_3;2024-02;TIK.DSC0502;Associate Data Analyst;12
+year_3;2024-02;TIK.SEC0703;Information Security Manager;11
+year_3;2024-02;TIK.DSC0607;Data Quality Engineer;11
+year_3;2024-02;TIK.INF0605;Computer Network Technician;9
+year_3;2024-02;TIK.DEV0603;Database Programmer;8
+year_3;2024-02;TIK.DEV0404;Information Management Assistant;8
+year_3;2024-02;TIK.SEC0503;Penetration Tester;7
+year_3;2024-02;TIK.DSC0201;Data Entry Operator;6
+year_3;2024-02;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;3
+year_3;2024-02;TIK.INF0704;System Engineer;3
+year_3;2024-02;TIK.INF0704;System Engineer;3
+year_3;2024-02;TIK.SRV0301;Computer Operator Technician;3
+year_3;2024-02;TIK.DSC0701;Data Scientist;2
+year_3;2024-02;TIK.INF0505;Associate Device Engineer;1
+year_3;2024-02;TIK.INF0704;System Engineer;1
+year_3;2024-02;TIK.INF0304;Device Technician;1
+year_3;2024-03;TIK.DEV0708;Software Engineer;1118
+year_3;2024-03;TIK.ITG0703;ICT Project Manager;305
+year_3;2024-03;TIK.DEV0604;Web Developer;266
+year_3;2024-03;TIK.INF0704;System Engineer;261
+year_3;2024-03;TIK.DEV0608;Software Quality Assurance Analyst;239
+year_3;2024-03;TIK.DSC0605;Business Intelligence Analyst;222
+year_3;2024-03;TIK.SRV0504;Associate IT Service Support Specialist;205
+year_3;2024-03;TIK.DEV0613;System Analyst;166
+year_3;2024-03;TIK.DSC0604;Database Administrator;121
+year_3;2024-03;TIK.DEV0502;Associate Programmer;112
+year_3;2024-03;TIK.SRV0702;IT Manager;90
+year_3;2024-03;TIK.SEC0613;Information Security Analyst;77
+year_3;2024-03;TIK.INF0510;Associate Security Engineer;77
+year_3;2024-03;TIK.DSC0701;Data Scientist;77
+year_3;2024-03;TIK.INF0609;Network Architect;74
+year_3;2024-03;TIK.INF0602;Network Administrator;67
+year_3;2024-03;TIK.ITG0803;Head Of Program Management;67
+year_3;2024-03;TIK.DEV0617;Multimedia Technical Supervisor;59
+year_3;2024-03;TIK.DSC0502;Associate Data Analyst;56
+year_3;2024-03;TIK.DEV0404;Information Management Assistant;54
+year_3;2024-03;TIK.SRV0301;Computer Operator Technician;50
+year_3;2024-03;TIK.SRV0606;Web Administrator;47
+year_3;2024-03;TIK.SEC0703;Information Security Manager;44
+year_3;2024-03;TIK.INF0605;Computer Network Technician;43
+year_3;2024-03;TIK.INF0704;System Engineer;33
+year_3;2024-03;TIK.DEV0603;Database Programmer;23
+year_3;2024-03;TIK.DSC0201;Data Entry Operator;19
+year_3;2024-03;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;13
+year_3;2024-03;TIK.SEC0601;Cybersecurity Analyst;11
+year_3;2024-03;TIK.SEC0706;Cryptographic Engineer;7
+year_3;2024-03;TIK.SEC0503;Penetration Tester;6
+year_3;2024-03;TIK.INF0505;Associate Device Engineer;5
+year_3;2024-03;TIK.DEV0404;Information Management Assistant;5
+year_3;2024-03;TIK.INF0704;System Engineer;4
+year_3;2024-03;TIK.INF0704;System Engineer;3
+year_3;2024-03;TIK.DSC0701;Data Scientist;2
+year_3;2024-03;TIK.DEV0404;Information Management Assistant;2
+year_3;2024-03;TIK.INF0201;Personal Computer Operator Staff;2
+year_3;2024-03;TIK.SRV0302;Computer Repair Technician;2
+year_3;2024-03;TIK.INF0304;Device Technician;2
+year_3;2024-03;TIK.SEC0709;Digital Forensic Analyst;1
+year_3;2024-03;TIK.DSC0607;Data Quality Engineer;1
+year_3;2024-03;TIK.SRV0301;Computer Operator Technician;1
+year_3;2024-04;TIK.DEV0708;Software Engineer;1028
+year_3;2024-04;TIK.DEV0604;Web Developer;324
+year_3;2024-04;TIK.ITG0703;ICT Project Manager;292
+year_3;2024-04;TIK.DSC0605;Business Intelligence Analyst;236
+year_3;2024-04;TIK.DEV0608;Software Quality Assurance Analyst;233
+year_3;2024-04;TIK.SRV0504;Associate IT Service Support Specialist;232
+year_3;2024-04;TIK.INF0704;System Engineer;209
+year_3;2024-04;TIK.DEV0613;System Analyst;160
+year_3;2024-04;TIK.SRV0702;IT Manager;96
+year_3;2024-04;TIK.DSC0701;Data Scientist;86
+year_3;2024-04;TIK.SEC0613;Information Security Analyst;84
+year_3;2024-04;TIK.INF0602;Network Administrator;81
+year_3;2024-04;TIK.INF0609;Network Architect;77
+year_3;2024-04;TIK.DEV0617;Multimedia Technical Supervisor;77
+year_3;2024-04;TIK.DEV0502;Associate Programmer;70
+year_3;2024-04;TIK.DSC0604;Database Administrator;66
+year_3;2024-04;TIK.DEV0404;Information Management Assistant;64
+year_3;2024-04;TIK.SRV0606;Web Administrator;62
+year_3;2024-04;TIK.INF0510;Associate Security Engineer;61
+year_3;2024-04;TIK.SRV0301;Computer Operator Technician;56
+year_3;2024-04;TIK.DSC0502;Associate Data Analyst;55
+year_3;2024-04;TIK.SEC0703;Information Security Manager;53
+year_3;2024-04;TIK.ITG0803;Head Of Program Management;48
+year_3;2024-04;TIK.INF0605;Computer Network Technician;40
+year_3;2024-04;TIK.INF0704;System Engineer;29
+year_3;2024-04;TIK.DEV0603;Database Programmer;25
+year_3;2024-04;TIK.DSC0607;Data Quality Engineer;22
+year_3;2024-04;TIK.DSC0201;Data Entry Operator;16
+year_3;2024-04;TIK.ITG0702;Disaster Recovery And Business Continuity Manager;15
+year_3;2024-04;TIK.INF0704;System Engineer;11
+year_3;2024-04;TIK.SEC0503;Penetration Tester;9
+year_3;2024-04;TIK.INF0505;Associate Device Engineer;9
+year_3;2024-04;TIK.SEC0706;Cryptographic Engineer;8
+year_3;2024-04;TIK.INF0304;Device Technician;8
+year_3;2024-04;TIK.SEC0601;Cybersecurity Analyst;7
+year_3;2024-04;TIK.DEV0404;Information Management Assistant;4
+year_3;2024-04;TIK.SRV0301;Computer Operator Technician;4
+year_3;2024-04;TIK.INF0704;System Engineer;2
+year_3;2024-04;TIK.INF0704;System Engineer;2
+year_3;2024-04;TIK.DEV0404;Information Management Assistant;2
+year_3;2024-04;TIK.SEC0709;Digital Forensic Analyst;1
+year_3;2024-04;TIK.INF0201;Personal Computer Operator Staff;1
