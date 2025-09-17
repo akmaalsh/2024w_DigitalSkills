@@ -1,0 +1,2124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIK Occupation Analysis Dashboard - Indonesia Job Portal Data</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1E40AF',
+                        secondary: '#7C3AED',
+                        accent: '#059669'
+                    }
+                }
+            }
+        }
+        
+        // Define consistent color palette for all charts
+        const CHART_COLORS = {
+            primary: '#1E88E5',      // Vibrant Blue
+            secondary: '#8E24AA',    // Vibrant Purple
+            accent: '#26A69A',       // Vibrant Teal
+            warning: '#FFB300',      // Vibrant Amber/Yellow
+            danger: '#E91E63',       // Vibrant Pink
+            info: '#29B6F6',         // Bright Cyan
+            success: '#66BB6A',      // Vibrant Green
+            gray: '#455A64',         // Modern Gray
+            // Extended vibrant palette for multiple series
+            palette: [
+                '#1E88E5', '#26A69A', '#66BB6A', '#29B6F6', '#8E24AA', '#E91E63', 
+                '#FFB300', '#FF7043', '#AB47BC', '#42A5F5', '#5C6BC0', '#7E57C2'
+            ]
+        };
+    </script>
+    <style>
+        /* Ensure charts use full container width */
+        .js-plotly-plot {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        
+        .plotly-graph-div {
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+        
+        /* Make sure the chart containers are properly sized */
+        #monthly-trends-chart,
+        #occupation-dist-chart,
+        #tech-skills-chart,
+        #competency-chart,
+        #salary-distribution-chart,
+        #salary-comparison-chart {
+            width: 100% !important;
+            max-width: 100% !important;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        
+        /* Ensure parent containers don't constrain width */
+        .bg-white.rounded-lg.shadow-lg {
+            width: 100%;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+        
+        /* Force plotly to use available space */
+        .plotly .main-svg {
+            width: 100% !important;
+        }
+
+        /* Custom Font Styles */
+        body, p, span:not(.fas):not(.far):not(.fab), div:not(.fas):not(.far):not(.fab), input, button, select, option, td, th, label, .text-sm, .text-xs {
+            font-family: 'Arial Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif !important;
+        }
+        
+        /* Ensure Font Awesome icons are not affected */
+        .fas, .far, .fab, .fa, i[class*="fa-"] {
+            font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands" !important;
+        }
+        
+        h1, h2, h3, h4, h5, h6, .font-bold, .font-semibold {
+            font-family: 'Georgia', 'Times New Roman', Times, serif !important;
+        }
+        
+        /* Navigation title */
+        nav h1, nav .text-xl {
+            font-family: 'Georgia', 'Times New Roman', Times, serif !important;
+        }
+        
+        /* Section titles and headings */
+        .text-3xl, .text-2xl, .text-xl, .text-lg {
+            font-family: 'Georgia', 'Times New Roman', Times, serif !important;
+        }
+        
+        /* Chart titles */
+        .plotly .gtitle, .plotly .xtitle, .plotly .ytitle {
+            font-family: 'Georgia', 'Times New Roman', Times, serif !important;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navigation Header -->
+    <nav class="bg-white shadow-lg border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <i class="fas fa-chart-network text-primary text-2xl mr-3"></i>
+                    <div>
+                        <h1 class="text-xl font-bold text-gray-900">TIK Occupation Analysis</h1>
+                        <p class="text-xs text-gray-500">Indonesia Job Portal Data Dashboard</p>
+                    </div>
+                </div>
+                <div class="flex space-x-2 overflow-x-auto">
+                    <button id="overview-btn" class="nav-btn active px-3 py-2 rounded-md text-sm font-medium bg-primary text-white hover:bg-blue-700 transition-colors whitespace-nowrap">
+                        <i class="fas fa-tachometer-alt mr-1"></i>Overview
+                    </button>
+                    <button id="monthly-trends-btn" class="nav-btn px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        <i class="fas fa-chart-line mr-1"></i>Trends
+                    </button>
+                    <button id="occupation-dist-btn" class="nav-btn px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        <i class="fas fa-chart-bar mr-1"></i>Occupations
+                    </button>
+                    <button id="tech-skills-btn" class="nav-btn px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        <i class="fas fa-cogs mr-1"></i>Tech Skills
+                    </button>
+                    <button id="competency-btn" class="nav-btn px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        <i class="fas fa-tasks mr-1"></i>Competencies
+                    </button>
+                    <button id="salary-btn" class="nav-btn px-3 py-2 rounded-md text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors whitespace-nowrap">
+                        <i class="fas fa-money-bill-wave mr-1"></i>Salaries
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Loading State -->
+        <div id="loading" class="flex items-center justify-center py-20">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+            <span class="ml-3 text-gray-600">Loading comprehensive dashboard data...</span>
+        </div>
+
+        <!-- Overview Section -->
+        <div id="overview-section" class="hidden">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold text-gray-900 mb-2">TIK Occupation Analysis Dashboard</h2>
+                <p class="text-gray-600 text-lg">Comprehensive insights from Indonesia Job Portal Data where TIK represents 16.3% (105,880 / 650,000) of the total sample</p>
+            </div>
+
+            <!-- Key Metrics -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+                <div class="rounded-lg p-6 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105" style="background: linear-gradient(135deg, #1E88E5, #1565C0, #0D47A1);">
+                    <div class="flex items-center">
+                        <i class="fas fa-database text-3xl mr-4 opacity-80"></i>
+                        <div>
+                            <p class="opacity-80">Total Sample</p>
+                            <p class="text-3xl font-bold" id="total-sample">650,000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg p-6 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105" style="background: linear-gradient(135deg, #26A69A, #00897B, #00695C);">
+                    <div class="flex items-center">
+                        <i class="fas fa-briefcase text-3xl mr-4 opacity-80"></i>
+                        <div>
+                            <p class="opacity-80">TIK Occupations</p>
+                            <p class="text-3xl font-bold" id="tik-occupations">105,880</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg p-6 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105" style="background: linear-gradient(135deg, #8E24AA, #7B1FA2, #4A148C);">
+                    <div class="flex items-center">
+                        <i class="fas fa-calendar-alt text-3xl mr-4 opacity-80"></i>
+                        <div>
+                            <p class="opacity-80">Analysis Period</p>
+                            <p class="text-2xl font-bold">2021-2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-lg p-6 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105" style="background: linear-gradient(135deg, #FFB300, #FF8F00, #E65100);">
+                    <div class="flex items-center">
+                        <i class="fas fa-map-marker-alt text-3xl mr-4 opacity-80"></i>
+                        <div>
+                            <p class="opacity-80">Provinces Covered</p>
+                            <p class="text-3xl font-bold" id="province-count">10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Overview Charts -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Function Area Distribution</h3>
+                    <div id="overview-area-dist" style="height: 400px;"></div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Monthly Demand Overview</h3>
+                    <div id="overview-monthly-trend" style="height: 400px;"></div>
+                </div>
+            </div>
+
+            <!-- Quick Insights -->
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Key Insights</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h4 class="font-semibold text-gray-900">Most Demanded Area</h4>
+                        <p class="text-gray-600" id="top-area">Loading...</p>
+                        <p class="text-xs text-gray-400 mt-1" id="top-area-percentage">-</p>
+                    </div>
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h4 class="font-semibold text-gray-900">Top Province</h4>
+                        <p class="text-gray-600" id="top-province">Loading...</p>
+                        <p class="text-xs text-gray-400 mt-1" id="top-province-jobs">-</p>
+                    </div>
+                    <div class="border-l-4 border-purple-500 pl-4">
+                        <h4 class="font-semibold text-gray-900">Peak Demand Period</h4>
+                        <p class="text-gray-600" id="peak-period">Loading...</p>
+                        <p class="text-xs text-gray-400 mt-1" id="peak-period-jobs">-</p>
+                    </div>
+                    <div class="border-l-4 border-orange-500 pl-4">
+                        <h4 class="font-semibold text-gray-900">Growth</h4>
+                        <p class="text-gray-600" id="growth-trend">Loading...</p>
+                        <p class="text-xs text-gray-400 mt-1">Monthly trend</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top Provinces Section -->
+            <div class="bg-white rounded-lg shadow-lg p-6 mt-8">
+                <h3 class="text-xl font-bold text-gray-900 mb-4">Top 10 Provinces by TIK Job Demand</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="provinces-list">
+                    <!-- Will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Quick Navigation Cards -->
+            <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-900 mb-4">🚀 Explore Dashboard Sections</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+                    <div class="text-white p-4 rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background: linear-gradient(135deg, #1E88E5, #1565C0);" onclick="showSection('monthly-trends')" onmouseover="this.style.background='linear-gradient(135deg, #1565C0, #0D47A1); this.style.transform='scale(1.08)';" onmouseout="this.style.background='linear-gradient(135deg, #1E88E5, #1565C0)'; this.style.transform='scale(1)';">
+                        <div class="flex items-center">
+                            <i class="fas fa-chart-line text-2xl mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-sm">📈 Monthly Trends</h4>
+                                <p class="text-xs opacity-90">Demand over time</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-white p-4 rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background: linear-gradient(135deg, #26A69A, #00897B);" onclick="showSection('occupation-dist')" onmouseover="this.style.background='linear-gradient(135deg, #00897B, #00695C)'; this.style.transform='scale(1.08)';" onmouseout="this.style.background='linear-gradient(135deg, #26A69A, #00897B)'; this.style.transform='scale(1)';">
+                        <div class="flex items-center">
+                            <i class="fas fa-chart-pie text-2xl mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-sm">🎯 Occupations</h4>
+                                <p class="text-xs opacity-90">By functional areas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-white p-4 rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background: linear-gradient(135deg, #8E24AA, #7B1FA2);" onclick="showSection('tech-skills')" onmouseover="this.style.background='linear-gradient(135deg, #7B1FA2, #4A148C)'; this.style.transform='scale(1.08)';" onmouseout="this.style.background='linear-gradient(135deg, #8E24AA, #7B1FA2)'; this.style.transform='scale(1)';">
+                        <div class="flex items-center">
+                            <i class="fas fa-cogs text-2xl mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-sm">🔧 Tech Skills</h4>
+                                <p class="text-xs opacity-90">Required technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-white p-4 rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background: linear-gradient(135deg, #E91E63, #C2185B);" onclick="showSection('competency')" onmouseover="this.style.background='linear-gradient(135deg, #C2185B, #AD1457)'; this.style.transform='scale(1.08)';" onmouseout="this.style.background='linear-gradient(135deg, #E91E63, #C2185B)'; this.style.transform='scale(1)';">
+                        <div class="flex items-center">
+                            <i class="fas fa-certificate text-2xl mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-sm">📋 Competencies</h4>
+                                <p class="text-xs opacity-90">SKKNI requirements</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-white p-4 rounded-lg cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl" style="background: linear-gradient(135deg, #FFB300, #FF8F00);" onclick="showSection('salary')" onmouseover="this.style.background='linear-gradient(135deg, #FF8F00, #E65100)'; this.style.transform='scale(1.08)';" onmouseout="this.style.background='linear-gradient(135deg, #FFB300, #FF8F00)'; this.style.transform='scale(1)';">
+                        <div class="flex items-center">
+                            <i class="fas fa-money-bill-wave text-2xl mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-sm">💰 Salaries</h4>
+                                <p class="text-xs opacity-90">Regional analysis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Monthly Trends Section -->
+        <div id="monthly-trends-section" class="hidden">
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">Monthly Demand Trends</h2>
+                        <p class="text-gray-600 mt-1">Track occupation demand patterns over time by functional area</p>
+                    </div>
+                </div>
+                <div id="monthly-trends-chart" class="w-full" style="height: 600px; min-width: 100%;"></div>
+            </div>
+        </div>
+
+        <!-- Occupation Distribution Section -->
+        <div id="occupation-dist-section" class="hidden">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">Occupation Distribution Analysis</h2>
+                        <p class="text-gray-600 mt-1">Compare demand across different IT occupations and functional areas</p>
+                    </div>
+                </div>
+                <div id="occupation-dist-chart" class="w-full" style="height: 700px;"></div>
+            </div>
+        </div>
+
+        <!-- Technology Skills Section -->
+        <div id="tech-skills-section" class="hidden">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">Technology Skills Analysis</h2>
+                        <p class="text-gray-600 mt-1">Explore technology skills required for different TIK occupations</p>
+                    </div>
+                </div>
+                <!-- Occupation Selector -->
+                <div class="mb-6">
+                    <label for="occupation-select" class="block text-sm font-medium text-gray-700 mb-2">Select Occupation:</label>
+                    <select id="occupation-select" class="w-full max-w-md px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Loading occupations...</option>
+                    </select>
+                </div>
+
+                <!-- Search and Filter Controls -->
+                <div class="mb-4 flex flex-col sm:flex-row gap-4">
+                    <div class="flex-1">
+                        <input type="text" id="skills-search" placeholder="Search technology skills..." 
+                               class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="flex gap-2">
+                        <button id="clear-search" class="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
+                            <i class="fas fa-times mr-2"></i>Clear
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Skills Table -->
+                <div class="bg-white rounded-lg shadow overflow-hidden">
+                    <div class="px-4 py-3 bg-gray-50 border-b border-gray-200">
+                        <h3 class="text-lg font-medium text-gray-900" id="table-title">Technology Skills Required</h3>
+                        <p class="text-sm text-gray-600" id="table-subtitle">Select an occupation to view required technology skills</p>
+                    </div>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('occupationCode')">
+                                        Occupation Code <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('occupation')">
+                                        Occupation <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('skill')">
+                                        Technology Skill <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('usage')">
+                                        Usage Count <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="skills-table-body" class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td colspan="4" class="px-6 py-8 text-center text-gray-500">
+                                        Select an occupation to view technology skills
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Pagination -->
+                    <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+                        <div class="flex-1 flex justify-between sm:hidden">
+                            <button id="prev-mobile" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                                Previous
+                            </button>
+                            <button id="next-mobile" class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                                Next
+                            </button>
+                        </div>
+                        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                            <div>
+                                <p class="text-sm text-gray-700">
+                                    Showing <span id="showing-start">0</span> to <span id="showing-end">0</span> of <span id="total-skills">0</span> skills
+                                </p>
+                            </div>
+                            <div>
+                                <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" id="pagination-controls">
+                                    <!-- Pagination buttons will be inserted here -->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Competency Section -->
+        <div id="competency-section" class="hidden">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <div>
+                        <h2 class="text-2xl font-bold text-gray-900">Core Competencies & Tasks</h2>
+                        <p class="text-gray-600 mt-1">Analyze core tasks and competencies for TIK occupations</p>
+                    </div>
+                </div>
+                
+                <!-- Occupation Selector for Competencies -->
+                <div class="mb-6">
+                    <label for="competency-occupation-select" class="block text-sm font-medium text-gray-700 mb-2">Select Occupation:</label>
+                    <select id="competency-occupation-select" class="w-full max-w-md px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        <option value="">Loading occupations...</option>
+                    </select>
+                </div>
+
+                <!-- Search and Filter Controls for Competencies -->
+                <div class="mb-4 flex flex-col sm:flex-row gap-4">
+                    <div class="flex-1">
+                        <input type="text" id="competencies-search" placeholder="Search competencies..." 
+                               class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                    </div>
+                    <div class="flex gap-2">
+                        <button id="clear-competencies-search" class="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500">
+                            <i class="fas fa-times mr-2"></i>Clear
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Competencies Table -->
+                <div class="bg-white rounded-lg shadow overflow-hidden">
+                    <div class="px-4 py-3 bg-gray-50 border-b border-gray-200">
+                        <h3 class="text-lg font-medium text-gray-900" id="competency-table-title">Core Competencies Required</h3>
+                        <p class="text-sm text-gray-600" id="competency-table-subtitle">Select an occupation to view required competencies</p>
+                    </div>
+                    
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortCompetencyTable('occupationCode')">
+                                        Occupation Code <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortCompetencyTable('occupation')">
+                                        SKKNI Occupation <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortCompetencyTable('code')">
+                                        Competency Code <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortCompetencyTable('title')">
+                                        Competency Title <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortCompetencyTable('status')">
+                                        Status <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortCompetencyTable('reference')">
+                                        Reference <i class="fas fa-sort ml-1"></i>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody id="competencies-table-body" class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td colspan="6" class="px-6 py-8 text-center text-gray-500">
+                                        Select an occupation to view competencies
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <!-- Pagination for Competencies -->
+                    <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+                        <div class="flex-1 flex justify-between sm:hidden">
+                            <button id="competency-prev-mobile" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                                Previous
+                            </button>
+                            <button id="competency-next-mobile" class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
+                                Next
+                            </button>
+                        </div>
+                        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
+                            <div>
+                                <p class="text-sm text-gray-700">
+                                    Showing <span id="competency-showing-start">0</span> to <span id="competency-showing-end">0</span> of <span id="competency-total">0</span> competencies
+                                </p>
+                            </div>
+                            <div>
+                                <nav class="relative z-0 inline-flex rounded-md shadow-sm -space-x-px" id="competency-pagination-controls">
+                                    <!-- Pagination buttons will be inserted here -->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Salary Analysis Section -->
+        <div id="salary-section" class="hidden">
+            <div class="space-y-8">
+                <!-- Salary Distribution (Box Plot) -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">Salary Distribution Analysis</h3>
+                            <p class="text-gray-600 mt-1">Statistical distribution of salaries across provinces by occupation</p>
+                        </div>
+                    </div>
+                    <div id="salary-distribution-chart" class="w-full" style="height: 600px;"></div>
+                </div>
+
+                <!-- Salary Comparison (Bar Chart) -->
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <div class="flex items-center justify-between mb-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-900">Average Salary Comparison</h3>
+                            <p class="text-gray-600 mt-1">Compare average minimum and maximum salaries across provinces</p>
+                        </div>
+                    </div>
+                    <div id="salary-comparison-chart" class="w-full" style="height: 600px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="text-center text-gray-500 text-sm">
+                <p>TIK Occupation Analysis Dashboard • Indonesia Job Portal Data • Period: 2021-2024</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        // Global variables
+        let dashboardData = {};
+        let processedData = {};
+
+        // Navigation functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeNavigation();
+            loadAllData();
+        });
+
+        // Handle window resize for better chart responsiveness
+        window.addEventListener('resize', function() {
+            setTimeout(() => {
+                if (document.getElementById('monthly-trends-chart').style.display !== 'none') {
+                    Plotly.Plots.resize('monthly-trends-chart');
+                }
+                if (document.getElementById('occupation-dist-chart').style.display !== 'none') {
+                    Plotly.Plots.resize('occupation-dist-chart');
+                }
+                if (document.getElementById('tech-skills-chart').style.display !== 'none') {
+                    Plotly.Plots.resize('tech-skills-chart');
+                }
+                if (document.getElementById('competency-chart').style.display !== 'none') {
+                    Plotly.Plots.resize('competency-chart');
+                }
+                if (document.getElementById('salary-distribution-chart').style.display !== 'none') {
+                    Plotly.Plots.resize('salary-distribution-chart');
+                }
+                if (document.getElementById('salary-comparison-chart').style.display !== 'none') {
+                    Plotly.Plots.resize('salary-comparison-chart');
+                }
+            }, 100);
+        });
+
+        function initializeNavigation() {
+            const buttons = {
+                'overview-btn': 'overview',
+                'monthly-trends-btn': 'monthly-trends',
+                'occupation-dist-btn': 'occupation-dist',
+                'tech-skills-btn': 'tech-skills',
+                'competency-btn': 'competency',
+                'salary-btn': 'salary'
+            };
+
+            Object.entries(buttons).forEach(([btnId, section]) => {
+                document.getElementById(btnId).addEventListener('click', () => showSection(section));
+            });
+        }
+
+        function showSection(section) {
+            // Update button states
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.classList.remove('active', 'bg-primary', 'text-white');
+                btn.classList.add('text-gray-600', 'hover:text-gray-900', 'hover:bg-gray-100');
+            });
+
+            // Hide all sections
+            const sections = ['overview', 'monthly-trends', 'occupation-dist', 'tech-skills', 'competency', 'salary'];
+            sections.forEach(s => {
+                document.getElementById(`${s}-section`).classList.add('hidden');
+            });
+
+            // Show selected section and activate button
+            document.getElementById(`${section}-section`).classList.remove('hidden');
+            const btn = document.getElementById(`${section}-btn`) || document.getElementById(`${section.replace('-', '-')}-btn`);
+            if (btn) {
+                btn.classList.add('active', 'bg-primary', 'text-white');
+                btn.classList.remove('text-gray-600', 'hover:text-gray-900', 'hover:bg-gray-100');
+            }
+
+            // Force resize charts when section is shown
+            setTimeout(() => {
+                if (section === 'monthly-trends' && document.getElementById('monthly-trends-chart')) {
+                    Plotly.Plots.resize('monthly-trends-chart');
+                } else if (section === 'occupation-dist' && document.getElementById('occupation-dist-chart')) {
+                    Plotly.Plots.resize('occupation-dist-chart');
+                } else if (section === 'tech-skills' && document.getElementById('tech-skills-chart')) {
+                    Plotly.Plots.resize('tech-skills-chart');
+                } else if (section === 'competency' && document.getElementById('competency-chart')) {
+                    Plotly.Plots.resize('competency-chart');
+                } else if (section === 'salary') {
+                    if (document.getElementById('salary-distribution-chart')) {
+                        Plotly.Plots.resize('salary-distribution-chart');
+                    }
+                    if (document.getElementById('salary-comparison-chart')) {
+                        Plotly.Plots.resize('salary-comparison-chart');
+                    }
+                }
+            }, 100);
+        }
+
+        // Data loading functions
+        async function loadAllData() {
+            try {
+                const dataFiles = [
+                    'monthly_demand_data.csv',
+                    'tik_occupation_list.csv',
+                    '../technology_skills_data.csv',
+                    'tugas_utama.csv',
+                    'province_data.csv'
+                ];
+
+                const loadPromises = dataFiles.map(async (file) => {
+                    const response = await fetch(`./02 Data/Data for Dashboard/${file}`);
+                    const text = await response.text();
+                    return Papa.parse(text, {
+                        header: true,
+                        delimiter: file.includes('tugas_utama') ? ',' : ';',
+                        skipEmptyLines: true
+                    }).data;
+                });
+
+                const results = await Promise.all(loadPromises);
+                
+                dashboardData.monthlyDemand = results[0];
+                dashboardData.tikOccupation = results[1];
+                dashboardData.techSkills = results[2];
+                dashboardData.coreCompetencies = results[3];
+                dashboardData.provinceData = results[4];
+
+                processAllData();
+                
+                document.getElementById('loading').classList.add('hidden');
+                showSection('overview');
+                
+                createAllCharts();
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').innerHTML = `
+                    <div class="text-center text-red-600">
+                        <i class="fas fa-exclamation-triangle text-3xl mb-4"></i>
+                        <p>Error loading dashboard data. Please ensure all CSV files are available.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function processAllData() {
+            // Process monthly demand data
+            const grouped = {};
+            dashboardData.monthlyDemand.forEach(row => {
+                const key = `${row.at_year}_${row.year_month}_${row['Kode Okupasi']}_${row['SKKNI Occupation']}`;
+                if (!grouped[key]) {
+                    grouped[key] = {
+                        at_year: row.at_year,
+                        year_month: row.year_month,
+                        kode_okupasi: row['Kode Okupasi'],
+                        skkni_occupation: row['SKKNI Occupation'],
+                        monthly_demand: 0
+                    };
+                }
+                grouped[key].monthly_demand += parseInt(row.monthly_demand || 0);
+            });
+
+            processedData.collapsed = Object.values(grouped);
+
+            // Create TIK lookup
+            const tikLookup = {};
+            dashboardData.tikOccupation.forEach(row => {
+                tikLookup[row['Kode Okupasi']] = row['Area Fungsi Kunci_eng'];
+            });
+
+            // Merge data
+            processedData.collapsed.forEach(row => {
+                row.area_fungsi = tikLookup[row.kode_okupasi] || 'Unknown';
+            });
+
+            processedData.tikLookup = tikLookup;
+
+            // Process area distribution
+            const areaDistribution = {};
+            processedData.collapsed.forEach(row => {
+                if (!areaDistribution[row.area_fungsi]) {
+                    areaDistribution[row.area_fungsi] = 0;
+                }
+                areaDistribution[row.area_fungsi] += row.monthly_demand;
+            });
+
+            processedData.areaDistribution = Object.entries(areaDistribution)
+                .map(([area, demand]) => ({ area, demand }))
+                .sort((a, b) => b.demand - a.demand);
+        }
+
+        function createAllCharts() {
+            createOverviewCharts();
+            createMonthlyTrendsChart();
+            createOccupationDistributionChart();
+                createTechSkillsTable();
+            createCompetencyTable();
+            createSalaryDistributionChart();
+            createSalaryComparisonChart();
+            
+            // Setup intersection observer for chart resize when visible
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            const chartId = entry.target.id;
+                            if (chartId && window.Plotly) {
+                                Plotly.Plots.resize(chartId);
+                            }
+                        }, 100);
+                    }
+                });
+            });
+
+            // Observe all chart containers
+            ['monthly-trends-chart', 'occupation-dist-chart', 'tech-skills-chart', 'competency-chart', 'salary-distribution-chart', 'salary-comparison-chart'].forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    observer.observe(element);
+                }
+            });
+        }
+
+        function createOverviewCharts() {
+
+            // Area Distribution Chart
+            const areaData = processedData.areaDistribution.slice(0, 8); // Top 8 areas
+            
+            Plotly.newPlot('overview-area-dist', [{
+                type: 'pie',
+                labels: areaData.map(d => d.area),
+                values: areaData.map(d => d.demand),
+                hole: 0.4,
+                marker: {
+                    colors: CHART_COLORS.palette
+                },
+                hovertemplate: '<b>%{label}</b><br>Demand: %{value:,.0f}<br>Percentage: %{percent}<extra></extra>'
+            }], {
+                showlegend: true,
+                margin: { t: 20, b: 20, l: 20, r: 20 },
+                font: { size: 10 }
+            }, { responsive: true });
+
+            // Monthly Overview
+            const monthlyTotals = {};
+            processedData.collapsed.forEach(row => {
+                if (!monthlyTotals[row.year_month]) {
+                    monthlyTotals[row.year_month] = 0;
+                }
+                monthlyTotals[row.year_month] += row.monthly_demand;
+            });
+
+            const sortedMonths = Object.keys(monthlyTotals).sort();
+            const demands = sortedMonths.map(month => monthlyTotals[month]);
+
+            Plotly.newPlot('overview-monthly-trend', [{
+                x: sortedMonths,
+                y: demands,
+                type: 'scatter',
+                mode: 'lines+markers',
+                line: { color: CHART_COLORS.primary, width: 3 },
+                marker: { color: CHART_COLORS.primary, size: 6 },
+                hovertemplate: '<b>%{x}</b><br>Demand: %{y:,.0f}<extra></extra>'
+            }], {
+                xaxis: { title: 'Month' },
+                yaxis: { title: 'Total Demand' },
+                margin: { t: 20, b: 40, l: 60, r: 20 }
+            }, { responsive: true });
+
+            // Calculate and update insights
+            updateKeyInsights(monthlyTotals, sortedMonths, demands);
+            
+            // Create provinces list
+            createProvincesList();
+        }
+
+        function updateKeyInsights(monthlyTotals, sortedMonths, demands) {
+            // Most demanded area
+            if (processedData.areaDistribution.length > 0) {
+                const topArea = processedData.areaDistribution[0];
+                const percentage = ((topArea.demand / processedData.collapsed.reduce((sum, d) => sum + d.monthly_demand, 0)) * 100).toFixed(1);
+                document.getElementById('top-area').textContent = topArea.area;
+                document.getElementById('top-area-percentage').textContent = `${percentage}% of total demand`;
+            }
+
+            // Top province (if province data exists)
+            if (dashboardData.provinceData && dashboardData.provinceData.length > 0) {
+                const provinceJobs = {};
+                dashboardData.provinceData.forEach(row => {
+                    const province = row.province_english;
+                    if (province) {
+                        provinceJobs[province] = (provinceJobs[province] || 0) + 1;
+                    }
+                });
+                
+                const topProvince = Object.entries(provinceJobs)
+                    .sort((a, b) => b[1] - a[1])[0];
+                
+                if (topProvince) {
+                    document.getElementById('top-province').textContent = topProvince[0];
+                    document.getElementById('top-province-jobs').textContent = `${topProvince[1]} job postings`;
+                }
+            } else {
+                document.getElementById('top-province').textContent = 'Jakarta';
+                document.getElementById('top-province-jobs').textContent = 'Primary market';
+            }
+
+            // Peak demand period
+            if (demands.length > 0) {
+                const maxDemandIndex = demands.indexOf(Math.max(...demands));
+                const peakMonth = sortedMonths[maxDemandIndex];
+                const peakDemand = demands[maxDemandIndex];
+                
+                document.getElementById('peak-period').textContent = peakMonth;
+                document.getElementById('peak-period-jobs').textContent = `${peakDemand.toLocaleString()} jobs`;
+            }
+
+            // Growth trend - calculate from first to last period
+            if (demands.length >= 2) {
+                const firstValue = demands[0];
+                const lastValue = demands[demands.length - 1];
+                const growthRate = ((lastValue - firstValue) / firstValue * 100);
+                
+                const trendText = growthRate > 0 ? `+${growthRate.toFixed(1)}%` : `${growthRate.toFixed(1)}%`;
+                const trendColor = growthRate > 0 ? 'text-green-600' : 'text-red-600';
+                
+                document.getElementById('growth-trend').textContent = trendText;
+                document.getElementById('growth-trend').className = `${trendColor} font-semibold`;
+            }
+        }
+
+        function createProvincesList() {
+            if (!dashboardData.provinceData || dashboardData.provinceData.length === 0) {
+                document.getElementById('provinces-list').innerHTML = '<p class="text-gray-500 col-span-2">Province data not available</p>';
+                return;
+            }
+
+            // Count jobs by province
+            const provinceJobs = {};
+            dashboardData.provinceData.forEach(row => {
+                const province = row.province_english;
+                if (province) {
+                    provinceJobs[province] = (provinceJobs[province] || 0) + 1;
+                }
+            });
+
+            // Get top 10 provinces
+            const topProvinces = Object.entries(provinceJobs)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10);
+
+            const provincesList = document.getElementById('provinces-list');
+            provincesList.innerHTML = '';
+
+            topProvinces.forEach(([province, count], index) => {
+                const percentage = ((count / Object.values(provinceJobs).reduce((a, b) => a + b, 0)) * 100).toFixed(1);
+                const provinceCard = `
+                    <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                        <div class="flex items-center">
+                            <div class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-sm font-bold mr-3">
+                                ${index + 1}
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-900">${province}</p>
+                                <p class="text-sm text-gray-500">${percentage}% of total</p>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <p class="text-lg font-bold text-blue-600">${count}</p>
+                            <p class="text-xs text-gray-400">jobs</p>
+                        </div>
+                    </div>
+                `;
+                provincesList.innerHTML += provinceCard;
+            });
+        }
+
+        function createMonthlyTrendsChart() {
+            const data = processedData.collapsed;
+            const functionAreas = ['TIK Occupation Map', ...new Set(data.map(d => d.area_fungsi).filter(a => a !== 'Unknown')).values()].sort();
+            
+            const TOTAL_SAMPLE = 650000;
+            const TIK_TOTAL_SAMPLE = 105880;
+            
+            const traces = [];
+            const buttons = [];
+            
+            functionAreas.forEach((area, index) => {
+                let filteredData;
+                if (area === 'TIK Occupation Map') {
+                    filteredData = data;
+                } else {
+                    filteredData = data.filter(d => d.area_fungsi === area);
+                }
+                
+                const monthlyTotals = {};
+                filteredData.forEach(row => {
+                    if (!monthlyTotals[row.year_month]) {
+                        monthlyTotals[row.year_month] = 0;
+                    }
+                    monthlyTotals[row.year_month] += row.monthly_demand;
+                });
+                
+                const sortedMonths = Object.keys(monthlyTotals).sort();
+                const demands = sortedMonths.map(month => monthlyTotals[month]);
+                
+                // Calculate trend line
+                const x = demands.map((_, i) => i);
+                let trendline = demands;
+                if (x.length > 1) {
+                    const n = x.length;
+                    const sumX = x.reduce((a, b) => a + b, 0);
+                    const sumY = demands.reduce((a, b) => a + b, 0);
+                    const sumXY = x.reduce((sum, xi, i) => sum + xi * demands[i], 0);
+                    const sumXX = x.reduce((sum, xi) => sum + xi * xi, 0);
+                    
+                    const slope = (n * sumXY - sumX * sumY) / (n * sumXX - sumX * sumX);
+                    const intercept = (sumY - slope * sumX) / n;
+                    
+                    trendline = x.map(xi => slope * xi + intercept);
+                }
+                
+                const totalDemand = demands.reduce((a, b) => a + b, 0);
+                const percentage = area === 'TIK Occupation Map' ? 
+                    (totalDemand / TOTAL_SAMPLE) * 100 : 
+                    (totalDemand / TIK_TOTAL_SAMPLE) * 100;
+                
+                traces.push({
+                    x: sortedMonths,
+                    y: demands,
+                    name: 'Actual Demand',
+                    type: 'scatter',
+                    mode: 'lines',
+                    visible: index === 0,
+                    line: { color: CHART_COLORS.primary, width: 3 }
+                });
+                
+                traces.push({
+                    x: sortedMonths,
+                    y: trendline,
+                    name: 'Trend',
+                    type: 'scatter',
+                    mode: 'lines',
+                    visible: index === 0,
+                    line: { color: CHART_COLORS.danger, width: 2, dash: 'dash' }
+                });
+                
+                const visible = new Array(functionAreas.length * 2).fill(false);
+                visible[index * 2] = true;
+                visible[index * 2 + 1] = true;
+                
+                const percentageText = area === 'TIK Occupation Map' ? 
+                    `${percentage.toFixed(1)}% of total sample` : 
+                    `${percentage.toFixed(1)}% of TIK occupation map`;
+                
+                buttons.push({
+                    args: [
+                        { visible: visible },
+                        { title: `Monthly Demand Over Time - ${area}<br>Total Demand for Period: ${totalDemand.toLocaleString()} (${percentageText})` }
+                    ],
+                    label: area,
+                    method: 'update'
+                });
+            });
+            
+            const layout = {
+                title: {
+                    text: 'Monthly Demand Over Time - TIK Occupation Map',
+                    font: { size: 16 }
+                },
+                xaxis: { title: 'Month' },
+                yaxis: { title: 'Demand (#)' },
+                updatemenus: [{
+                    buttons: buttons,
+                    direction: 'down',
+                    showactive: true,
+                    x: 0.98,
+                    xanchor: 'right',
+                    y: 0.98,
+                    yanchor: 'top',
+                    bgcolor: 'rgba(255,255,255,0.9)',
+                    bordercolor: '#ccc',
+                    borderwidth: 1
+                }],
+                template: 'plotly_white',
+                showlegend: true,
+                margin: { t: 60, r: 10, l: 50, b: 40 },
+                autosize: true,
+                width: null,
+                height: 600
+            };
+            
+            Plotly.newPlot('monthly-trends-chart', traces, layout, {
+                responsive: true,
+                displayModeBar: true,
+                modeBarButtonsToRemove: ['pan2d', 'lasso2d', 'select2d'],
+                displaylogo: false
+            });
+            
+            // Force resize after a short delay to ensure proper sizing
+            setTimeout(() => {
+                Plotly.Plots.resize('monthly-trends-chart');
+            }, 100);
+            
+            // Additional resize attempts to ensure proper initial sizing
+            setTimeout(() => {
+                Plotly.Plots.resize('monthly-trends-chart');
+            }, 500);
+            
+            setTimeout(() => {
+                Plotly.Plots.resize('monthly-trends-chart');
+            }, 1000);
+        }
+
+        function createOccupationDistributionChart() {
+            const data = processedData.collapsed;
+            const TOTAL_TIK_SAMPLE = 105880; // Total TIK occupations sample
+            
+            const occupationTotals = {};
+            data.forEach(row => {
+                const key = `${row.kode_okupasi}_${row.skkni_occupation}_${row.area_fungsi}`;
+                if (!occupationTotals[key]) {
+                    occupationTotals[key] = {
+                        kode_okupasi: row.kode_okupasi,
+                        skkni_occupation: row.skkni_occupation,
+                        area_fungsi: row.area_fungsi,
+                        total_demand: 0
+                    };
+                }
+                occupationTotals[key].total_demand += row.monthly_demand;
+            });
+            
+            const occupationData = Object.values(occupationTotals)
+                .sort((a, b) => b.total_demand - a.total_demand);
+            
+            const areas = ['All Areas', ...new Set(occupationData.map(d => d.area_fungsi).filter(a => a !== 'Unknown')).values()].sort();
+            
+            const traces = [];
+            const buttons = [];
+            
+            areas.forEach((area, index) => {
+                let filteredData;
+                if (area === 'All Areas') {
+                    filteredData = occupationData;
+                } else {
+                    filteredData = occupationData.filter(d => d.area_fungsi === area);
+                }
+                
+                traces.push({
+                    x: filteredData.map(d => d.total_demand),
+                    y: filteredData.map(d => d.skkni_occupation),
+                    type: 'bar',
+                    orientation: 'h',
+                    name: area,
+                    visible: index === 0,
+                    marker: { 
+                        color: CHART_COLORS.palette[index % CHART_COLORS.palette.length],
+                        opacity: 0.8,
+                        line: { color: 'white', width: 1 }
+                    },
+                    customdata: filteredData.map(d => ((d.total_demand / TOTAL_TIK_SAMPLE) * 100).toFixed(2)),
+                    hovertemplate: '<b>%{y}</b><br>Demand: %{x:,.0f}<br>Percentage: %{customdata}% of total TIK sample<br><extra></extra>'
+                });
+                
+                const visible = new Array(areas.length).fill(false);
+                visible[index] = true;
+                
+                buttons.push({
+                    args: [
+                        { visible: visible },
+                        { title: area === 'All Areas' ? 'Distribution of IT Occupations by Demand' : `IT Occupations Demand - ${area}` }
+                    ],
+                    label: area,
+                    method: 'update'
+                });
+            });
+            
+            const layout = {
+                title: {
+                    text: 'Distribution of IT Occupations by Demand',
+                    font: { size: 16 }
+                },
+                xaxis: { title: 'Demand (#)' },
+                yaxis: { 
+                    title: 'Occupation',
+                    tickangle: 0
+                },
+                updatemenus: [{
+                    buttons: buttons,
+                    direction: 'down',
+                    showactive: true,
+                    x: 1.0,
+                    xanchor: 'right',
+                    y: 1.15,
+                    yanchor: 'top'
+                }],
+                template: 'plotly_white',
+                margin: { t: 100, l: 300, r: 50, b: 50 },
+                height: 700,
+                autosize: true
+            };
+            
+            Plotly.newPlot('occupation-dist-chart', traces, layout, {responsive: true});
+        }
+
+        // Global variables for table functionality
+        let currentSkillsData = [];
+        let filteredSkillsData = [];
+        let currentPage = 1;
+        let itemsPerPage = 20;
+        let sortColumn = 'rank';
+        let sortDirection = 'asc';
+
+        function createTechSkillsTable() {
+            if (!dashboardData.techSkills || dashboardData.techSkills.length === 0) {
+                document.getElementById('skills-table-body').innerHTML = '<tr><td colspan="4" class="px-6 py-8 text-center text-gray-500">Technology skills data not available</td></tr>';
+                return;
+            }
+
+            console.log('Tech skills data loaded:', dashboardData.techSkills.length, 'items');
+            console.log('Sample tech skills data:', dashboardData.techSkills.slice(0, 3));
+
+            // Following notebook pattern: Get unique SKKNI codes and names
+            // for skkni_code, skkni_name in df[['SKKNI Code', 'SKKNI Name']].drop_duplicates().values:
+            const uniqueOccupations = [];
+            const seen = new Set();
+            
+            dashboardData.techSkills.forEach(row => {
+                const code = row['SKKNI Code'];
+                const name = row['SKKNI Name'];
+                const key = `${code}|${name}`;
+                
+                if (code && name && !seen.has(key)) {
+                    seen.add(key);
+                    uniqueOccupations.push({ code, name });
+                }
+            });
+
+            console.log('Unique occupations found:', uniqueOccupations.length, 'occupations');
+
+            const occupationSelect = document.getElementById('occupation-select');
+            occupationSelect.innerHTML = '<option value="">Select an occupation...</option>';
+            
+            // Add "All Occupations" option
+            const allOption = document.createElement('option');
+            allOption.value = 'ALL';
+            allOption.textContent = 'All Occupations';
+            occupationSelect.appendChild(allOption);
+            
+            uniqueOccupations.forEach(({ code, name }) => {
+                const option = document.createElement('option');
+                option.value = code;
+                option.textContent = name;
+                occupationSelect.appendChild(option);
+            });
+
+            // Event listeners
+            occupationSelect.addEventListener('change', function() {
+                loadSkillsForOccupation(this.value, uniqueOccupations);
+            });
+
+            document.getElementById('skills-search').addEventListener('input', function() {
+                filterSkills(this.value);
+            });
+
+            document.getElementById('clear-search').addEventListener('click', function() {
+                document.getElementById('skills-search').value = '';
+                filterSkills('');
+            });
+
+            // Load first occupation by default
+            if (uniqueOccupations.length > 0) {
+                const firstCode = uniqueOccupations[0].code;
+                occupationSelect.value = firstCode;
+                loadSkillsForOccupation(firstCode, uniqueOccupations);
+            }
+        }
+
+        function loadSkillsForOccupation(skkniCode, uniqueOccupations) {
+            if (!skkniCode) {
+                currentSkillsData = [];
+                filteredSkillsData = [];
+                updateTable();
+                return;
+            }
+
+            let skillsData = [];
+            
+            if (skkniCode === 'ALL') {
+                // Show all skills with their occupation information
+                skillsData = dashboardData.techSkills
+                    .filter(row => row['Technology_Skills'] && row['SKKNI Code'] && row['SKKNI Name'])
+                    .map(row => ({
+                        skill: row['Technology_Skills'],
+                        usage: parseInt(row['count_occupatoins'] || 1),
+                        occupationCode: row['SKKNI Code'],
+                        occupation: row['SKKNI Name']
+                    }));
+
+                document.getElementById('table-title').textContent = `Technology Skills Required - All Occupations`;
+                document.getElementById('table-subtitle').textContent = `${skillsData.length} skills across all occupations`;
+            } else {
+                // Filter data for specific occupation
+                const occupationSkills = dashboardData.techSkills
+                    .filter(row => row['SKKNI Code'] === skkniCode)
+                    .filter(row => row['Technology_Skills'] && row['SKKNI Name']);
+
+                console.log('Raw occupation skills for', skkniCode, ':', occupationSkills.length, 'entries');
+
+                // Remove duplicates by skill name for single occupation
+                const uniqueSkills = {};
+                occupationSkills.forEach(row => {
+                    const skill = row['Technology_Skills'];
+                    if (!uniqueSkills[skill]) {
+                        uniqueSkills[skill] = {
+                            skill: skill,
+                            usage: parseInt(row['count_occupatoins'] || 1),
+                            occupationCode: row['SKKNI Code'],
+                            occupation: row['SKKNI Name']
+                        };
+                    }
+                });
+
+                skillsData = Object.values(uniqueSkills);
+
+                // Update title
+                const occupationName = uniqueOccupations.find(occ => occ.code === skkniCode)?.name || 'Unknown';
+                document.getElementById('table-title').textContent = `Technology Skills Required - ${occupationName}`;
+                document.getElementById('table-subtitle').textContent = `${skillsData.length} skills required`;
+            }
+
+            // Sort by usage count (descending)
+            currentSkillsData = skillsData.sort((a, b) => b.usage - a.usage);
+            filteredSkillsData = [...currentSkillsData];
+            currentPage = 1;
+
+            console.log('Final skills data prepared:', currentSkillsData.length, 'skills');
+            console.log('Sample skills:', currentSkillsData.slice(0, 3));
+
+            updateTable();
+        }
+
+
+        function filterSkills(searchTerm) {
+            if (!searchTerm.trim()) {
+                filteredSkillsData = [...currentSkillsData];
+            } else {
+                const term = searchTerm.toLowerCase();
+                filteredSkillsData = currentSkillsData.filter(item => 
+                    item.skill.toLowerCase().includes(term) ||
+                    item.occupationCode.toLowerCase().includes(term) ||
+                    item.occupation.toLowerCase().includes(term)
+                );
+            }
+            currentPage = 1;
+            updateTable();
+        }
+
+        function sortTable(column) {
+            if (sortColumn === column) {
+                sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortColumn = column;
+                sortDirection = 'asc';
+            }
+
+            filteredSkillsData.sort((a, b) => {
+                let valueA, valueB;
+                
+                switch(column) {
+                    case 'skill':
+                        valueA = a.skill.toLowerCase();
+                        valueB = b.skill.toLowerCase();
+                        break;
+                    case 'usage':
+                        valueA = a.usage;
+                        valueB = b.usage;
+                        break;
+                    case 'occupationCode':
+                        valueA = a.occupationCode.toLowerCase();
+                        valueB = b.occupationCode.toLowerCase();
+                        break;
+                    case 'occupation':
+                        valueA = a.occupation.toLowerCase();
+                        valueB = b.occupation.toLowerCase();
+                        break;
+                    default:
+                        return 0;
+                }
+
+                if (sortDirection === 'asc') {
+                    return valueA < valueB ? -1 : valueA > valueB ? 1 : 0;
+                } else {
+                    return valueA > valueB ? -1 : valueA < valueB ? 1 : 0;
+                }
+            });
+
+            updateTable();
+        }
+
+        function updateTable() {
+            const tbody = document.getElementById('skills-table-body');
+            const totalItems = filteredSkillsData.length;
+            
+            if (totalItems === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="px-6 py-8 text-center text-gray-500">No skills found</td></tr>';
+                updatePaginationInfo(0, 0, 0);
+                return;
+            }
+
+            // Calculate pagination
+            const startIndex = (currentPage - 1) * itemsPerPage;
+            const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+            const pageData = filteredSkillsData.slice(startIndex, endIndex);
+
+            // Generate table rows
+            tbody.innerHTML = pageData.map(item => `
+                <tr class="hover:bg-gray-50">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        ${item.occupationCode}
+                    </td>
+                    <td class="px-6 py-4 text-sm text-gray-900">
+                        <div class="max-w-xs truncate" title="${item.occupation}">${item.occupation}</div>
+                    </td>
+                    <td class="px-6 py-4 text-sm text-gray-900">
+                        <div class="font-medium">${item.skill}</div>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                        <span class="font-semibold">${item.usage}</span> occupations
+                    </td>
+                </tr>
+            `).join('');
+
+            updatePaginationInfo(startIndex + 1, endIndex, totalItems);
+            updatePaginationControls(totalItems);
+        }
+
+        function updatePaginationInfo(start, end, total) {
+            document.getElementById('showing-start').textContent = start;
+            document.getElementById('showing-end').textContent = end;
+            document.getElementById('total-skills').textContent = total;
+        }
+
+        function updatePaginationControls(totalItems) {
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+            const paginationControls = document.getElementById('pagination-controls');
+            
+            if (totalPages <= 1) {
+                paginationControls.innerHTML = '';
+                return;
+            }
+
+            let paginationHTML = '';
+            
+            // Previous button
+            if (currentPage > 1) {
+                paginationHTML += `<button onclick="changePage(${currentPage - 1})" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Previous</button>`;
+            }
+
+            // Page numbers
+            const startPage = Math.max(1, currentPage - 2);
+            const endPage = Math.min(totalPages, currentPage + 2);
+
+            for (let i = startPage; i <= endPage; i++) {
+                const isActive = i === currentPage;
+                paginationHTML += `<button onclick="changePage(${i})" class="relative inline-flex items-center px-4 py-2 border text-sm font-medium ${isActive ? 'z-10 bg-blue-50 border-blue-500 text-blue-600' : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'}">${i}</button>`;
+            }
+
+            // Next button
+            if (currentPage < totalPages) {
+                paginationHTML += `<button onclick="changePage(${currentPage + 1})" class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Next</button>`;
+            }
+
+            paginationControls.innerHTML = paginationHTML;
+        }
+
+        function changePage(page) {
+            currentPage = page;
+            updateTable();
+        }
+
+        // Global variables for competency table functionality
+        let currentCompetencyData = [];
+        let filteredCompetencyData = [];
+        let currentCompetencyPage = 1;
+        let competencyItemsPerPage = 15;
+        let competencySortColumn = 'code';
+        let competencySortDirection = 'asc';
+
+        function createCompetencyChart() {
+            if (!dashboardData.coreCompetencies || dashboardData.coreCompetencies.length === 0) {
+                document.getElementById('competency-chart').innerHTML = '<p class="text-center text-gray-500 py-10">Competency data not available</p>';
+                return;
+            }
+
+            // Merge competency data with demand data
+            const competencyDemand = [];
+            dashboardData.coreCompetencies.forEach(row => {
+                const occupation = row['Okupasi'];
+                const competencyCode = row['Kode_Unit_Kompetensi'];
+                const competencyTitle = row['Judul_Unit_Kompetensi'];
+                const code = row['Kode_Okupasi'];
+                const status = row['Status_UK'];
+                const reference = row['Referensi'];
+                
+                // Find matching demand data
+                const demandData = processedData.collapsed.find(d => d.kode_okupasi === code);
+                const totalDemand = demandData ? demandData.monthly_demand : 0;
+                
+                if (competencyTitle && occupation) {
+                    competencyDemand.push({
+                        occupation,
+                        competencyCode,
+                        competencyTitle,
+                        code,
+                        status,
+                        reference,
+                        totalDemand
+                    });
+                }
+            });
+
+            // Get unique occupations
+            const occupations = [...new Set(competencyDemand.map(row => row.occupation))];
+            
+            // Create the table figure
+            const traces = [];
+            const buttons = [];
+
+            // Set initial data display
+            const initialOccupation = occupations[0];
+            const initialData = competencyDemand.filter(row => row.occupation === initialOccupation);
+
+            // Add initial table
+            traces.push({
+                type: 'table',
+                header: {
+                    values: ['Competency Code', 'Competency Title', 'Status', 'Reference'],
+                    font: { size: 12, color: 'white' },
+                    fill: { color: CHART_COLORS.primary },
+                    align: 'left'
+                },
+                cells: {
+                    values: [
+                        initialData.map(row => row.competencyCode),
+                        initialData.map(row => row.competencyTitle),
+                        initialData.map(row => row.status || 'N/A'),
+                        initialData.map(row => row.reference || 'N/A')
+                    ],
+                    font: { size: 11 },
+                    align: 'left',
+                    fill: { color: ['rgb(235, 245, 255)', 'white'] },
+                    line: { color: 'rgb(50, 50, 50)', width: 1 }
+                }
+            });
+
+            // Create dropdown buttons
+            occupations.forEach(occupation => {
+                const occupationData = competencyDemand.filter(row => row.occupation === occupation);
+                
+                buttons.push({
+                    args: [{
+                        'cells': {
+                            'values': [
+                                occupationData.map(row => row.competencyCode),
+                                occupationData.map(row => row.competencyTitle),
+                                occupationData.map(row => row.status || 'N/A'),
+                                occupationData.map(row => row.reference || 'N/A')
+                            ]
+                        }
+                    }],
+                    label: occupation.length > 35 ? occupation.substring(0, 35) + '...' : occupation,
+                    method: 'restyle'
+                });
+            });
+
+            const layout = {
+                title: {
+                    text: 'Competency Units by Occupation',
+                    font: { size: 16 }
+                },
+                updatemenus: [{
+                    buttons: buttons,
+                    direction: 'down',
+                    showactive: true,
+                    x: 1.0,
+                    xanchor: 'right',
+                    y: 1.2,
+                    yanchor: 'top'
+                }],
+                template: 'plotly_white',
+                margin: { t: 80, l: 20, r: 50, b: 20 },
+                height: 700,
+                autosize: true
+            };
+
+            Plotly.newPlot('competency-chart', traces, layout, {responsive: true});
+        }
+
+        function createCompetencyTable() {
+            if (!dashboardData.coreCompetencies || dashboardData.coreCompetencies.length === 0 ||
+                !dashboardData.monthlyDemand || dashboardData.monthlyDemand.length === 0) {
+                document.getElementById('competencies-table-body').innerHTML = '<tr><td colspan="6" class="px-6 py-8 text-center text-gray-500">Competency data not available</td></tr>';
+                return;
+            }
+
+            // Step 1: Create demand summary (following notebook pattern exactly)
+            // df_demand_summary = df_monthly_demand.groupby(['Kode Okupasi', 'SKKNI Occupation'])['monthly_demand'].sum().reset_index()
+            const demandSummary = {};
+            dashboardData.monthlyDemand.forEach(row => {
+                const kodeOkupasi = row['Kode Okupasi'];
+                const skkniOccupation = row['SKKNI Occupation'];
+                const monthlyDemand = parseInt(row['monthly_demand'] || 0);
+                
+                const key = `${kodeOkupasi}|${skkniOccupation}`;
+                if (!demandSummary[key]) {
+                    demandSummary[key] = {
+                        'Kode Okupasi': kodeOkupasi,
+                        'SKKNI Occupation': skkniOccupation,
+                        'monthly_demand': 0
+                    };
+                }
+                demandSummary[key]['monthly_demand'] += monthlyDemand;
+            });
+
+            const demandSummaryArray = Object.values(demandSummary);
+            console.log('Demand summary created:', demandSummaryArray.length, 'entries');
+
+            // Step 2: Merge datasets (following notebook pattern exactly)
+            // df_competency_demand = df_tugas_utama.merge(df_demand_summary, left_on='Kode_Okupasi', right_on='Kode Okupasi', how='inner')
+            const competencyDemand = [];
+            dashboardData.coreCompetencies.forEach(tugasRow => {
+                const kodeOkupasi = tugasRow['Kode_Okupasi'];
+                
+                // Find matching demand summary entry
+                const matchingDemand = demandSummaryArray.find(demandRow => 
+                    demandRow['Kode Okupasi'] === kodeOkupasi
+                );
+                
+                if (matchingDemand) {
+                    // Merge the data (inner join)
+                    competencyDemand.push({
+                        // From tugas_utama
+                        'Kode_Okupasi': tugasRow['Kode_Okupasi'],
+                        'Okupasi': tugasRow['Okupasi'],
+                        'Kode_Unit_Kompetensi': tugasRow['Kode_Unit_Kompetensi'],
+                        'Judul_Unit_Kompetensi': tugasRow['Judul_Unit_Kompetensi'],
+                        'Status_UK': tugasRow['Status_UK'],
+                        'Referensi': tugasRow['Referensi'],
+                        // From demand_summary
+                        'Kode Okupasi': matchingDemand['Kode Okupasi'],
+                        'SKKNI Occupation': matchingDemand['SKKNI Occupation'],
+                        'monthly_demand': matchingDemand['monthly_demand']
+                    });
+                }
+            });
+
+            console.log('Merged competency data:', competencyDemand.length, 'items');
+            console.log('Sample merged data:', competencyDemand.slice(0, 3));
+
+            // Step 3: Get unique occupations for dropdown (following notebook pattern)
+            // occupation_list = df_competency_demand['SKKNI Occupation'].unique()
+            const occupationSet = new Set();
+            competencyDemand.forEach(row => {
+                if (row['SKKNI Occupation']) {
+                    occupationSet.add(row['SKKNI Occupation']);
+                }
+            });
+            const occupationList = Array.from(occupationSet).sort();
+
+            console.log('Unique occupations found:', occupationList.length, 'occupations');
+
+            // Group by SKKNI Occupation
+            const occupationGroups = {};
+            competencyDemand.forEach(item => {
+                const occupation = item['SKKNI Occupation'];
+                if (!occupationGroups[occupation]) {
+                    occupationGroups[occupation] = [];
+                }
+                occupationGroups[occupation].push({
+                    skkniOccupation: item['SKKNI Occupation'],
+                    competencyCode: item['Kode_Unit_Kompetensi'],
+                    competencyTitle: item['Judul_Unit_Kompetensi'],
+                    occupationCode: item['Kode_Okupasi'],
+                    status: item['Status_UK'] || 'N/A',
+                    reference: item['Referensi'] || 'N/A'
+                });
+            });
+
+            const competencyOccupationSelect = document.getElementById('competency-occupation-select');
+            competencyOccupationSelect.innerHTML = '<option value="">Select an occupation...</option>';
+            
+            // Add "All Occupations" option
+            const allOption = document.createElement('option');
+            allOption.value = 'ALL';
+            allOption.textContent = 'All Occupations';
+            competencyOccupationSelect.appendChild(allOption);
+            
+            // Add individual occupations (using occupationList from notebook pattern)
+            occupationList.forEach(occupation => {
+                const option = document.createElement('option');
+                option.value = occupation;
+                option.textContent = occupation;
+                competencyOccupationSelect.appendChild(option);
+            });
+
+            // Event listeners for competencies
+            competencyOccupationSelect.addEventListener('change', function() {
+                loadCompetenciesForOccupation(this.value, occupationGroups, competencyDemand);
+            });
+
+            document.getElementById('competencies-search').addEventListener('input', function() {
+                filterCompetencies(this.value);
+            });
+
+            document.getElementById('clear-competencies-search').addEventListener('click', function() {
+                document.getElementById('competencies-search').value = '';
+                filterCompetencies('');
+            });
+
+            // Load "All Occupations" by default
+            competencyOccupationSelect.value = 'ALL';
+            loadCompetenciesForOccupation('ALL', occupationGroups, competencyDemand);
+        }
+
+        function loadCompetenciesForOccupation(occupation, occupationGroups, competencyDemand) {
+            if (!occupation) {
+                currentCompetencyData = [];
+                filteredCompetencyData = [];
+                updateCompetencyTable();
+                return;
+            }
+
+            if (occupation === 'ALL') {
+                // Show all competencies from all occupations (convert competencyDemand to proper format)
+                currentCompetencyData = competencyDemand.map(item => ({
+                    skkniOccupation: item['SKKNI Occupation'],
+                    competencyCode: item['Kode_Unit_Kompetensi'],
+                    competencyTitle: item['Judul_Unit_Kompetensi'],
+                    occupationCode: item['Kode_Okupasi'],
+                    status: item['Status_UK'] || 'N/A',
+                    reference: item['Referensi'] || 'N/A'
+                }));
+                document.getElementById('competency-table-title').textContent = 'Core Competencies Required - All Occupations';
+                document.getElementById('competency-table-subtitle').textContent = `${currentCompetencyData.length} total competencies across ${Object.keys(occupationGroups).length} occupations`;
+            } else {
+                // Show competencies for specific occupation
+                currentCompetencyData = occupationGroups[occupation] || [];
+                document.getElementById('competency-table-title').textContent = `Core Competencies Required - ${occupation}`;
+                document.getElementById('competency-table-subtitle').textContent = `${currentCompetencyData.length} competencies required`;
+            }
+            
+            filteredCompetencyData = [...currentCompetencyData];
+            currentCompetencyPage = 1;
+
+            updateCompetencyTable();
+        }
+
+        function filterCompetencies(searchTerm) {
+            if (!searchTerm.trim()) {
+                filteredCompetencyData = [...currentCompetencyData];
+            } else {
+                const term = searchTerm.toLowerCase();
+                filteredCompetencyData = currentCompetencyData.filter(item => 
+                    item.occupationCode.toLowerCase().includes(term) ||
+                    item.skkniOccupation.toLowerCase().includes(term) ||
+                    item.competencyCode.toLowerCase().includes(term) ||
+                    item.competencyTitle.toLowerCase().includes(term) ||
+                    item.status.toLowerCase().includes(term) ||
+                    item.reference.toLowerCase().includes(term)
+                );
+            }
+            currentCompetencyPage = 1;
+            updateCompetencyTable();
+        }
+
+        function sortCompetencyTable(column) {
+            if (competencySortColumn === column) {
+                competencySortDirection = competencySortDirection === 'asc' ? 'desc' : 'asc';
+            } else {
+                competencySortColumn = column;
+                competencySortDirection = 'asc';
+            }
+
+            filteredCompetencyData.sort((a, b) => {
+                let valueA, valueB;
+                
+                switch(column) {
+                    case 'occupationCode':
+                        valueA = a.occupationCode.toLowerCase();
+                        valueB = b.occupationCode.toLowerCase();
+                        break;
+                    case 'occupation':
+                        valueA = a.skkniOccupation.toLowerCase();
+                        valueB = b.skkniOccupation.toLowerCase();
+                        break;
+                    case 'code':
+                        valueA = a.competencyCode.toLowerCase();
+                        valueB = b.competencyCode.toLowerCase();
+                        break;
+                    case 'title':
+                        valueA = a.competencyTitle.toLowerCase();
+                        valueB = b.competencyTitle.toLowerCase();
+                        break;
+                    case 'status':
+                        valueA = a.status.toLowerCase();
+                        valueB = b.status.toLowerCase();
+                        break;
+                    case 'reference':
+                        valueA = a.reference.toLowerCase();
+                        valueB = b.reference.toLowerCase();
+                        break;
+                    default:
+                        return 0;
+                }
+
+                if (competencySortDirection === 'asc') {
+                    return valueA < valueB ? -1 : valueA > valueB ? 1 : 0;
+                } else {
+                    return valueA > valueB ? -1 : valueA < valueB ? 1 : 0;
+                }
+            });
+
+            updateCompetencyTable();
+        }
+
+        function updateCompetencyTable() {
+            const tbody = document.getElementById('competencies-table-body');
+            const totalItems = filteredCompetencyData.length;
+            
+            if (totalItems === 0) {
+                tbody.innerHTML = '<tr><td colspan="6" class="px-6 py-8 text-center text-gray-500">No competencies found</td></tr>';
+                updateCompetencyPaginationInfo(0, 0, 0);
+                return;
+            }
+
+            // Calculate pagination
+            const startIndex = (currentCompetencyPage - 1) * competencyItemsPerPage;
+            const endIndex = Math.min(startIndex + competencyItemsPerPage, totalItems);
+            const pageData = filteredCompetencyData.slice(startIndex, endIndex);
+
+            // Generate table rows
+            tbody.innerHTML = pageData.map(item => `
+                <tr class="hover:bg-gray-50">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        ${item.occupationCode}
+                    </td>
+                    <td class="px-6 py-4 text-sm text-gray-900">
+                        <div class="font-medium text-blue-600">${item.skkniOccupation}</div>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        ${item.competencyCode}
+                    </td>
+                    <td class="px-6 py-4 text-sm text-gray-900">
+                        <div class="font-medium">${item.competencyTitle}</div>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                        <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full ${getStatusBadgeClass(item.status)}">
+                            ${item.status}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                        ${item.reference}
+                    </td>
+                </tr>
+            `).join('');
+
+            updateCompetencyPaginationInfo(startIndex + 1, endIndex, totalItems);
+            updateCompetencyPaginationControls(totalItems);
+        }
+
+        function getStatusBadgeClass(status) {
+            switch(status.toLowerCase()) {
+                case 'wajib': return 'bg-red-100 text-red-800';
+                case 'pilihan': return 'bg-yellow-100 text-yellow-800';
+                case 'tambahan': return 'bg-green-100 text-green-800';
+                default: return 'bg-gray-100 text-gray-800';
+            }
+        }
+
+        function updateCompetencyPaginationInfo(start, end, total) {
+            document.getElementById('competency-showing-start').textContent = start;
+            document.getElementById('competency-showing-end').textContent = end;
+            document.getElementById('competency-total').textContent = total;
+        }
+
+        function updateCompetencyPaginationControls(totalItems) {
+            const totalPages = Math.ceil(totalItems / competencyItemsPerPage);
+            const paginationControls = document.getElementById('competency-pagination-controls');
+            
+            if (totalPages <= 1) {
+                paginationControls.innerHTML = '';
+                return;
+            }
+
+            let paginationHTML = '';
+            
+            // Previous button
+            if (currentCompetencyPage > 1) {
+                paginationHTML += `<button onclick="changeCompetencyPage(${currentCompetencyPage - 1})" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Previous</button>`;
+            }
+
+            // Page numbers
+            const startPage = Math.max(1, currentCompetencyPage - 2);
+            const endPage = Math.min(totalPages, currentCompetencyPage + 2);
+
+            for (let i = startPage; i <= endPage; i++) {
+                const isActive = i === currentCompetencyPage;
+                paginationHTML += `<button onclick="changeCompetencyPage(${i})" class="relative inline-flex items-center px-4 py-2 border text-sm font-medium ${isActive ? 'z-10 bg-blue-50 border-blue-500 text-blue-600' : 'bg-white border-gray-300 text-gray-500 hover:bg-gray-50'}">${i}</button>`;
+            }
+
+            // Next button
+            if (currentCompetencyPage < totalPages) {
+                paginationHTML += `<button onclick="changeCompetencyPage(${currentCompetencyPage + 1})" class="relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Next</button>`;
+            }
+
+            paginationControls.innerHTML = paginationHTML;
+        }
+
+        function changeCompetencyPage(page) {
+            currentCompetencyPage = page;
+            updateCompetencyTable();
+        }
+
+        function createSalaryDistributionChart() {
+            if (!dashboardData.provinceData || dashboardData.provinceData.length === 0) {
+                document.getElementById('salary-distribution-chart').innerHTML = '<p class="text-center text-gray-500 py-10">Salary data not available</p>';
+                return;
+            }
+
+            // Process salary data
+            const salaryData = dashboardData.provinceData.filter(row => 
+                row.salary_min && row.salary_max && 
+                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max))
+            );
+
+            if (salaryData.length === 0) {
+                document.getElementById('salary-distribution-chart').innerHTML = '<p class="text-center text-gray-500 py-10">No valid salary data available</p>';
+                return;
+            }
+
+            // Group by province and occupation
+            const salaryByProvince = {};
+            salaryData.forEach(row => {
+                const province = row.province_english;
+                const occupation = row['SKKNI Occupation'];
+                const minSalary = parseInt(row.salary_min);
+                const maxSalary = parseInt(row.salary_max);
+                
+                if (!salaryByProvince[province]) {
+                    salaryByProvince[province] = {};
+                }
+                if (!salaryByProvince[province][occupation]) {
+                    salaryByProvince[province][occupation] = {
+                        min: [],
+                        max: []
+                    };
+                }
+                salaryByProvince[province][occupation].min.push(minSalary);
+                salaryByProvince[province][occupation].max.push(maxSalary);
+            });
+
+            // Calculate averages
+            const processedSalaryData = [];
+            Object.entries(salaryByProvince).forEach(([province, occupations]) => {
+                Object.entries(occupations).forEach(([occupation, salaries]) => {
+                    const avgMin = salaries.min.reduce((a, b) => a + b, 0) / salaries.min.length;
+                    const avgMax = salaries.max.reduce((a, b) => a + b, 0) / salaries.max.length;
+                    processedSalaryData.push({
+                        province,
+                        occupation,
+                        avgMin,
+                        avgMax,
+                        range: avgMax - avgMin
+                    });
+                });
+            });
+
+            // Get top provinces by data availability
+            const provinceCount = {};
+            processedSalaryData.forEach(row => {
+                provinceCount[row.province] = (provinceCount[row.province] || 0) + 1;
+            });
+
+            const topProvinces = Object.entries(provinceCount)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .map(([province]) => province);
+
+            const filteredData = processedSalaryData.filter(row => topProvinces.includes(row.province));
+
+            // Create box plot for all occupations across provinces
+            const traces = topProvinces.map((province, index) => {
+                const provinceData = filteredData.filter(row => row.province === province);
+                return {
+                    y: provinceData.flatMap(row => [row.avgMin, row.avgMax]),
+                    name: province,
+                    type: 'box',
+                    boxpoints: 'outliers',
+                    marker: { color: CHART_COLORS.palette[index % CHART_COLORS.palette.length] },
+                    line: { color: CHART_COLORS.palette[index % CHART_COLORS.palette.length] }
+                };
+            });
+
+            const layout = {
+                title: {
+                    text: 'Salary Distribution by Province (All TIK Occupations)',
+                    font: { size: 16 }
+                },
+                yaxis: { 
+                    title: 'Salary (IDR)',
+                    tickformat: ',.0f'
+                },
+                xaxis: { title: 'Province' },
+                template: 'plotly_white',
+                margin: { t: 80, l: 100, r: 50, b: 100 },
+                height: 600,
+                autosize: true
+            };
+
+            Plotly.newPlot('salary-distribution-chart', traces, layout, {responsive: true});
+        }
+
+        function createSalaryComparisonChart() {
+            if (!dashboardData.provinceData || dashboardData.provinceData.length === 0) {
+                document.getElementById('salary-comparison-chart').innerHTML = '<p class="text-center text-gray-500 py-10">Salary data not available</p>';
+                return;
+            }
+
+            // Process salary data
+            const salaryData = dashboardData.provinceData.filter(row => 
+                row.salary_min && row.salary_max && 
+                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max))
+            );
+
+            if (salaryData.length === 0) {
+                document.getElementById('salary-comparison-chart').innerHTML = '<p class="text-center text-gray-500 py-10">No valid salary data available</p>';
+                return;
+            }
+
+            // Group data by occupation and province
+            const salaryGrouped = {};
+            salaryData.forEach(row => {
+                const occupation = row['SKKNI Occupation'];
+                const province = row.province_english;
+                const minSalary = parseInt(row.salary_min);
+                const maxSalary = parseInt(row.salary_max);
+                
+                if (!salaryGrouped[occupation]) {
+                    salaryGrouped[occupation] = {};
+                }
+                if (!salaryGrouped[occupation][province]) {
+                    salaryGrouped[occupation][province] = {
+                        min: [],
+                        max: [],
+                        count: 0
+                    };
+                }
+                salaryGrouped[occupation][province].min.push(minSalary);
+                salaryGrouped[occupation][province].max.push(maxSalary);
+                salaryGrouped[occupation][province].count++;
+            });
+
+            // Calculate averages and prepare data
+            const processedData = [];
+            Object.entries(salaryGrouped).forEach(([occupation, provinces]) => {
+                Object.entries(provinces).forEach(([province, data]) => {
+                    const avgMin = data.min.reduce((a, b) => a + b, 0) / data.min.length;
+                    const avgMax = data.max.reduce((a, b) => a + b, 0) / data.max.length;
+                    processedData.push({
+                        occupation,
+                        province,
+                        avgMin,
+                        avgMax,
+                        count: data.count
+                    });
+                });
+            });
+
+            // Get unique occupations
+            const occupations = [...new Set(processedData.map(row => row.occupation))];
+            const traces = [];
+            const buttons = [];
+
+            occupations.forEach((occupation, index) => {
+                const occupationData = processedData.filter(row => row.occupation === occupation);
+                
+                // Sort by province for consistent display and take top 10
+                occupationData.sort((a, b) => b.avgMax - a.avgMax);
+                const topProvinces = occupationData.slice(0, 10);
+
+                // Add minimum salary trace
+                traces.push({
+                    x: topProvinces.map(row => row.province),
+                    y: topProvinces.map(row => row.avgMin),
+                    name: 'Average Minimum Salary',
+                    type: 'bar',
+                    marker: { 
+                        color: CHART_COLORS.info,
+                        line: { color: 'white', width: 1 }
+                    },
+                    visible: index === 0,
+                    hovertemplate: '<b>%{x}</b><br>Min Salary: IDR %{y:,.0f}<br><extra></extra>'
+                });
+
+                // Add maximum salary trace
+                traces.push({
+                    x: topProvinces.map(row => row.province),
+                    y: topProvinces.map(row => row.avgMax),
+                    name: 'Average Maximum Salary',
+                    type: 'bar',
+                    marker: { 
+                        color: CHART_COLORS.primary,
+                        line: { color: 'white', width: 1 }
+                    },
+                    visible: index === 0,
+                    hovertemplate: '<b>%{x}</b><br>Max Salary: IDR %{y:,.0f}<br><extra></extra>'
+                });
+
+                const visible = new Array(occupations.length * 2).fill(false);
+                visible[index * 2] = true;
+                visible[index * 2 + 1] = true;
+
+                buttons.push({
+                    args: [
+                        { visible: visible },
+                        { title: `Average Salary Comparison - ${occupation}` }
+                    ],
+                    label: occupation.length > 30 ? occupation.substring(0, 30) + '...' : occupation,
+                    method: 'update'
+                });
+            });
+
+            const layout = {
+                title: {
+                    text: occupations.length > 0 ? `Average Salary Comparison - ${occupations[0]}` : 'Average Salary Comparison by Province',
+                    font: { size: 16 }
+                },
+                xaxis: { title: 'Province' },
+                yaxis: { 
+                    title: 'Salary (IDR)',
+                    tickformat: ',.0f'
+                },
+                barmode: 'group',
+                updatemenus: [{
+                    buttons: buttons,
+                    direction: 'down',
+                    showactive: true,
+                    x: 0.98,
+                    xanchor: 'right',
+                    y: 0.98,
+                    yanchor: 'top',
+                    bgcolor: 'rgba(255,255,255,0.9)',
+                    bordercolor: '#ccc',
+                    borderwidth: 1
+                }],
+                template: 'plotly_white',
+                margin: { t: 80, l: 80, r: 50, b: 100 },
+                height: 600,
+                autosize: true,
+                showlegend: true,
+                legend: {
+                    orientation: 'h',
+                    yanchor: 'bottom',
+                    y: 1.02,
+                    xanchor: 'right',
+                    x: 1
+                }
+            };
+
+            Plotly.newPlot('salary-comparison-chart', traces, layout, {responsive: true});
+        }
+
+    </script>
+</body>
+</html>
