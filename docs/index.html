@@ -1713,6 +1713,15 @@
 
             console.log('Unique occupations found:', occupationList.length, 'occupations');
 
+            const uniqueOccupationCodes = {};
+            competencyDemand.forEach(row => {
+                const occupation = row['SKKNI Occupation'];
+                const occupationCode = row['Kode_Okupasi'];
+                if (occupation && !uniqueOccupationCodes[occupation]) {
+                    uniqueOccupationCodes[occupation] = occupationCode;
+                }
+            });
+
             // Group by SKKNI Occupation
             const occupationGroups = {};
             competencyDemand.forEach(item => {
