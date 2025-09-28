@@ -1077,7 +1077,7 @@
             const occupationData = Object.values(occupationTotals)
                 .sort((a, b) => b.total_demand - a.total_demand);
             
-            const areas = ['All Areas', ...new Set(occupationData.map(d => d.area_fungsi).filter(a => a !== 'Unknown')).values()].sort();
+            const areas = [...new Set(occupationData.map(d => d.area_fungsi).filter(a => a !== 'Unknown')).values()].sort();
             
             const traces = [];
             const buttons = [];
@@ -1112,16 +1112,16 @@
                 buttons.push({
                     args: [
                         { visible: visible },
-                        { title: area === 'All Areas' ? 'Distribution of IT Occupations by Demand' : `IT Occupations Demand - ${area}` }
+                        { title: `IT Occupations Demand - ${area}` }
                     ],
-                    label: area.replace('Digital Talent Development Center', 'TIK Occupation Map'),
+                    label: area,
                     method: 'update'
                 });
             });
             
             const layout = {
                 title: {
-                    text: 'Distribution of IT Occupations by Demand',
+                    text: `IT Occupations Demand - ${areas[0]}`,
                     font: { size: 16 }
                 },
                 xaxis: { title: 'Demand (#)' },
