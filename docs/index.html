@@ -782,24 +782,13 @@
 
             for (const name in occupationData) {
                 const occ = occupationData[name];
-                occ.demandPoints.sort((a, b) => a.month.localeCompare(b.month));
                 
                 const totalDemand = occ.demandPoints.reduce((sum, d) => sum + d.demand, 0);
-                
-                let growth = 0;
-                if (occ.demandPoints.length >= 2) {
-                    const firstValue = occ.demandPoints[0].demand;
-                    const lastValue = occ.demandPoints[occ.demandPoints.length - 1].demand;
-                    if (firstValue > 0) {
-                        growth = ((lastValue - firstValue) / firstValue) * 100;
-                    }
-                }
                 
                 occupationDetailsMap[name] = {
                     name: name,
                     area: occ.area,
-                    totalDemand: totalDemand,
-                    growth: growth
+                    totalDemand: totalDemand
                 };
             }
         }
@@ -1474,10 +1463,6 @@
                 const details = occupationDetailsMap[occName];
                 if (!details) return '';
 
-                const trendColor = details.growth > 0 ? 'text-green-600' : 'text-red-600';
-                const trendIcon = details.growth > 0 ? 'fas fa-arrow-up' : 'fa-arrow-down';
-                const growthText = details.growth !== 0 ? `${details.growth > 0 ? '+' : ''}${details.growth.toFixed(1)}%` : '–';
-
                 return `
                     <div class="p-2 border-b last:border-b-0">
                         <div class="font-semibold text-gray-800">${occName}</div>
@@ -1485,7 +1470,6 @@
                             <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full">${details.area}</span>
                             <div class="flex items-center space-x-3">
                                 <span>Demand: <strong class="text-gray-700">${details.totalDemand.toLocaleString()}</strong></span>
-                                <span class="${trendColor}"><i class="fas ${trendIcon} mr-1"></i>${growthText}</span>
                             </div>
                         </div>
                     </div>
