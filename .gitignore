@@ -21,4 +21,11 @@ env/
 
 # IDE settings
 .vscode/
-.idea/ 
+.idea/
+
+# Large data files
+/Digital Workfoce Dashboard (English Version).twbx
+/workflow/20250821_ConcordanceRequest/00 Assets/ready_matched_title_DA.pkl
+/workflow/20250821_ConcordanceRequest/00 Assets/onet_skkni_concordance.csv
+/workflow/20250821_ConcordanceRequest/00 Assets/skkni_onet_concordance.csv
+/workflow/20250821_ConcordanceRequest/00 Assets/ready_cleaned_title_job_portal.pkl 
