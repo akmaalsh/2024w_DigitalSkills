@@ -2106,7 +2106,7 @@
             // Filter data for selected occupation
             const occupationData = salaryData.filter(row => row['SKKNI Occupation'] === selectedOccupation);
             
-            // Group by province and calculate averages
+            // Group by province and find actual min/max values
             const provinceData = {};
             occupationData.forEach(row => {
                 const province = row.province_english;
@@ -2120,23 +2120,23 @@
                 provinceData[province].max.push(maxSalary);
             });
 
-            // Calculate averages and prepare chart data
+            // Calculate actual min/max and prepare chart data
             const chartData = Object.entries(provinceData).map(([province, data]) => ({
                 province,
-                avgMin: data.min.reduce((a, b) => a + b, 0) / data.min.length,
-                avgMax: data.max.reduce((a, b) => a + b, 0) / data.max.length,
+                actualMin: Math.min(...data.min),
+                actualMax: Math.max(...data.max),
                 count: data.min.length
             }));
 
-            // Sort by average maximum salary (descending)
-            chartData.sort((a, b) => b.avgMax - a.avgMax);
+            // Sort by actual maximum salary (descending)
+            chartData.sort((a, b) => b.actualMax - a.actualMax);
 
             // Create traces for min and max salaries
             const traces = [
                 {
                     x: chartData.map(d => d.province),
-                    y: chartData.map(d => d.avgMin),
-                    name: 'Average Minimum Salary',
+                    y: chartData.map(d => d.actualMin),
+                    name: 'Minimum Salary',
                     type: 'bar',
                     marker: { 
                         color: 'rgba(54, 162, 235, 0.8)',
@@ -2146,8 +2146,8 @@
                 },
                 {
                     x: chartData.map(d => d.province),
-                    y: chartData.map(d => d.avgMax),
-                    name: 'Average Maximum Salary',
+                    y: chartData.map(d => d.actualMax),
+                    name: 'Maximum Salary',
                     type: 'bar',
                     marker: { 
                         color: 'rgba(255, 99, 132, 0.8)',
