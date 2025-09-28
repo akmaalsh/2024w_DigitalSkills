@@ -1461,13 +1461,15 @@
                 const details = occupationDetailsMap[occName];
                 if (!details) return '';
 
+                const percentageOfTotal = ((details.totalDemand / TIK_TOTAL_SAMPLE) * 100).toFixed(2);
+
                 return `
                     <div class="p-2 border-b last:border-b-0">
                         <div class="font-semibold text-gray-800">${occName}</div>
                         <div class="flex justify-between items-center text-xs text-gray-500 mt-1">
                             <span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full">${details.area}</span>
                             <div class="flex items-center space-x-3">
-                                <span>Demand: <strong class="text-gray-700">${details.totalDemand.toLocaleString()}</strong></span>
+                                <span>Demand: <strong class="text-gray-700">${details.totalDemand.toLocaleString()} (${percentageOfTotal}%)</strong></span>
                             </div>
                         </div>
                     </div>
@@ -1502,7 +1504,7 @@
             
             // Previous button
             if (currentPage > 1) {
-                paginationHTML += `<button onclick="changePage(${currentPage - 1})" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Previous</button>`;
+                paginationHTML += `<button onclick="changePage(${currentPage - 1})" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">Previous</button>`;
             }
 
             // Page numbers
