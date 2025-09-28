@@ -2076,137 +2076,114 @@
                 return;
             }
 
-            // Group data by occupation and province
-            const salaryGrouped = {};
-            salaryData.forEach(row => {
-                const occupation = row['SKKNI Occupation'];
+            // Get unique occupations and create dropdown
+            const occupations = [...new Set(salaryData.map(row => row['SKKNI Occupation']))].sort();
+            
+            // Create occupation selector dropdown in the chart area
+            const chartContainer = document.getElementById('salary-comparison-chart');
+            chartContainer.innerHTML = `
+                <div class="mb-4">
+                    <label for="occupation-selector" class="block text-sm font-medium text-gray-700 mb-2">Select Occupation:</label>
+                    <select id="occupation-selector" class="w-full max-w-md px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                        ${occupations.map(occ => `<option value="${occ}">${occ}</option>`).join('')}
+                    </select>
+                </div>
+                <div id="salary-comparison-plot" style="height: 500px;"></div>
+            `;
+
+            // Add event listener for occupation selection
+            document.getElementById('occupation-selector').addEventListener('change', function(e) {
+                updateSalaryComparisonChart(e.target.value, salaryData);
+            });
+
+            // Initial chart render with first occupation
+            if (occupations.length > 0) {
+                updateSalaryComparisonChart(occupations[0], salaryData);
+            }
+        }
+
+        function updateSalaryComparisonChart(selectedOccupation, salaryData) {
+            // Filter data for selected occupation
+            const occupationData = salaryData.filter(row => row['SKKNI Occupation'] === selectedOccupation);
+            
+            // Group by province and calculate averages
+            const provinceData = {};
+            occupationData.forEach(row => {
                 const province = row.province_english;
                 const minSalary = parseInt(row.salary_min);
                 const maxSalary = parseInt(row.salary_max);
                 
-                if (!salaryGrouped[occupation]) {
-                    salaryGrouped[occupation] = {};
+                if (!provinceData[province]) {
+                    provinceData[province] = { min: [], max: [] };
                 }
-                if (!salaryGrouped[occupation][province]) {
-                    salaryGrouped[occupation][province] = {
-                        min: [],
-                        max: [],
-                        count: 0
-                    };
-                }
-                salaryGrouped[occupation][province].min.push(minSalary);
-                salaryGrouped[occupation][province].max.push(maxSalary);
-                salaryGrouped[occupation][province].count++;
+                provinceData[province].min.push(minSalary);
+                provinceData[province].max.push(maxSalary);
             });
 
-            // Calculate averages and prepare data
-            const processedData = [];
-            Object.entries(salaryGrouped).forEach(([occupation, provinces]) => {
-                Object.entries(provinces).forEach(([province, data]) => {
-                    const avgMin = data.min.reduce((a, b) => a + b, 0) / data.min.length;
-                    const avgMax = data.max.reduce((a, b) => a + b, 0) / data.max.length;
-                    processedData.push({
-                        occupation,
-                        province,
-                        avgMin,
-                        avgMax,
-                        count: data.count
-                    });
-                });
-            });
+            // Calculate averages and prepare chart data
+            const chartData = Object.entries(provinceData).map(([province, data]) => ({
+                province,
+                avgMin: data.min.reduce((a, b) => a + b, 0) / data.min.length,
+                avgMax: data.max.reduce((a, b) => a + b, 0) / data.max.length,
+                count: data.min.length
+            }));
 
-            // Get unique occupations
-            const occupations = [...new Set(processedData.map(row => row.occupation))];
-            const traces = [];
-            const buttons = [];
+            // Sort by average maximum salary (descending)
+            chartData.sort((a, b) => b.avgMax - a.avgMax);
 
-            occupations.forEach((occupation, index) => {
-                const occupationData = processedData.filter(row => row.occupation === occupation);
-                
-                // Sort by province for consistent display and take top 10
-                occupationData.sort((a, b) => b.avgMax - a.avgMax);
-                const topProvinces = occupationData.slice(0, 10);
-
-                // Add minimum salary trace
-                traces.push({
-                    x: topProvinces.map(row => row.province),
-                    y: topProvinces.map(row => row.avgMin),
+            // Create traces for min and max salaries
+            const traces = [
+                {
+                    x: chartData.map(d => d.province),
+                    y: chartData.map(d => d.avgMin),
                     name: 'Average Minimum Salary',
                     type: 'bar',
                     marker: { 
-                        color: CHART_COLORS.info,
-                        line: { color: 'white', width: 1 }
+                        color: 'rgba(54, 162, 235, 0.8)',
+                        line: { color: 'rgba(54, 162, 235, 1)', width: 1 }
                     },
-                    visible: index === 0,
                     hovertemplate: '<b>%{x}</b><br>Min Salary: IDR %{y:,.0f}<br><extra></extra>'
-                });
-
-                // Add maximum salary trace
-                traces.push({
-                    x: topProvinces.map(row => row.province),
-                    y: topProvinces.map(row => row.avgMax),
+                },
+                {
+                    x: chartData.map(d => d.province),
+                    y: chartData.map(d => d.avgMax),
                     name: 'Average Maximum Salary',
                     type: 'bar',
                     marker: { 
-                        color: CHART_COLORS.primary,
-                        line: { color: 'white', width: 1 }
+                        color: 'rgba(255, 99, 132, 0.8)',
+                        line: { color: 'rgba(255, 99, 132, 1)', width: 1 }
                     },
-                    visible: index === 0,
                     hovertemplate: '<b>%{x}</b><br>Max Salary: IDR %{y:,.0f}<br><extra></extra>'
-                });
-
-                const visible = new Array(occupations.length * 2).fill(false);
-                visible[index * 2] = true;
-                visible[index * 2 + 1] = true;
-
-                buttons.push({
-                    args: [
-                        { visible: visible },
-                        { title: `Average Salary Comparison - ${occupation}` }
-                    ],
-                    label: occupation.length > 30 ? occupation.substring(0, 30) + '...' : occupation,
-                    method: 'update'
-                });
-            });
+                }
+            ];
 
             const layout = {
                 title: {
-                    text: occupations.length > 0 ? `Average Salary Comparison - ${occupations[0]}` : 'Average Salary Comparison by Province',
+                    text: `Salary Comparison - ${selectedOccupation}`,
                     font: { size: 16 }
                 },
-                xaxis: { title: 'Province' },
+                xaxis: { 
+                    title: 'Province',
+                    tickangle: -45
+                },
                 yaxis: { 
                     title: 'Salary (IDR)',
                     tickformat: ',.0f'
                 },
                 barmode: 'group',
-                updatemenus: [{
-                    buttons: buttons,
-                    direction: 'down',
-                    showactive: true,
-                    x: 0.98,
-                    xanchor: 'right',
-                    y: 0.98,
-                    yanchor: 'top',
-                    bgcolor: 'rgba(255,255,255,0.9)',
-                    bordercolor: '#ccc',
-                    borderwidth: 1
-                }],
                 template: 'plotly_white',
-                margin: { t: 80, l: 80, r: 50, b: 100 },
-                height: 600,
-                autosize: true,
+                margin: { t: 60, l: 80, r: 50, b: 120 },
                 showlegend: true,
                 legend: {
                     orientation: 'h',
                     yanchor: 'bottom',
                     y: 1.02,
-                    xanchor: 'right',
-                    x: 1
+                    xanchor: 'center',
+                    x: 0.5
                 }
             };
 
-            Plotly.newPlot('salary-comparison-chart', traces, layout, {responsive: true});
+            Plotly.newPlot('salary-comparison-plot', traces, layout, {responsive: true});
         }
 
     </script>
