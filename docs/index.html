@@ -1962,12 +1962,13 @@
                 return;
             }
 
-            // Process salary data, filtering out zero salaries
-            const salaryData = dashboardData.provinceData.filter(row => 
-                row.salary_min && row.salary_max && 
-                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max)) &&
-                parseInt(row.salary_min) > 0
-            );
+            // Process salary data, filtering out zero or very low salaries
+            const salaryData = dashboardData.provinceData.filter(row => {
+                const minSalary = parseInt(row.salary_min);
+                return row.salary_min && row.salary_max && 
+                       !isNaN(minSalary) && !isNaN(parseInt(row.salary_max)) &&
+                       minSalary > 100000; // Filter out salaries less than 100,000
+            });
 
             if (salaryData.length === 0) {
                 document.getElementById('salary-distribution-chart').innerHTML = '<p class="text-center text-gray-500 py-10">No valid salary data available</p>';
@@ -2062,12 +2063,13 @@
                 return;
             }
 
-            // Process salary data, filtering out zero salaries
-            const salaryData = dashboardData.provinceData.filter(row => 
-                row.salary_min && row.salary_max && 
-                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max)) &&
-                parseInt(row.salary_min) > 0
-            );
+            // Process salary data, filtering out zero or very low salaries
+            const salaryData = dashboardData.provinceData.filter(row => {
+                const minSalary = parseInt(row.salary_min);
+                return row.salary_min && row.salary_max && 
+                       !isNaN(minSalary) && !isNaN(parseInt(row.salary_max)) &&
+                       minSalary > 100000; // Filter out salaries less than 100,000
+            });
 
             if (salaryData.length === 0) {
                 document.getElementById('salary-comparison-chart').innerHTML = '<p class="text-center text-gray-500 py-10">No valid salary data available</p>';
