@@ -1749,7 +1749,7 @@
 
             // Event listeners for competencies
             competencyOccupationSelect.addEventListener('change', function() {
-                loadCompetenciesForOccupation(this.value, occupationGroups, competencyDemand);
+                loadCompetenciesForOccupation(this.value, occupationGroups, competencyDemand, uniqueOccupationCodes);
             });
 
             document.getElementById('competencies-search').addEventListener('input', function() {
@@ -1763,10 +1763,10 @@
 
             // Load "All Occupations" by default
             competencyOccupationSelect.value = 'ALL';
-            loadCompetenciesForOccupation('ALL', occupationGroups, competencyDemand);
+            loadCompetenciesForOccupation('ALL', occupationGroups, competencyDemand, uniqueOccupationCodes);
         }
 
-        function loadCompetenciesForOccupation(occupation, occupationGroups, competencyDemand) {
+        function loadCompetenciesForOccupation(occupation, occupationGroups, competencyDemand, uniqueOccupationCodes) {
             if (!occupation) {
                 currentCompetencyData = [];
                 filteredCompetencyData = [];
