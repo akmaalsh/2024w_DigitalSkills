@@ -364,12 +364,6 @@
                         <table class="min-w-full divide-y divide-gray-200">
                             <thead class="bg-gray-50">
                                 <tr>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('occupationCode')">
-                                        Occupation Code <i class="fas fa-sort ml-1"></i>
-                                    </th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('occupation')">
-                                        Occupation <i class="fas fa-sort ml-1"></i>
-                                    </th>
                                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('skill')">
                                         Technology Skill <i class="fas fa-sort ml-1"></i>
                                     </th>
@@ -380,7 +374,7 @@
                             </thead>
                             <tbody id="skills-table-body" class="bg-white divide-y divide-gray-200">
                                 <tr>
-                                    <td colspan="4" class="px-6 py-8 text-center text-gray-500">
+                                    <td colspan="2" class="px-6 py-8 text-center text-gray-500">
                                         Select an occupation to view technology skills
                                     </td>
                                 </tr>
@@ -1158,7 +1152,7 @@
 
         function createTechSkillsTable() {
             if (!dashboardData.techSkills || dashboardData.techSkills.length === 0) {
-                document.getElementById('skills-table-body').innerHTML = '<tr><td colspan="4" class="px-6 py-8 text-center text-gray-500">Technology skills data not available</td></tr>';
+                document.getElementById('skills-table-body').innerHTML = '<tr><td colspan="2" class="px-6 py-8 text-center text-gray-500">Technology skills data not available</td></tr>';
                 return;
             }
 
@@ -1260,7 +1254,7 @@
                     }));
 
                 document.getElementById('table-title').textContent = `Technology Skills Required - All Occupations`;
-                document.getElementById('table-subtitle').textContent = `${skillsData.length} skills across all occupations`;
+                document.getElementById('table-subtitle').textContent = `${skillsData.length} skills across all TIK occupations`;
             } else {
                 // Filter data for specific occupation
                 const occupationSkills = dashboardData.techSkills
@@ -1287,7 +1281,7 @@
 
                 // Update title
                 const occupationName = uniqueOccupations.find(occ => occ.code === skkniCode)?.name || 'Unknown';
-                document.getElementById('table-title').textContent = `Technology Skills Required - ${occupationName}`;
+                document.getElementById('table-title').textContent = `Technology Skills Required - ${occupationName} (${skkniCode})`;
                 document.getElementById('table-subtitle').textContent = `${skillsData.length} skills required`;
             }
 
@@ -1338,14 +1332,6 @@
                         valueA = a.tikUsage;
                         valueB = b.tikUsage;
                         break;
-                    case 'occupationCode':
-                        valueA = a.occupationCode.toLowerCase();
-                        valueB = b.occupationCode.toLowerCase();
-                        break;
-                    case 'occupation':
-                        valueA = a.occupation.toLowerCase();
-                        valueB = b.occupation.toLowerCase();
-                        break;
                     default:
                         return 0;
                 }
@@ -1365,7 +1351,7 @@
             const totalItems = filteredSkillsData.length;
             
             if (totalItems === 0) {
-                tbody.innerHTML = '<tr><td colspan="4" class="px-6 py-8 text-center text-gray-500">No skills found</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="2" class="px-6 py-8 text-center text-gray-500">No skills found</td></tr>';
                 updatePaginationInfo(0, 0, 0);
                 return;
             }
@@ -1378,12 +1364,6 @@
             // Generate table rows
             tbody.innerHTML = pageData.map(item => `
                 <tr class="hover:bg-gray-50">
-                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        ${item.occupationCode}
-                    </td>
-                    <td class="px-6 py-4 text-sm text-gray-900">
-                        <div class="max-w-xs truncate" title="${item.occupation}">${item.occupation}</div>
-                    </td>
                     <td class="px-6 py-4 text-sm text-gray-900">
                         <div class="font-medium">${item.skill}</div>
                     </td>
