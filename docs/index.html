@@ -1369,9 +1369,7 @@
             } else {
                 const term = searchTerm.toLowerCase();
                 filteredSkillsData = currentSkillsData.filter(item => 
-                    item.skill.toLowerCase().includes(term) ||
-                    item.occupationCode.toLowerCase().includes(term) ||
-                    item.occupation.toLowerCase().includes(term)
+                    item.skill.toLowerCase().includes(term)
                 );
             }
             currentPage = 1;
