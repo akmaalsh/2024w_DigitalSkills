@@ -1815,12 +1815,7 @@
             } else {
                 const term = searchTerm.toLowerCase();
                 filteredCompetencyData = currentCompetencyData.filter(item => 
-                    item.occupationCode.toLowerCase().includes(term) ||
-                    item.skkniOccupation.toLowerCase().includes(term) ||
-                    item.competencyCode.toLowerCase().includes(term) ||
-                    item.competencyTitle.toLowerCase().includes(term) ||
-                    item.status.toLowerCase().includes(term) ||
-                    item.reference.toLowerCase().includes(term)
+                    item.competencyTitle.toLowerCase().includes(term)
                 );
             }
             currentCompetencyPage = 1;
