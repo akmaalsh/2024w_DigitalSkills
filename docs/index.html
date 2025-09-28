@@ -2026,9 +2026,9 @@
 
             // Create box plot for all occupations across provinces
             const traces = topProvinces.map((province, index) => {
-                const provinceData = filteredData.filter(row => row.province === province);
+                const provinceData = salaryData.filter(row => row.province_english === province);
                 return {
-                    y: provinceData.flatMap(row => [row.avgMin, row.avgMax]),
+                    y: provinceData.flatMap(row => [parseInt(row.salary_min), parseInt(row.salary_max)]),
                     name: province,
                     type: 'box',
                     boxpoints: 'outliers',
