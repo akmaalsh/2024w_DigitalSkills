@@ -583,6 +583,7 @@
         let dashboardData = {};
         let processedData = {};
         let occupationDetailsMap = {};
+        const TIK_TOTAL_SAMPLE = 105880;
 
         // Navigation functionality
         document.addEventListener('DOMContentLoaded', function() {
@@ -981,17 +982,16 @@
 
         function createMonthlyTrendsChart() {
             const data = processedData.collapsed;
-            const functionAreas = ['TIK Occupation Map', ...new Set(data.map(d => d.area_fungsi).filter(a => a !== 'Unknown')).values()].sort();
+            const functionAreas = ['Digital Talent Development Center', ...new Set(data.map(d => d.area_fungsi).filter(a => a !== 'Unknown')).values()].sort();
             
             const TOTAL_SAMPLE = 650000;
-            const TIK_TOTAL_SAMPLE = 105880;
             
             const traces = [];
             const buttons = [];
             
             functionAreas.forEach((area, index) => {
                 let filteredData;
-                if (area === 'TIK Occupation Map') {
+                if (area === 'Digital Talent Development Center') {
                     filteredData = data;
                 } else {
                     filteredData = data.filter(d => d.area_fungsi === area);
@@ -1025,7 +1025,7 @@
                 }
                 
                 const totalDemand = demands.reduce((a, b) => a + b, 0);
-                const percentage = area === 'TIK Occupation Map' ? 
+                const percentage = area === 'Digital Talent Development Center' ? 
                     (totalDemand / TOTAL_SAMPLE) * 100 : 
                     (totalDemand / TIK_TOTAL_SAMPLE) * 100;
                 
@@ -1053,7 +1053,7 @@
                 visible[index * 2] = true;
                 visible[index * 2 + 1] = true;
                 
-                const percentageText = area === 'TIK Occupation Map' ? 
+                const percentageText = area === 'Digital Talent Development Center' ? 
                     `${percentage.toFixed(1)}% of total sample` : 
                     `${percentage.toFixed(1)}% of TIK occupation map`;
                 
@@ -1062,7 +1062,7 @@
                         { visible: visible },
                         { title: `Monthly Demand Over Time - ${area}<br>Total Demand for Period: ${totalDemand.toLocaleString()} (${percentageText})` }
                     ],
-                    label: area.replace('TIK Occupation Map', 'Digital Talent Development Center'),
+                    label: area.replace('Digital Talent Development Center', 'Digital Talent Development Center'),
                     method: 'update'
                 });
             });
@@ -1118,7 +1118,6 @@
 
         function createOccupationDistributionChart() {
             const data = processedData.collapsed;
-            const TOTAL_TIK_SAMPLE = 105880; // Total TIK occupations sample
             
             const occupationTotals = {};
             data.forEach(row => {
@@ -1162,7 +1161,7 @@
                         opacity: 0.8,
                         line: { color: 'white', width: 1 }
                     },
-                    customdata: filteredData.map(d => ((d.total_demand / TOTAL_TIK_SAMPLE) * 100).toFixed(2)),
+                    customdata: filteredData.map(d => ((d.total_demand / TIK_TOTAL_SAMPLE) * 100).toFixed(2)),
                     hovertemplate: '<b>%{y}</b><br>Demand: %{x:,.0f}<br>Percentage: %{customdata}% of total TIK sample<br><extra></extra>'
                 });
                 
