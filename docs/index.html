@@ -490,12 +490,8 @@
                     <!-- Pagination for Competencies -->
                     <div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
                         <div class="flex-1 flex justify-between sm:hidden">
-                            <button id="competency-prev-mobile" class="relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
-                                Previous
-                            </button>
-                            <button id="competency-next-mobile" class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
-                                Next
-                            </button>
+                            <button id="competency-prev-mobile" class="relative inline-flex items-center px-2 py-2 rounded-l-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Previous</button>
+                            <button id="competency-next-mobile" class="ml-3 relative inline-flex items-center px-2 py-2 rounded-r-md border border-gray-300 bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">Next</button>
                         </div>
                         <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
                             <div>
@@ -1062,7 +1058,7 @@
 
         function createOccupationDistributionChart() {
             const data = processedData.collapsed;
-            const TOTAL_TIK_SAMPLE = 105880; // Total Digital occupations sample
+            const TOTAL_TIK_SAMPLE = 105880; // Total TIK occupations sample
             
             const occupationTotals = {};
             data.forEach(row => {
@@ -1107,7 +1103,7 @@
                         line: { color: 'white', width: 1 }
                     },
                     customdata: filteredData.map(d => ((d.total_demand / TOTAL_TIK_SAMPLE) * 100).toFixed(2)),
-                    hovertemplate: '<b>%{y}</b><br>Demand: %{x:,.0f}<br>Percentage: %{customdata}% of total Digital sample<br><extra></extra>'
+                    hovertemplate: '<b>%{y}</b><br>Demand: %{x:,.0f}<br>Percentage: %{customdata}% of total TIK sample<br><extra></extra>'
                 });
                 
                 const visible = new Array(areas.length).fill(false);
@@ -1116,16 +1112,16 @@
                 buttons.push({
                     args: [
                         { visible: visible },
-                        { title: area === 'All Areas' ? 'Distribution of Digital Occupations by Demand' : `Digital Occupations Demand - ${area}` }
+                        { title: area === 'All Areas' ? 'Distribution of IT Occupations by Demand' : `IT Occupations Demand - ${area}` }
                     ],
-                    label: area.replace('TIK Occupation Map', 'Digital Talent Development Center'),
+                    label: area.replace('Digital Talent Development Center', 'TIK Occupation Map'),
                     method: 'update'
                 });
             });
             
             const layout = {
                 title: {
-                    text: 'Distribution of Digital Occupations by Demand',
+                    text: 'Distribution of IT Occupations by Demand',
                     font: { size: 16 }
                 },
                 xaxis: { title: 'Demand (#)' },
@@ -1952,7 +1948,7 @@
 
             const layout = {
                 title: {
-                    text: 'Salary Distribution by Province (All Digital Occupations)',
+                    text: 'Salary Distribution by Province (All TIK Occupations)',
                     font: { size: 16 }
                 },
                 yaxis: { 
