@@ -1962,10 +1962,11 @@
                 return;
             }
 
-            // Process salary data
+            // Process salary data, filtering out zero salaries
             const salaryData = dashboardData.provinceData.filter(row => 
                 row.salary_min && row.salary_max && 
-                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max))
+                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max)) &&
+                parseInt(row.salary_min) > 0
             );
 
             if (salaryData.length === 0) {
@@ -2061,10 +2062,11 @@
                 return;
             }
 
-            // Process salary data
+            // Process salary data, filtering out zero salaries
             const salaryData = dashboardData.provinceData.filter(row => 
                 row.salary_min && row.salary_max && 
-                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max))
+                !isNaN(parseInt(row.salary_min)) && !isNaN(parseInt(row.salary_max)) &&
+                parseInt(row.salary_min) > 0
             );
 
             if (salaryData.length === 0) {
