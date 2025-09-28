@@ -373,9 +373,6 @@
                                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('skill')">
                                         Technology Skill <i class="fas fa-sort ml-1"></i>
                                     </th>
-                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('usage')">
-                                        O*NET Usage Count <i class="fas fa-info-circle ml-1 text-gray-400" title="The number of O*NET occupations that also use this technology skill."></i> <i class="fas fa-sort ml-1"></i>
-                                    </th>
                                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100" onclick="sortTable('tikUsage')">
                                         TIK Usage Count <i class="fas fa-info-circle ml-1 text-gray-400" title="The number of TIK occupations in this dataset that use this technology skill."></i> <i class="fas fa-sort ml-1"></i>
                                     </th>
@@ -383,7 +380,7 @@
                             </thead>
                             <tbody id="skills-table-body" class="bg-white divide-y divide-gray-200">
                                 <tr>
-                                    <td colspan="5" class="px-6 py-8 text-center text-gray-500">
+                                    <td colspan="4" class="px-6 py-8 text-center text-gray-500">
                                         Select an occupation to view technology skills
                                     </td>
                                 </tr>
@@ -1161,7 +1158,7 @@
 
         function createTechSkillsTable() {
             if (!dashboardData.techSkills || dashboardData.techSkills.length === 0) {
-                document.getElementById('skills-table-body').innerHTML = '<tr><td colspan="5" class="px-6 py-8 text-center text-gray-500">Technology skills data not available</td></tr>';
+                document.getElementById('skills-table-body').innerHTML = '<tr><td colspan="4" class="px-6 py-8 text-center text-gray-500">Technology skills data not available</td></tr>';
                 return;
             }
 
@@ -1257,7 +1254,6 @@
                     .filter(row => row['Technology_Skills'] && row['SKKNI Code'] && row['SKKNI Name'])
                     .map(row => ({
                         skill: row['Technology_Skills'],
-                        usage: parseInt(row['count_occupatoins'] || 1),
                         tikUsage: skillTikCountMap[row['Technology_Skills']] || 0,
                         occupationCode: row['SKKNI Code'],
                         occupation: row['SKKNI Name']
@@ -1280,7 +1276,6 @@
                     if (!uniqueSkills[skill]) {
                         uniqueSkills[skill] = {
                             skill: skill,
-                            usage: parseInt(row['count_occupatoins'] || 1),
                             tikUsage: skillTikCountMap[skill] || 0,
                             occupationCode: row['SKKNI Code'],
                             occupation: row['SKKNI Name']
@@ -1297,7 +1292,7 @@
             }
 
             // Sort by usage count (descending)
-            currentSkillsData = skillsData.sort((a, b) => b.usage - a.usage);
+            currentSkillsData = skillsData.sort((a, b) => b.tikUsage - a.tikUsage);
             filteredSkillsData = [...currentSkillsData];
             currentPage = 1;
 
@@ -1339,10 +1334,6 @@
                         valueA = a.skill.toLowerCase();
                         valueB = b.skill.toLowerCase();
                         break;
-                    case 'usage':
-                        valueA = a.usage;
-                        valueB = b.usage;
-                        break;
                     case 'tikUsage':
                         valueA = a.tikUsage;
                         valueB = b.tikUsage;
@@ -1374,7 +1365,7 @@
             const totalItems = filteredSkillsData.length;
             
             if (totalItems === 0) {
-                tbody.innerHTML = '<tr><td colspan="5" class="px-6 py-8 text-center text-gray-500">No skills found</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="4" class="px-6 py-8 text-center text-gray-500">No skills found</td></tr>';
                 updatePaginationInfo(0, 0, 0);
                 return;
             }
@@ -1395,9 +1386,6 @@
                     </td>
                     <td class="px-6 py-4 text-sm text-gray-900">
                         <div class="font-medium">${item.skill}</div>
-                    </td>
-                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                        <span class="font-semibold">${item.usage}</span> O*NET occupations
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                         <span class="font-semibold">${item.tikUsage}</span> TIK occupations
